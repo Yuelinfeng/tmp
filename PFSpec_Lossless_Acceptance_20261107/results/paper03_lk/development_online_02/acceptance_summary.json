@@ -1,0 +1,126 @@
+{
+  "cohorts": {
+    "bos": {
+      "lk_adaptive": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 19058,
+        "generation_seconds": 83.78751050203573,
+        "counts": {
+          "eligible_full_rounds": 7468,
+          "first_position_accepted": 6913,
+          "first_feature_accepted": 2059,
+          "first_pair_accepted": 2059,
+          "total_draft_tokens": 22404,
+          "total_accepted_draft_tokens": 10907,
+          "target_verification_calls": 7468,
+          "target_verification_tokens": 29872,
+          "rounds": 7468,
+          "total_target_calls": 8151,
+          "total_target_input_tokens": 30555
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.925682913765399,
+          "feature_conditional_acceptance": 0.2978446405323304,
+          "pair_joint_acceptance": 0.2757096946973755
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9309974993881913,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.3116773561652393,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.2928219158162527,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.5850866052740047,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 234.00277936294924,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 20.946877625508932,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    },
+    "completion": {
+      "lk_adaptive": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 15396,
+        "generation_seconds": 64.69531591492705,
+        "counts": {
+          "eligible_full_rounds": 6221,
+          "first_position_accepted": 5688,
+          "first_feature_accepted": 1479,
+          "first_pair_accepted": 1479,
+          "total_draft_tokens": 18663,
+          "total_accepted_draft_tokens": 8566,
+          "target_verification_calls": 6221,
+          "target_verification_tokens": 24884,
+          "rounds": 6221,
+          "total_target_calls": 6834,
+          "total_target_input_tokens": 26517
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9143224561967529,
+          "feature_conditional_acceptance": 0.2600210970464135,
+          "pair_joint_acceptance": 0.23774312811445106
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9303348971939271,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.28392873219997267,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.26902009601797,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.537313165680944,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 257.21914898030946,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 16.173828978731763,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Original draft candidates only; residual and bonus samples are emitted tokens",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

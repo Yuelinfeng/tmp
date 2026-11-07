@@ -1,0 +1,29 @@
+{
+  "weights": [
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_ce_tv_w64/last.pt",
+      "bytes": 287264083,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_ce_tv_w64/last.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_ce_tv_w64/selected.pt",
+      "bytes": 287267711,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_ce_tv_w64/selected.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_w64/selected.pt",
+      "bytes": 287267711,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_w64/selected.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_w64/last.pt",
+      "bytes": 287264083,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/training/diffusion_window_w64/last.pt"
+    }
+  ],
+  "scope": "Physical weights retained on the training machine"
+}

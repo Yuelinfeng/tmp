@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "selected": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "bytes": 287266879,
+  "archive_members": 59,
+  "all_members_read": true,
+  "source": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "selection": "step2800, chosen only on development data",
+  "runtime": "Target 0.9/0.9, Draft 0.9/1, 64 first Feature candidates, depth1"
+}

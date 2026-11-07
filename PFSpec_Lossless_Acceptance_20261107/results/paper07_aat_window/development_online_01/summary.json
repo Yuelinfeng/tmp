@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "diffusion_window_ce_tv_w64": {
+      "requests": 4,
+      "tokens": 19388,
+      "seconds": 512.1070103819948,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 37.85927473544632
+    }
+  },
+  "completion": {
+    "diffusion_window_ce_tv_w64": {
+      "requests": 4,
+      "tokens": 17266,
+      "seconds": 461.1850342081161,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 37.438335417034544
+    }
+  }
+}

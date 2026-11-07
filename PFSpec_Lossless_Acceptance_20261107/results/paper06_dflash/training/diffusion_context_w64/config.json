@@ -1,0 +1,276 @@
+{
+  "root": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash",
+  "steps": 4000,
+  "batch_size": 16,
+  "lr": 0.0003,
+  "base_lr": 3e-05,
+  "memory_tokens": 64,
+  "layers": 5,
+  "evaluate_every": 400,
+  "seed": 20261106,
+  "initial": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "kind": "diffusion_context",
+  "feature_candidate_width": 64,
+  "draft_top_p": 0.9,
+  "train_sources": [
+    {
+      "source": "opd-bos-74001",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74001.pt"
+    },
+    {
+      "source": "opd-bos-74002",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74002.pt"
+    },
+    {
+      "source": "opd-bos-74003",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74003.pt"
+    },
+    {
+      "source": "opd-bos-74004",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74004.pt"
+    },
+    {
+      "source": "opd-bos-74005",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74005.pt"
+    },
+    {
+      "source": "opd-bos-74006",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74006.pt"
+    },
+    {
+      "source": "opd-bos-74007",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74007.pt"
+    },
+    {
+      "source": "opd-bos-74008",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74008.pt"
+    },
+    {
+      "source": "opd-bos-74009",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74009.pt"
+    },
+    {
+      "source": "opd-bos-74010",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74010.pt"
+    },
+    {
+      "source": "opd-bos-74011",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74011.pt"
+    },
+    {
+      "source": "opd-bos-74012",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74012.pt"
+    },
+    {
+      "source": "opd-bos-74013",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74013.pt"
+    },
+    {
+      "source": "opd-bos-74014",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74014.pt"
+    },
+    {
+      "source": "opd-bos-74015",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74015.pt"
+    },
+    {
+      "source": "opd-bos-74016",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74016.pt"
+    },
+    {
+      "source": "sequence_20262001.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20262001.pt"
+    },
+    {
+      "source": "sequence_20262006.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20262006.pt"
+    },
+    {
+      "source": "sequence_20264001.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20264001.pt"
+    },
+    {
+      "source": "sequence_20265032.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265032.pt"
+    },
+    {
+      "source": "sequence_20265115.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265115.pt"
+    },
+    {
+      "source": "sequence_20265126.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265126.pt"
+    },
+    {
+      "source": "sequence_20265153.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265153.pt"
+    },
+    {
+      "source": "sequence_20265163.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265163.pt"
+    },
+    {
+      "source": "sequence_20265172.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265172.pt"
+    },
+    {
+      "source": "sequence_20265185.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265185.pt"
+    },
+    {
+      "source": "sequence_20265189.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265189.pt"
+    },
+    {
+      "source": "sequence_20265199.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265199.pt"
+    },
+    {
+      "source": "sequence_20265323.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265323.pt"
+    },
+    {
+      "source": "sequence_20265400.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265400.pt"
+    },
+    {
+      "source": "sequence_20265435.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265435.pt"
+    },
+    {
+      "source": "sequence_20265453.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265453.pt"
+    }
+  ],
+  "development_sources": [
+    {
+      "source": "dev-bos-69401",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69401.pt"
+    },
+    {
+      "source": "dev-bos-69402",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69402.pt"
+    },
+    {
+      "source": "dev-bos-69403",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69403.pt"
+    },
+    {
+      "source": "dev-bos-69404",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69404.pt"
+    },
+    {
+      "source": "sequence_20265041.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265041.pt"
+    },
+    {
+      "source": "sequence_20265280.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265280.pt"
+    },
+    {
+      "source": "sequence_20265287.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265287.pt"
+    },
+    {
+      "source": "sequence_20265456.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265456.pt"
+    }
+  ],
+  "train_rows": 12288,
+  "development_rows": 3072,
+  "parameters": 71809280,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "prediction_scope": "Two masked Features conditioned on committed Target context and two known Ranker Positions; online consumes the first Feature distribution",
+  "teacher_scope": "Second Feature teacher conditions on the original fusion_long first Feature proposal; no future Target states enter Draft inputs",
+  "shared_target_embedding_elements": 12451840,
+  "shared_feature_head_elements": 4194304,
+  "second_feature_loss_weight": 0.36787944117144233,
+  "formal_sources_used": false
+}

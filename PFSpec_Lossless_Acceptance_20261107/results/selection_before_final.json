@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "method": "diffusion_full_w64",
+  "checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "inference_directory": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_full_w64",
+  "local_checkpoint": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "local_fusion_dependency": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/dependencies/fusion_long/selected.pt",
+  "selected_training_step": 2800,
+  "trainable_parameters": 71809280,
+  "context_tokens": 64,
+  "first_feature_candidates": 64,
+  "second_feature_candidates_per_parent": 0,
+  "consumed_feature_predictions": 1,
+  "maximum_target_nodes_per_round": 130,
+  "maximum_emitted_tokens_per_round": 4,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 1.0
+  },
+  "created_utc": "2026-11-07 01:03:05",
+  "formal_scientific_outputs_read": false,
+  "selection_basis": "Development only: current Full64 has both-task gains over fixed W1 and fusion_long; matched Window and deep UniVer do not give an admissible common increment",
+  "deep_mechanisms_completed": 7,
+  "mechanisms": [
+    "Draft-OPD",
+    "LK Losses",
+    "Optimal Multi-draft Greedy coupling",
+    "Block verification",
+    "DFlash context-reading masked Draft",
+    "Acceptance-Aware P/F/P Window",
+    "UniVer conditional tree"
+  ],
+  "univer_refinements": {
+    "width32_reachable_feature_tv": 1.1621043086051941e-05,
+    "width64_reachable_feature_tv": 1.0494142770767212e-05,
+    "unchanged_limit": 1e-05,
+    "reachable_position_probability": 1.0,
+    "status": "Both violate the original reachable Target policy comparison; no natural trials or weights were produced for them"
+  },
+  "remaining_work": "Complete the prespecified formal comparisons and common histories; validate saved outputs and deliver actual best weights, settings, sources and records",
+  "future_scope": "VSD and Global Resolution were not deeply selected or experimentally assessed; no negative result is claimed for them"
+}

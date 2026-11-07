@@ -1,0 +1,54 @@
+{
+  "bos": {
+    "lk_ce_tv": {
+      "requests": 4,
+      "tokens": 18664,
+      "seconds": 81.95176354190335,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 227.74372622813388
+    },
+    "lk_full_init": {
+      "requests": 4,
+      "tokens": 17482,
+      "seconds": 76.32242358417716,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 229.0545711080419
+    },
+    "lk_log": {
+      "requests": 4,
+      "tokens": 16568,
+      "seconds": 73.1161933398107,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 226.59823006648466
+    }
+  },
+  "completion": {
+    "lk_ce_tv": {
+      "requests": 4,
+      "tokens": 15132,
+      "seconds": 62.337326809880324,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 242.74380655029327
+    },
+    "lk_full_init": {
+      "requests": 4,
+      "tokens": 16516,
+      "seconds": 68.38007174502127,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 241.5323584565049
+    },
+    "lk_log": {
+      "requests": 4,
+      "tokens": 15600,
+      "seconds": 63.748218362918124,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 244.7127214001389
+    }
+  }
+}

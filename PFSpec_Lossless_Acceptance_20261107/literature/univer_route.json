@@ -1,0 +1,295 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec UniVer conditional tree verification",
+    "goal": "Improve accepted length through cross-level conditional allocation, with independent candidate randomness and original Target distributions",
+    "capabilities": [
+      "Conditional OT allocation",
+      "Complete P/F dependencies",
+      "Exact small-vocabulary enumeration",
+      "Actual Target branch and KV measurements",
+      "Paired natural advancement"
+    ],
+    "context": [
+      "DFlash selected step2800",
+      "Target 0.9/0.9",
+      "Full-support Draft 0.9/1",
+      "New first16/second4 structure, 162 Target nodes"
+    ],
+    "constraints": [
+      "At most one major implementation and two scientific refinements",
+      "No formal data in selection",
+      "No Target parameter or token rule changes",
+      "No operator optimization"
+    ],
+    "evidence": [
+      "arXiv:2605.04543v1 method and Appendix B",
+      "Author source if located",
+      "Public reproduction is secondary only",
+      "Actual output law and GPU state evidence"
+    ],
+    "time": [
+      "2026-11-07"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "UniVer 2605.04543 original conditional OT proof",
+    "UniVer conditional allocation equations 3 7 10",
+    "UniVer local versus global optimality limitations",
+    "UniVer independent child candidate sampling law",
+    "UniVer deterministic Position and Feature block equivalence",
+    "UniVer complete P/F/P/F Target conditional distribution",
+    "UniVer official author implementation Weng Hu Yairi",
+    "UniVer speculative public implementation",
+    "UniVer tree depth temperature ablations",
+    "UniVer first Feature sixteen second Feature four candidates",
+    "UniVer small positive probabilities exact acceptance",
+    "UniVer residual output and early EOS handling",
+    "UniVer KV commit ancestor paths",
+    "UniVer source-equal paired natural acceptance"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "agent_id": null,
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "UniVer 2605.04543 original conditional OT proof"
+      ],
+      "skill_order": [
+        "academic-local"
+      ],
+      "scripts": [
+        "scripts/fast_search.py",
+        "academic-evidence/scripts/academic_public.py",
+        "academic-evidence/scripts/extract_paper_brief.py"
+      ],
+      "search_components": [
+        "fast-search",
+        "academic-public-evidence",
+        "google-scholar-html",
+        "openalex-api",
+        "arxiv-api",
+        "crossref-api",
+        "semantic-scholar-api",
+        "rss-atom",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "autocli",
+        "anysearch",
+        "paper-research-router",
+        "literature-evidence-audit"
+      ],
+      "adapter_type": "bundled-academic-workflow",
+      "access_mode": "public-or-pdf",
+      "depth_routes": {
+        "light": [
+          "academic-local"
+        ],
+        "medium": [
+          "academic-local"
+        ],
+        "deep": [
+          "academic-local"
+        ]
+      },
+      "status": "completed",
+      "goal": "Read original UniVer conditional allocation, proofs, ablations and available implementation; measure complete P/F paths with original Target policies",
+      "evidence": [
+        "Original UniVer method and Appendix B",
+        "Actual candidate independence and residual output law",
+        "Public reproduction source with explicit author-identity limitation",
+        "Complete native Target and KV measurements"
+      ],
+      "stop_condition": "Original paper and selected source evidence read; mechanism and both bounded refinements measured",
+      "retrieval_methods": [
+        "raw"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "agent_id": null,
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "UniVer speculative public implementation"
+      ],
+      "skill_order": [
+        "github-local"
+      ],
+      "scripts": [
+        "scripts/github_public.py",
+        "scripts/platform_discovery.py"
+      ],
+      "search_components": [
+        "github-public-multipath",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "github-search",
+        "github-analyze",
+        "last30days-cn"
+      ],
+      "adapter_type": "bundled-public-research",
+      "access_mode": "public-repository",
+      "depth_routes": {
+        "light": [
+          "github-local"
+        ],
+        "medium": [
+          "github-local"
+        ],
+        "deep": [
+          "github-local"
+        ]
+      },
+      "status": "completed",
+      "goal": "Read original UniVer conditional allocation, proofs, ablations and available implementation; measure complete P/F paths with original Target policies",
+      "evidence": [
+        "Original UniVer method and Appendix B",
+        "Actual candidate independence and residual output law",
+        "Public reproduction source with explicit author-identity limitation",
+        "Complete native Target and KV measurements"
+      ],
+      "stop_condition": "Original paper and selected source evidence read; mechanism and both bounded refinements measured",
+      "retrieval_methods": [
+        "rest",
+        "git-shallow",
+        "local-snapshot"
+      ]
+    }
+  ],
+  "router_path": [
+    {
+      "stage": "requirements and primary paper",
+      "skill_ids": [
+        "research-router",
+        "academic-local",
+        "academic-evidence"
+      ]
+    },
+    {
+      "stage": "public implementation discovery",
+      "skill_ids": [
+        "github-local"
+      ]
+    },
+    {
+      "stage": "complete probability enumeration and real Target branches",
+      "skill_ids": [
+        "research-router"
+      ]
+    }
+  ],
+  "selection_summary": "Prepared from the Draft-OPD primary citation; begin only after the bounded block-verification conclusions are recorded",
+  "status": "completed",
+  "route_id": "pfspec-univer-conditional-tree-20261107",
+  "actual_agent_count": 0,
+  "execution_mode": "primary-agent-public-retrieval",
+  "matched_skills": [
+    {
+      "skill_id": "research-router"
+    },
+    {
+      "skill_id": "academic-local"
+    },
+    {
+      "skill_id": "academic-evidence"
+    },
+    {
+      "skill_id": "github-local"
+    }
+  ],
+  "executed_leaf_skills": [
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "stop_reason": "One major sixteen-by-four implementation completed with eight EOS development outputs and no common both-task gain over Full64; both permitted wider refinements fail the unchanged Target policy comparison on a reachable BOS state",
+  "source_coverage": {
+    "status": "partial",
+    "requested": [
+      "Complete original method and mathematical proof",
+      "Author code if available",
+      "Real P/F/P/F adaptation"
+    ],
+    "covered": [
+      "19-page v1, methods, all Appendix B proofs and ablations",
+      "Public reproduction source read at commit098d79572000b86010fe2a7b81494873641fe130",
+      "96 shallow and 24 complete-tree enumerations",
+      "1544 native branch/state/KV comparisons",
+      "Two prior numeric cases pass with fresh independent caches",
+      "Actual causal Position state at all ten accepted lengths",
+      "1024 small-positive-mass cancellation cases compared against the prior implementation",
+      "Eight complete natural development EOS requests, raw counts and paired source intervals",
+      "1024 shared-history method rows on256 predeclared states",
+      "Two permitted width refinements measured and invalid on a positive-probability BOS branch"
+    ],
+    "missing": [
+      "Author implementation provenance remains unconfirmed"
+    ],
+    "source_count": 3,
+    "direct_source_count": 2,
+    "recency_score": 10
+  },
+  "route_evaluation": {
+    "method": "manual",
+    "problem_coverage": 9,
+    "evidence_directness": 10,
+    "recency": 10,
+    "deduplication": 10,
+    "overall": 9,
+    "execution_cost": {
+      "query_count": 2,
+      "skill_calls": 3,
+      "agent_count": 0,
+      "query_count_scope": "One retained primary identifier lookup and one actual GitHub title query; expanded variants are plans"
+    },
+    "unconfirmed_items": [
+      "Author implementation provenance",
+      "GPU proof covers measured histories, not exhaustive finite-precision enumeration of every reachable history"
+    ]
+  },
+  "created_at": "2026-11-06T23:42:03.642366+00:00",
+  "final_leaf_skills": [
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "refinement_plan": {
+    "major_first_feature_candidates": 16,
+    "second_feature_candidates_per_parent": 4,
+    "refinement_first_feature_candidates": [
+      32,
+      64
+    ],
+    "target_policy_tv_limit": 1e-05,
+    "parameter_update_steps": 0,
+    "status": "complete: widths32/64 each fail on reachable BOS1834 with original tolerance1e-5"
+  },
+  "development_evidence": {
+    "natural_requests": 8,
+    "eos_requests": 8,
+    "common_states": 256,
+    "common_method_rows": 1024,
+    "native_branch_rows": 1544,
+    "numeric_outliers_passed": 2,
+    "position_states_passed": 10,
+    "small_probability_cases": 1024,
+    "maximum_deep_toy_output_error": 2.220446049250313e-16
+  },
+  "refinement_results": {
+    "width32_reachable_tv": 1.1621043086051941e-05,
+    "width64_reachable_tv": 1.0494142770767212e-05,
+    "reachable_position_probability": 1.0,
+    "zero_probability_completion_scope": "The wider32 Feature policy also differs on an unreachable proposed Position; this is recorded separately and is not the failure basis"
+  }
+}

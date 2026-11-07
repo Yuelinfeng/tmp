@@ -1,0 +1,237 @@
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+new-completion-00-73101 diffusion_full_w64 1277 20.718
+new-completion-00-73102 diffusion_full_w64 1537 27.463
+new-completion-01-73101 diffusion_full_w64 2497 45.504
+new-completion-01-73102 diffusion_full_w64 2987 66.656
+new-completion-02-73101 diffusion_full_w64 3685 78.596
+new-completion-02-73102 diffusion_full_w64 4561 140.149
+new-completion-03-73101 diffusion_full_w64 3579 93.276
+new-completion-03-73102 diffusion_full_w64 4323 121.291
+new-completion-04-73101 diffusion_full_w64 1163 14.436
+new-completion-04-73102 diffusion_full_w64 2727 48.724
+new-completion-05-73101 diffusion_full_w64 2201 36.91
+new-completion-05-73102 diffusion_full_w64 3079 62.344
+new-completion-06-73101 diffusion_full_w64 4595 146.518
+new-completion-06-73102 diffusion_full_w64 5289 185.776
+new-completion-07-73101 diffusion_full_w64 2241 36.763
+new-completion-07-73102 diffusion_full_w64 2245 40.247
+new-completion-08-73101 diffusion_full_w64 2353 46.939
+new-completion-08-73102 diffusion_full_w64 3039 70.462
+new-completion-09-73101 diffusion_full_w64 1343 19.836
+new-completion-09-73102 diffusion_full_w64 1017 14.543
+new-completion-10-73101 diffusion_full_w64 3255 73.384
+new-completion-10-73102 diffusion_full_w64 3123 71.463
+new-completion-11-73101 diffusion_full_w64 4293 132.65
+new-completion-11-73102 diffusion_full_w64 5117 171.445
+new-completion-12-73101 diffusion_full_w64 1873 30.494
+new-completion-12-73102 diffusion_full_w64 1011 12.249
+new-completion-13-73101 diffusion_full_w64 4693 139.322
+new-completion-13-73102 diffusion_full_w64 4715 139.667
+new-completion-14-73101 diffusion_full_w64 5595 203.207
+new-completion-14-73102 diffusion_full_w64 4743 143.407
+new-completion-15-73101 diffusion_full_w64 3771 92.983
+new-completion-15-73102 diffusion_full_w64 3167 67.603
+new-completion-16-73101 diffusion_full_w64 3141 69.559
+new-completion-16-73102 diffusion_full_w64 2555 49.572
+new-completion-17-73101 diffusion_full_w64 1491 21.212
+new-completion-17-73102 diffusion_full_w64 1261 17.337
+new-completion-18-73101 diffusion_full_w64 5915 197.551
+new-completion-18-73102 diffusion_full_w64 4431 118.773
+new-completion-19-73101 diffusion_full_w64 1367 16.869
+new-completion-19-73102 diffusion_full_w64 743 7.862
+new-completion-20-73101 diffusion_full_w64 3273 68.902
+new-completion-20-73102 diffusion_full_w64 4235 110.158
+new-completion-21-73101 diffusion_full_w64 3261 67.397
+new-completion-21-73102 diffusion_full_w64 3289 68.614
+new-completion-22-73101 diffusion_full_w64 3185 68.614
+new-completion-22-73102 diffusion_full_w64 2753 56.079
+new-completion-23-73101 diffusion_full_w64 2449 45.198
+new-completion-23-73102 diffusion_full_w64 2641 51.527
+new-completion-24-73101 diffusion_full_w64 3523 83.832
+new-completion-24-73102 diffusion_full_w64 3183 79.004
+new-completion-25-73101 diffusion_full_w64 2925 62.37
+new-completion-25-73102 diffusion_full_w64 3005 63.165
+new-completion-26-73101 diffusion_full_w64 4305 123.803
+new-completion-26-73102 diffusion_full_w64 3969 88.57
+new-completion-27-73101 diffusion_full_w64 3979 98.476
+new-completion-27-73102 diffusion_full_w64 5021 139.991
+new-completion-28-73101 diffusion_full_w64 2543 48.397
+new-completion-28-73102 diffusion_full_w64 3723 86.554
+new-completion-29-73101 diffusion_full_w64 2945 75.221
+new-completion-29-73102 diffusion_full_w64 4607 138.768
+new-bos-73201 diffusion_full_w64 4989 140.781
+new-bos-73202 diffusion_full_w64 5915 194.094
+new-bos-73203 diffusion_full_w64 5261 173.059
+new-bos-73204 diffusion_full_w64 5783 165.992
+new-bos-73205 diffusion_full_w64 4855 131.97
+new-bos-73206 diffusion_full_w64 5449 160.928
+new-bos-73207 diffusion_full_w64 5701 167.124
+new-bos-73208 diffusion_full_w64 4749 117.933
+new-bos-73209 diffusion_full_w64 5189 140.443
+new-bos-73210 diffusion_full_w64 3397 56.359
+new-bos-73211 diffusion_full_w64 6033 209.162
+new-bos-73212 diffusion_full_w64 4753 114.114
+new-bos-73213 diffusion_full_w64 5453 162.56
+new-bos-73214 diffusion_full_w64 5679 170.165
+new-bos-73215 diffusion_full_w64 4117 88.125
+new-bos-73216 diffusion_full_w64 4915 132.757
+new-bos-73217 diffusion_full_w64 5485 165.545
+new-bos-73218 diffusion_full_w64 5123 155.535
+new-bos-73219 diffusion_full_w64 4207 96.217
+new-bos-73220 diffusion_full_w64 5113 139.439
+new-bos-73221 diffusion_full_w64 3651 72.834
+new-bos-73222 diffusion_full_w64 4313 103.908
+new-bos-73223 diffusion_full_w64 3343 64.752
+new-bos-73224 diffusion_full_w64 5537 176.038
+new-bos-73225 diffusion_full_w64 2549 44.417
+new-bos-73226 diffusion_full_w64 5097 161.793
+new-bos-73227 diffusion_full_w64 4423 118.623
+new-bos-73228 diffusion_full_w64 3649 72.333
+new-bos-73229 diffusion_full_w64 4593 109.585
+new-bos-73230 diffusion_full_w64 5775 173.064
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+new-capped-00-64-73101 diffusion_full_w64 512 6.179
+new-capped-00-64-73102 diffusion_full_w64 512 3.953
+new-capped-00-256-73101 diffusion_full_w64 512 6.423
+new-capped-00-256-73102 diffusion_full_w64 512 6.144
+new-capped-01-64-73101 diffusion_full_w64 512 4.454
+new-capped-01-64-73102 diffusion_full_w64 512 4.365
+new-capped-01-256-73101 diffusion_full_w64 512 4.559
+new-capped-01-256-73102 diffusion_full_w64 512 5.425
+new-capped-02-64-73101 diffusion_full_w64 512 4.691
+new-capped-02-64-73102 diffusion_full_w64 512 4.234
+new-capped-02-256-73101 diffusion_full_w64 512 5.191
+new-capped-02-256-73102 diffusion_full_w64 512 4.77
+new-capped-03-64-73101 diffusion_full_w64 512 5.231
+new-capped-03-64-73102 diffusion_full_w64 512 5.13
+new-capped-03-256-73101 diffusion_full_w64 512 5.906
+new-capped-03-256-73102 diffusion_full_w64 512 6.352
+new-capped-04-64-73101 diffusion_full_w64 512 3.993
+new-capped-04-64-73102 diffusion_full_w64 512 3.773
+new-capped-04-256-73101 diffusion_full_w64 512 4.738
+new-capped-04-256-73102 diffusion_full_w64 512 4.667
+new-capped-05-64-73101 diffusion_full_w64 512 4.401
+new-capped-05-64-73102 diffusion_full_w64 512 4.522
+new-capped-05-256-73101 diffusion_full_w64 512 5.864
+new-capped-05-256-73102 diffusion_full_w64 512 5.416
+new-capped-06-64-73101 diffusion_full_w64 512 4.499
+new-capped-06-64-73102 diffusion_full_w64 512 4.852
+new-capped-06-256-73101 diffusion_full_w64 512 5.666
+new-capped-06-256-73102 diffusion_full_w64 512 5.089
+new-capped-07-64-73101 diffusion_full_w64 512 4.455
+new-capped-07-64-73102 diffusion_full_w64 512 4.366
+new-capped-07-256-73101 diffusion_full_w64 512 4.842
+new-capped-07-256-73102 diffusion_full_w64 512 4.914
+new-capped-08-64-73101 diffusion_full_w64 512 4.17
+new-capped-08-64-73102 diffusion_full_w64 512 4.044
+new-capped-08-256-73101 diffusion_full_w64 512 6.056
+new-capped-08-256-73102 diffusion_full_w64 512 4.948
+new-capped-09-64-73101 diffusion_full_w64 512 4.218
+new-capped-09-64-73102 diffusion_full_w64 512 4.071
+new-capped-09-256-73101 diffusion_full_w64 512 5.012
+new-capped-09-256-73102 diffusion_full_w64 512 4.958
+new-capped-10-64-73101 diffusion_full_w64 512 4.311
+new-capped-10-64-73102 diffusion_full_w64 512 4.264
+new-capped-10-256-73101 diffusion_full_w64 512 5.303
+new-capped-10-256-73102 diffusion_full_w64 512 5.351
+new-capped-11-64-73101 diffusion_full_w64 512 4.463
+new-capped-11-64-73102 diffusion_full_w64 512 3.954
+new-capped-11-256-73101 diffusion_full_w64 512 5.46
+new-capped-11-256-73102 diffusion_full_w64 512 5.641
+new-capped-12-64-73101 diffusion_full_w64 512 4.181
+new-capped-12-64-73102 diffusion_full_w64 217 1.49
+new-capped-12-256-73101 diffusion_full_w64 512 4.971
+new-capped-12-256-73102 diffusion_full_w64 512 4.724
+new-capped-13-64-73101 diffusion_full_w64 512 4.375
+new-capped-13-64-73102 diffusion_full_w64 512 3.804
+new-capped-13-256-73101 diffusion_full_w64 512 4.579
+new-capped-13-256-73102 diffusion_full_w64 512 4.882
+new-capped-14-64-73101 diffusion_full_w64 512 4.425
+new-capped-14-64-73102 diffusion_full_w64 512 4.267
+new-capped-14-256-73101 diffusion_full_w64 512 4.975
+new-capped-14-256-73102 diffusion_full_w64 512 4.765
+new-capped-15-64-73101 diffusion_full_w64 512 3.873
+new-capped-15-64-73102 diffusion_full_w64 512 4.165
+new-capped-15-256-73101 diffusion_full_w64 512 5.856
+new-capped-15-256-73102 diffusion_full_w64 512 4.899
+new-capped-16-64-73101 diffusion_full_w64 512 4.566
+new-capped-16-64-73102 diffusion_full_w64 512 4.169
+new-capped-16-256-73101 diffusion_full_w64 512 5.195
+new-capped-16-256-73102 diffusion_full_w64 512 5.125
+new-capped-17-64-73101 diffusion_full_w64 512 3.903
+new-capped-17-64-73102 diffusion_full_w64 512 4.002
+new-capped-17-256-73101 diffusion_full_w64 512 5.446
+new-capped-17-256-73102 diffusion_full_w64 512 5.231
+new-capped-18-64-73101 diffusion_full_w64 512 3.895
+new-capped-18-64-73102 diffusion_full_w64 512 4.198
+new-capped-18-256-73101 diffusion_full_w64 512 4.786
+new-capped-18-256-73102 diffusion_full_w64 512 4.881
+new-capped-19-64-73101 diffusion_full_w64 512 4.378
+new-capped-19-64-73102 diffusion_full_w64 512 4.088
+new-capped-19-256-73101 diffusion_full_w64 512 4.682
+new-capped-19-256-73102 diffusion_full_w64 512 5.056
+new-capped-20-64-73101 diffusion_full_w64 512 4.089
+new-capped-20-64-73102 diffusion_full_w64 512 3.838
+new-capped-20-256-73101 diffusion_full_w64 512 4.812
+new-capped-20-256-73102 diffusion_full_w64 512 4.937
+new-capped-21-64-73101 diffusion_full_w64 512 3.856
+new-capped-21-64-73102 diffusion_full_w64 512 4.095
+new-capped-21-256-73101 diffusion_full_w64 512 5.221
+new-capped-21-256-73102 diffusion_full_w64 512 4.921
+new-capped-22-64-73101 diffusion_full_w64 512 3.714
+new-capped-22-64-73102 diffusion_full_w64 512 4.001
+new-capped-22-256-73101 diffusion_full_w64 512 4.695
+new-capped-22-256-73102 diffusion_full_w64 512 4.395
+new-capped-23-64-73101 diffusion_full_w64 512 3.982
+new-capped-23-64-73102 diffusion_full_w64 512 4.092
+new-capped-23-256-73101 diffusion_full_w64 512 4.389
+new-capped-23-256-73102 diffusion_full_w64 512 4.6
+new-capped-24-64-73101 diffusion_full_w64 512 4.561
+new-capped-24-64-73102 diffusion_full_w64 512 4.935
+new-capped-24-256-73101 diffusion_full_w64 512 4.997
+new-capped-24-256-73102 diffusion_full_w64 512 4.883
+new-capped-25-64-73101 diffusion_full_w64 512 4.285
+new-capped-25-64-73102 diffusion_full_w64 237 1.96
+new-capped-25-256-73101 diffusion_full_w64 512 4.672
+new-capped-25-256-73102 diffusion_full_w64 512 4.797
+new-capped-26-64-73101 diffusion_full_w64 512 4.194
+new-capped-26-64-73102 diffusion_full_w64 512 4.067
+new-capped-26-256-73101 diffusion_full_w64 512 4.678
+new-capped-26-256-73102 diffusion_full_w64 512 4.857
+new-capped-27-64-73101 diffusion_full_w64 512 4.012
+new-capped-27-64-73102 diffusion_full_w64 512 3.849
+new-capped-27-256-73101 diffusion_full_w64 512 4.769
+new-capped-27-256-73102 diffusion_full_w64 512 4.785
+new-capped-28-64-73101 diffusion_full_w64 512 4.596
+new-capped-28-64-73102 diffusion_full_w64 512 4.659
+new-capped-28-256-73101 diffusion_full_w64 512 5.439
+new-capped-28-256-73102 diffusion_full_w64 512 5.463
+new-capped-29-64-73101 diffusion_full_w64 512 5.005
+new-capped-29-64-73102 diffusion_full_w64 512 4.408
+new-capped-29-256-73101 diffusion_full_w64 512 5.956
+new-capped-29-256-73102 diffusion_full_w64 512 5.73
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+Common-history evaluation complete 34344
+Complete paired report saved 270
+Complete paired report saved 360

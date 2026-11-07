@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "completed": 120,
+  "expected": 120,
+  "seconds": 562.5554338459624,
+  "full_evaluator_seconds": 578.5120850780513,
+  "full_time_scope": "Imports, context, Draft loading, warmup, generation and saved results"
+}

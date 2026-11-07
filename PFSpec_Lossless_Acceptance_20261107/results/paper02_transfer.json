@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "archive_bytes": 102549068,
+  "regular_files": 122,
+  "uncompressed_bytes": 122471148,
+  "archive_groups": {
+    "paper02_draft_opd": 140,
+    "source": 11,
+    "evaluation_inputs": 4
+  },
+  "actual_weight_files": [
+    "paper02_draft_opd/training/opd_forward/last.pt",
+    "paper02_draft_opd/training/opd_forward/selected.pt",
+    "paper02_draft_opd/training/opd_ce_tv/last.pt",
+    "paper02_draft_opd/training/opd_ce_tv/selected.pt",
+    "paper02_draft_opd/training/opd_fullsplit/selected.pt",
+    "paper02_draft_opd/training/opd_fullsplit/last.pt",
+    "paper02_draft_opd/training/opd_split/last.pt",
+    "paper02_draft_opd/training/opd_split/selected.pt"
+  ],
+  "remote_dependencies": [
+    {
+      "path": "paper02_draft_opd/training/opd_fullsplit_last/selected.pt",
+      "remote_dependency": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/training/opd_fullsplit/last.pt"
+    },
+    {
+      "path": "paper02_draft_opd/training/opd_split_last/selected.pt",
+      "remote_dependency": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/training/opd_split/last.pt"
+    },
+    {
+      "path": "paper02_draft_opd/training/fusion_long",
+      "remote_dependency": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long"
+    }
+  ],
+  "source_scope": "Exact Paper 2 source is retained inside its archive; continuing study source lives in the patches directory"
+}

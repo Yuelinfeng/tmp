@@ -1,0 +1,1000 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "method": "block_joint_w1",
+      "pair_id": "dev-bos-69401",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.025054090656340122,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 133,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.8701499318704009,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "position"
+            ],
+            "first_pos": 0,
+            "prepare_ms": 1.1155479587614536,
+            "warmup_ms": 39.437550003640354,
+            "capture_ms": 206.69807400554419,
+            "memory_allocated_before": 14339138048,
+            "memory_allocated_after": 14347723776,
+            "memory_allocated_delta": 8585728,
+            "memory_reserved_before": 14369685504,
+            "memory_reserved_after": 14394851328,
+            "memory_reserved_delta": 25165824,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 1,
+            "prepare_ms": 0.7893589790910482,
+            "warmup_ms": 40.209805010817945,
+            "capture_ms": 209.1792019782588,
+            "memory_allocated_before": 14356246528,
+            "memory_allocated_after": 14356311552,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14417920000,
+            "memory_reserved_after": 14417920000,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 16,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 9,
+            "prepare_ms": 0.7995080668479204,
+            "warmup_ms": 40.21024995017797,
+            "capture_ms": 205.055789090693,
+            "memory_allocated_before": 14391064576,
+            "memory_allocated_after": 14391129600,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14510194688,
+            "memory_reserved_after": 14510194688,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 3,
+        "disabled_graphs": {},
+        "calls": {
+          "graph_forward": 4,
+          "graph_forward_T1": 4
+        },
+        "fallbacks": {},
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.005175010301172733,
+        "graph_count": 5,
+        "graph_events": [
+          {
+            "cache_id": 134706633424800,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 8,
+            "first_before": 2,
+            "prepare_ms": 0.8507119491696358,
+            "warmup_ms": 38.91452797688544,
+            "capture_ms": 207.48025993816555,
+            "memory_allocated_before": 14373471744,
+            "memory_allocated_after": 14373731328,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633424800,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 16,
+            "first_before": 6,
+            "prepare_ms": 0.7298020645976067,
+            "warmup_ms": 38.864449015818536,
+            "capture_ms": 205.86741901934147,
+            "memory_allocated_before": 14382332416,
+            "memory_allocated_after": 14382592000,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633424800,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 32,
+            "first_before": 14,
+            "prepare_ms": 0.7466149982064962,
+            "warmup_ms": 38.82628702558577,
+            "capture_ms": 212.46382896788418,
+            "memory_allocated_before": 14399752192,
+            "memory_allocated_after": 14400011776,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633424800,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 64,
+            "first_before": 30,
+            "prepare_ms": 0.7695540552958846,
+            "warmup_ms": 40.24764592759311,
+            "capture_ms": 215.55202908348292,
+            "memory_allocated_before": 14408535552,
+            "memory_allocated_after": 14408795136,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633424800,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 128,
+            "first_before": 62,
+            "prepare_ms": 0.8994160452857614,
+            "warmup_ms": 40.98661395255476,
+            "capture_ms": 212.37454400397837,
+            "memory_allocated_before": 14417318912,
+            "memory_allocated_after": 14417578496,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 44,
+          "graph_forward": 44,
+          "graph_forward_W1": 44,
+          "verify": 44,
+          "commit_contiguous": 44,
+          "commit": 44,
+          "commit_nodes_2": 23,
+          "commit_nodes_1": 2,
+          "commit_nodes_4": 19
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 1728,
+          "rope_inputs": 55296,
+          "attention_masks": 17728,
+          "token_cache_writes": 1728,
+          "graph_output_views": 0,
+          "commit_token_clear": 416
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify"
+      }
+    },
+    {
+      "method": "block_joint_w1",
+      "pair_id": "dev-completion-sequence_20265287",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.026630936190485954,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 389,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7903620135039091,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 512,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 341,
+            "prepare_ms": 0.843890942633152,
+            "warmup_ms": 41.04953398928046,
+            "capture_ms": 210.7275710441172,
+            "memory_allocated_before": 14454224896,
+            "memory_allocated_after": 14454289920,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14671675392,
+            "memory_reserved_after": 14692646912,
+            "memory_reserved_delta": 20971520,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 512,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 382,
+            "prepare_ms": 0.866569927893579,
+            "warmup_ms": 42.3314479412511,
+            "capture_ms": 236.82719201315194,
+            "memory_allocated_before": 14462840832,
+            "memory_allocated_after": 14462970880,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 14715715584,
+            "memory_reserved_after": 14736687104,
+            "memory_reserved_delta": 20971520,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 2,
+        "disabled_graphs": {},
+        "calls": {
+          "original_forward": 1,
+          "graph_forward": 3,
+          "graph_forward_T1": 2,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {
+          "unsupported_query_tokens": 1
+        },
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.004327972419559956,
+        "graph_count": 1,
+        "graph_events": [
+          {
+            "cache_id": 134706633424128,
+            "width": 1,
+            "node_count": 4,
+            "read_bucket": 512,
+            "first_before": 256,
+            "prepare_ms": 1.5329149318858981,
+            "warmup_ms": 39.97000399976969,
+            "capture_ms": 201.21573098003864,
+            "memory_allocated_before": 14449526272,
+            "memory_allocated_after": 14449785856,
+            "memory_allocated_delta": 259584,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 42,
+          "graph_forward": 42,
+          "graph_forward_W1": 42,
+          "verify": 42,
+          "commit_contiguous": 42,
+          "commit": 42,
+          "commit_nodes_2": 20,
+          "commit_nodes_4": 20,
+          "commit_nodes_1": 1,
+          "commit_nodes_3": 1
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 1408,
+          "rope_inputs": 45056,
+          "attention_masks": 90112,
+          "token_cache_writes": 1408,
+          "graph_output_views": 0,
+          "commit_token_clear": 352
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify"
+      }
+    },
+    {
+      "method": "block_joint_w64",
+      "pair_id": "dev-bos-69401",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.026147929020226002,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 259,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7787200156599283,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "position"
+            ],
+            "first_pos": 0,
+            "prepare_ms": 0.8957800455391407,
+            "warmup_ms": 40.23950407281518,
+            "capture_ms": 210.5599830392748,
+            "memory_allocated_before": 14458413568,
+            "memory_allocated_after": 14458479616,
+            "memory_allocated_delta": 66048,
+            "memory_reserved_before": 14692646912,
+            "memory_reserved_after": 14667481088,
+            "memory_reserved_delta": -25165824,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 1,
+            "prepare_ms": 0.8363210363313556,
+            "warmup_ms": 40.462180972099304,
+            "capture_ms": 205.19752195104957,
+            "memory_allocated_before": 14467002368,
+            "memory_allocated_after": 14467067392,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14690549760,
+            "memory_reserved_after": 14690549760,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 16,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 9,
+            "prepare_ms": 0.8313029538840055,
+            "warmup_ms": 41.75133106764406,
+            "capture_ms": 218.07148202788085,
+            "memory_allocated_before": 14501267968,
+            "memory_allocated_after": 14501332992,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14789115904,
+            "memory_reserved_after": 14787018752,
+            "memory_reserved_delta": -2097152,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 128,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 126,
+            "prepare_ms": 0.8126910543069243,
+            "warmup_ms": 42.58285206742585,
+            "capture_ms": 215.3331550071016,
+            "memory_allocated_before": 14557961728,
+            "memory_allocated_after": 14558091776,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 14956888064,
+            "memory_reserved_after": 14954790912,
+            "memory_reserved_delta": -2097152,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 4,
+        "disabled_graphs": {},
+        "calls": {
+          "graph_forward": 5,
+          "graph_forward_T1": 4,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {},
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.004442990757524967,
+        "graph_count": 4,
+        "graph_events": [
+          {
+            "cache_id": 134706633611856,
+            "width": 64,
+            "node_count": 130,
+            "read_bucket": 256,
+            "first_before": 2,
+            "prepare_ms": 5.186252994462848,
+            "warmup_ms": 62.13405996095389,
+            "capture_ms": 224.4115239009261,
+            "memory_allocated_before": 14485910016,
+            "memory_allocated_after": 14494331392,
+            "memory_allocated_delta": 8421376,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633611856,
+            "width": 52,
+            "node_count": 106,
+            "read_bucket": 256,
+            "first_before": 62,
+            "prepare_ms": 4.348526010289788,
+            "warmup_ms": 58.69322607759386,
+            "capture_ms": 217.8880829596892,
+            "memory_allocated_before": 14511316480,
+            "memory_allocated_after": 14518182912,
+            "memory_allocated_delta": 6866432,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633611856,
+            "width": 56,
+            "node_count": 114,
+            "read_bucket": 256,
+            "first_before": 70,
+            "prepare_ms": 4.746514023281634,
+            "warmup_ms": 60.306428000330925,
+            "capture_ms": 221.0752930259332,
+            "memory_allocated_before": 14526867968,
+            "memory_allocated_after": 14534252544,
+            "memory_allocated_delta": 7384576,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633611856,
+            "width": 61,
+            "node_count": 124,
+            "read_bucket": 256,
+            "first_before": 102,
+            "prepare_ms": 5.292068002745509,
+            "warmup_ms": 61.538347974419594,
+            "capture_ms": 222.05378103535622,
+            "memory_allocated_before": 14542956032,
+            "memory_allocated_after": 14550988288,
+            "memory_allocated_delta": 8032256,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 39,
+          "graph_forward": 39,
+          "graph_forward_W64": 36,
+          "verify": 39,
+          "commit_contiguous": 18,
+          "commit": 39,
+          "commit_nodes_2": 14,
+          "commit_nodes_1": 2,
+          "commit_branched": 21,
+          "commit_nodes_4": 23,
+          "graph_forward_W52": 1,
+          "graph_forward_W56": 1,
+          "graph_forward_W61": 1
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 47776,
+          "rope_inputs": 1528832,
+          "attention_masks": 1528832,
+          "token_cache_writes": 47776,
+          "graph_output_views": 0,
+          "commit_token_clear": 39888,
+          "commit_kv_payload": 16515072,
+          "commit_kv_device_moved": 33030144,
+          "commit_token_write": 672
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify"
+      }
+    },
+    {
+      "method": "block_joint_w64",
+      "pair_id": "dev-completion-sequence_20265287",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.025372952222824097,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 515,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7968939607962966,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 512,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 337,
+            "prepare_ms": 0.940744997933507,
+            "warmup_ms": 41.381250019185245,
+            "capture_ms": 267.8070949623361,
+            "memory_allocated_before": 14708731392,
+            "memory_allocated_after": 14708796416,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15546187776,
+            "memory_reserved_after": 15565062144,
+            "memory_reserved_delta": 18874368,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 512,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 382,
+            "prepare_ms": 0.8749810513108969,
+            "warmup_ms": 42.48834797181189,
+            "capture_ms": 220.2239140169695,
+            "memory_allocated_before": 14719050240,
+            "memory_allocated_after": 14719180288,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 15619588096,
+            "memory_reserved_after": 15638462464,
+            "memory_reserved_delta": 18874368,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 2,
+        "disabled_graphs": {},
+        "calls": {
+          "original_forward": 1,
+          "graph_forward": 3,
+          "graph_forward_T1": 2,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {
+          "unsupported_query_tokens": 1
+        },
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.004609930329024792,
+        "graph_count": 21,
+        "graph_events": [
+          {
+            "cache_id": 134706633616032,
+            "width": 24,
+            "node_count": 50,
+            "read_bucket": 512,
+            "first_before": 256,
+            "prepare_ms": 4.851704929023981,
+            "warmup_ms": 50.188940949738026,
+            "capture_ms": 220.37501097656786,
+            "memory_allocated_before": 14560918016,
+            "memory_allocated_after": 14564156928,
+            "memory_allocated_delta": 3238912,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 48,
+            "node_count": 98,
+            "read_bucket": 512,
+            "first_before": 260,
+            "prepare_ms": 7.773166988044977,
+            "warmup_ms": 56.12432793714106,
+            "capture_ms": 217.45626698248088,
+            "memory_allocated_before": 14569347584,
+            "memory_allocated_after": 14575695872,
+            "memory_allocated_delta": 6348288,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 17,
+            "node_count": 36,
+            "read_bucket": 512,
+            "first_before": 264,
+            "prepare_ms": 3.4253159537911415,
+            "warmup_ms": 48.88680705334991,
+            "capture_ms": 218.2278020773083,
+            "memory_allocated_before": 14583436288,
+            "memory_allocated_after": 14585768448,
+            "memory_allocated_delta": 2332160,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 16,
+            "node_count": 34,
+            "read_bucket": 512,
+            "first_before": 268,
+            "prepare_ms": 3.2543750712648034,
+            "warmup_ms": 47.86909301765263,
+            "capture_ms": 220.22439492866397,
+            "memory_allocated_before": 14594290688,
+            "memory_allocated_after": 14596493312,
+            "memory_allocated_delta": 2202624,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 26,
+            "node_count": 54,
+            "read_bucket": 512,
+            "first_before": 272,
+            "prepare_ms": 4.7454070299863815,
+            "warmup_ms": 51.468419027514756,
+            "capture_ms": 215.9049049951136,
+            "memory_allocated_before": 14605318144,
+            "memory_allocated_after": 14608816128,
+            "memory_allocated_delta": 3497984,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 43,
+            "node_count": 88,
+            "read_bucket": 512,
+            "first_before": 276,
+            "prepare_ms": 7.247217930853367,
+            "warmup_ms": 55.77901506330818,
+            "capture_ms": 217.6066730171442,
+            "memory_allocated_before": 14617851904,
+            "memory_allocated_after": 14623552512,
+            "memory_allocated_delta": 5700608,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 25,
+            "node_count": 52,
+            "read_bucket": 512,
+            "first_before": 280,
+            "prepare_ms": 4.588310024701059,
+            "warmup_ms": 50.65811495296657,
+            "capture_ms": 213.1290721008554,
+            "memory_allocated_before": 14631644672,
+            "memory_allocated_after": 14635013120,
+            "memory_allocated_delta": 3368448,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 51,
+            "node_count": 104,
+            "read_bucket": 512,
+            "first_before": 284,
+            "prepare_ms": 8.388521964661777,
+            "warmup_ms": 57.69695295020938,
+            "capture_ms": 234.33818807825446,
+            "memory_allocated_before": 14644296192,
+            "memory_allocated_after": 14651033088,
+            "memory_allocated_delta": 6736896,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 35,
+            "node_count": 72,
+            "read_bucket": 512,
+            "first_before": 288,
+            "prepare_ms": 6.25193293672055,
+            "warmup_ms": 53.97002398967743,
+            "capture_ms": 220.67098796833307,
+            "memory_allocated_before": 14650675200,
+            "memory_allocated_after": 14655339520,
+            "memory_allocated_delta": 4664320,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 57,
+            "node_count": 116,
+            "read_bucket": 512,
+            "first_before": 292,
+            "prepare_ms": 9.457494947127998,
+            "warmup_ms": 61.02011899929494,
+            "capture_ms": 228.00784092396498,
+            "memory_allocated_before": 14656007680,
+            "memory_allocated_after": 14663521792,
+            "memory_allocated_delta": 7514112,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 38,
+            "node_count": 78,
+            "read_bucket": 512,
+            "first_before": 296,
+            "prepare_ms": 6.776564056053758,
+            "warmup_ms": 54.28842001128942,
+            "capture_ms": 230.31818203162402,
+            "memory_allocated_before": 14663090176,
+            "memory_allocated_after": 14668143104,
+            "memory_allocated_delta": 5052928,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 41,
+            "node_count": 84,
+            "read_bucket": 512,
+            "first_before": 300,
+            "prepare_ms": 7.092180079780519,
+            "warmup_ms": 55.264029069803655,
+            "capture_ms": 224.98840605840087,
+            "memory_allocated_before": 14668290560,
+            "memory_allocated_after": 14673732096,
+            "memory_allocated_delta": 5441536,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 28,
+            "node_count": 58,
+            "read_bucket": 512,
+            "first_before": 304,
+            "prepare_ms": 5.187193979509175,
+            "warmup_ms": 51.51316802948713,
+            "capture_ms": 222.9451099410653,
+            "memory_allocated_before": 14673439744,
+            "memory_allocated_after": 14677196800,
+            "memory_allocated_delta": 3757056,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 30,
+            "node_count": 62,
+            "read_bucket": 512,
+            "first_before": 308,
+            "prepare_ms": 5.43338805437088,
+            "warmup_ms": 52.21896700095385,
+            "capture_ms": 225.33458506222814,
+            "memory_allocated_before": 14677299200,
+            "memory_allocated_after": 14681315328,
+            "memory_allocated_delta": 4016128,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 60,
+            "node_count": 122,
+            "read_bucket": 512,
+            "first_before": 316,
+            "prepare_ms": 9.977348032407463,
+            "warmup_ms": 61.29263900220394,
+            "capture_ms": 231.1819710303098,
+            "memory_allocated_before": 14682196992,
+            "memory_allocated_after": 14690099712,
+            "memory_allocated_delta": 7902720,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 29,
+            "node_count": 60,
+            "read_bucket": 512,
+            "first_before": 320,
+            "prepare_ms": 5.3850519470870495,
+            "warmup_ms": 51.74244299996644,
+            "capture_ms": 219.1972859436646,
+            "memory_allocated_before": 14689338880,
+            "memory_allocated_after": 14693225472,
+            "memory_allocated_delta": 3886592,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 64,
+            "node_count": 130,
+            "read_bucket": 512,
+            "first_before": 324,
+            "prepare_ms": 10.699208942241967,
+            "warmup_ms": 62.47309397440404,
+            "capture_ms": 224.2235819576308,
+            "memory_allocated_before": 14694245888,
+            "memory_allocated_after": 14702667264,
+            "memory_allocated_delta": 8421376,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 21,
+            "node_count": 44,
+            "read_bucket": 512,
+            "first_before": 326,
+            "prepare_ms": 4.263935028575361,
+            "warmup_ms": 49.8152730287984,
+            "capture_ms": 217.6753879757598,
+            "memory_allocated_before": 14701568512,
+            "memory_allocated_after": 14704418816,
+            "memory_allocated_delta": 2850304,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 36,
+            "node_count": 74,
+            "read_bucket": 512,
+            "first_before": 334,
+            "prepare_ms": 6.4603619975969195,
+            "warmup_ms": 53.305977024137974,
+            "capture_ms": 221.47502598818392,
+            "memory_allocated_before": 14704884224,
+            "memory_allocated_after": 14709678080,
+            "memory_allocated_delta": 4793856,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 34,
+            "node_count": 70,
+            "read_bucket": 512,
+            "first_before": 340,
+            "prepare_ms": 6.172002060338855,
+            "warmup_ms": 53.787688026204705,
+            "capture_ms": 222.4156630691141,
+            "memory_allocated_before": 14709755904,
+            "memory_allocated_after": 14714290688,
+            "memory_allocated_delta": 4534784,
+            "kv_bytes": 6442450944
+          },
+          {
+            "cache_id": 134706633616032,
+            "width": 42,
+            "node_count": 86,
+            "read_bucket": 512,
+            "first_before": 344,
+            "prepare_ms": 7.4948190012946725,
+            "warmup_ms": 60.225842986255884,
+            "capture_ms": 257.1747839683667,
+            "memory_allocated_before": 14714570240,
+            "memory_allocated_after": 14720141312,
+            "memory_allocated_delta": 5571072,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 33,
+          "graph_forward": 33,
+          "graph_forward_W24": 1,
+          "verify": 33,
+          "commit_branched": 26,
+          "commit": 33,
+          "commit_nodes_4": 29,
+          "graph_forward_W48": 1,
+          "graph_forward_W17": 1,
+          "graph_forward_W16": 1,
+          "graph_forward_W26": 1,
+          "commit_contiguous": 7,
+          "graph_forward_W43": 1,
+          "graph_forward_W25": 2,
+          "graph_forward_W51": 1,
+          "graph_forward_W35": 1,
+          "graph_forward_W57": 1,
+          "graph_forward_W38": 1,
+          "graph_forward_W41": 2,
+          "graph_forward_W28": 3,
+          "graph_forward_W30": 3,
+          "graph_forward_W60": 2,
+          "graph_forward_W29": 1,
+          "graph_forward_W64": 5,
+          "commit_nodes_2": 2,
+          "graph_forward_W21": 1,
+          "graph_forward_W36": 1,
+          "commit_nodes_3": 1,
+          "commit_nodes_1": 1,
+          "graph_forward_W34": 1,
+          "graph_forward_W42": 2
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 46560,
+          "rope_inputs": 1489920,
+          "attention_masks": 2979840,
+          "token_cache_writes": 46560,
+          "graph_output_views": 0,
+          "commit_token_clear": 21240,
+          "commit_kv_payload": 20250624,
+          "commit_kv_device_moved": 40501248,
+          "commit_token_write": 824
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify"
+      }
+    }
+  ]
+}

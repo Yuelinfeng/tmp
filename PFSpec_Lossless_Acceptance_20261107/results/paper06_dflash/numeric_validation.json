@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "examples": 4,
+  "parameters": 71809280,
+  "initial_fusion_logit_max_difference": 3.814697265625e-06,
+  "padded_context_logit_max_difference": 0.0,
+  "future_target_context_input_max_difference": 0.0,
+  "policy_mass_max_error": 5.960464477539063e-08,
+  "context_logit_response": 0.0002567768096923828,
+  "context_parameter_gradient_max": 0.004301011562347412,
+  "loss": 8.434003829956055,
+  "gradients_finite": true,
+  "target_embedding_requires_grad": false,
+  "feature_head_requires_grad": false
+}

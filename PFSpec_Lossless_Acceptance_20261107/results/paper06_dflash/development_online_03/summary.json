@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "diffusion_block_w64x4": {
+      "requests": 4,
+      "tokens": 17826,
+      "seconds": 2203.1958057099255,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 8.090974008665567
+    }
+  },
+  "completion": {
+    "diffusion_block_w64x4": {
+      "requests": 4,
+      "tokens": 15844,
+      "seconds": 1955.940109915915,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 8.100452523917578
+    }
+  }
+}

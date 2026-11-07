@@ -1,0 +1,26 @@
+{
+  "scope": "CPU numerical examples with disjoint top-p supports and equal distributions; not experimental acceptance data",
+  "rows": [
+    {
+      "mode": "split_kl",
+      "loss": 23.694965362548828,
+      "finite_loss": true,
+      "finite_gradient": true,
+      "gradient_norm": 0.3928371071815491
+    },
+    {
+      "mode": "forward_kl",
+      "loss": 21.062192916870117,
+      "finite_loss": true,
+      "finite_gradient": true,
+      "gradient_norm": 0.7407407760620117
+    },
+    {
+      "mode": "ce_tv",
+      "loss": 12.366203308105469,
+      "finite_loss": true,
+      "finite_gradient": true,
+      "gradient_norm": 0.6666664481163025
+    }
+  ]
+}

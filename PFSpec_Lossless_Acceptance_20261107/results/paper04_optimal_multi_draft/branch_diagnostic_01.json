@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "width": 16,
+  "rows": [
+    {
+      "label": "prefix2_graph0_branch0_depth0_logits",
+      "finite_support_equal": true,
+      "maximum_error": 1.4543533325195312e-05,
+      "allclose": true,
+      "policy_tv": 0.0,
+      "policy_support_equal": true
+    },
+    {
+      "label": "prefix2_graph0_branch0_depth0_states",
+      "finite_support_equal": true,
+      "maximum_error": 0.002197265625,
+      "allclose": false
+    }
+  ],
+  "failure": "prefix2_graph0_branch0_depth0_states"
+}

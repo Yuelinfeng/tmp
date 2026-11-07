@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper06_deliverables.tgz",
+  "archive_bytes": 2538530,
+  "regular_files": 217,
+  "natural_records": 24,
+  "eos_records": 24,
+  "token_files": 24,
+  "remote_links": [],
+  "weights": [
+    "paper06_dflash/training/diffusion_context_w64/selected.pt"
+  ],
+  "validation": "Complete gzip/tar stream and actual natural output counts",
+  "weight_scope": "Selected step2800 weight is complete locally and all internal members were read; remaining large training states stay at recorded server paths",
+  "large_data_scope": "Full feedback states and teacher rows remain at recorded remote locations",
+  "selected_weight_transfer": {
+    "status": "complete",
+    "selected": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+    "bytes": 287266879,
+    "archive_members": 59,
+    "all_members_read": true,
+    "source": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+    "selection": "step2800, chosen only on development data",
+    "runtime": "Target 0.9/0.9, Draft 0.9/1, 64 first Feature candidates, depth1"
+  },
+  "selected_weight_status": "complete"
+}

@@ -1,0 +1,16 @@
+{
+  "draft_top_p": 1.0,
+  "feature_block_depth": 2,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "feature_candidate_width": 64,
+  "second_feature_candidates": 4,
+  "checkpoint": "../diffusion_context_w64/selected.pt",
+  "trained": false,
+  "scope": "Second targeted evaluation: use both masked Feature predictions in one full conditional Target tree",
+  "maximum_target_nodes_per_full_round": 642,
+  "maximum_round_output_tokens": 6,
+  "proposal_scope": "64 first Feature candidates and four shared second candidates; 256 complete Feature combinations"
+}

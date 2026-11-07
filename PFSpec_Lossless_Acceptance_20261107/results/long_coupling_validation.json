@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "cases": 48,
+  "complete_pf_joint_max_error": 2.0816681711721685e-17,
+  "second_feature_conditional_max_error": 2.220446049250313e-16,
+  "scope": "Different full Target Feature distributions for every first Feature and second Position; shared second Draft proposals independent of first selection; zero and certain Position proposals included"
+}

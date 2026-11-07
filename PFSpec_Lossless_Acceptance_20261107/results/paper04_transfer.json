@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper04_deliverables.tgz",
+  "archive_bytes": 39094265,
+  "regular_files": 81,
+  "weights": [
+    "paper04_optimal_multi_draft/training/multi_greedy_w16/selected.pt",
+    "paper04_optimal_multi_draft/training/multi_greedy_w64/selected.pt",
+    "paper04_optimal_multi_draft/training/multi_greedy_full_w64/selected.pt"
+  ],
+  "natural_records": 24,
+  "eos_records": 24,
+  "token_files": 24,
+  "remote_links": [
+    {
+      "path": "paper04_optimal_multi_draft/data",
+      "target": "/root/autodl-tmp/pfspec_feature_states_20261105/data"
+    },
+    {
+      "path": "paper04_optimal_multi_draft/training/fusion_long",
+      "target": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long"
+    }
+  ],
+  "validation": "Complete gzip/tar stream and preserved actual source version"
+}

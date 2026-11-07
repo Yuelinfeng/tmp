@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "method": "diffusion_full_w64",
+  "checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "purpose": "Validate the development adapter; this file does not select a formal model"
+}

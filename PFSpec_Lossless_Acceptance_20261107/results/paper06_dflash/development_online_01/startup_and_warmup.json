@@ -1,0 +1,325 @@
+{
+  "startup": {
+    "context_initialization_seconds": 13.392330087954178,
+    "context_time_scope": "Loading the common Target, Ranker and evaluation context before warmup or generation",
+    "gpu_allocated_after_context_gib": 1.2188105583190918,
+    "setup_before_plan_seconds": 14.301632242975757
+  },
+  "warmups": [
+    {
+      "requested_tokens": 16,
+      "seed": 69401,
+      "stats": {
+        "target_calls": 11,
+        "target_input_tokens": 657,
+        "draft_calls": 5,
+        "draft_input_tokens": 25,
+        "ranker_calls": 11,
+        "rounds": 6,
+        "proposed": 331,
+        "verified": 10,
+        "accepted": 5,
+        "accepted_lengths": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          1
+        ],
+        "round_generated_lengths": [
+          2,
+          2,
+          2,
+          2,
+          4,
+          2
+        ],
+        "position_fallbacks": 0,
+        "k1_steps": 1,
+        "tree_verify_calls": 5,
+        "candidate_tree_nodes": 320,
+        "target_tree_nodes": 650,
+        "feature_attempts": 3,
+        "feature_branch_hits": 1,
+        "feature_all_rejected": 2,
+        "feature_branch_index_counts": {
+          "63": 1
+        },
+        "recovery_calls": 3,
+        "greedy_candidate_set": true,
+        "random_proposal_accepts": 1,
+        "residual_set_hits": 0,
+        "candidate_width_counts": {
+          "64": 5
+        },
+        "position_proposed": 11,
+        "position_verified": 7,
+        "position_accepted": 4,
+        "feature_proposed": 320,
+        "feature_verified": 3,
+        "feature_accepted": 1,
+        "eos_proposed": 0,
+        "eos_verified": 0,
+        "eos_accepted": 0,
+        "generated_tokens": 16,
+        "seconds": 2.1558254150440916,
+        "tokens_per_second": 7.421751264432868,
+        "eos": false,
+        "k": 2,
+        "proposal_width": 66,
+        "tree_width": 64,
+        "seed": 69401,
+        "prompt_tokens": 0,
+        "requested_tokens": 16,
+        "temperature": 0.9,
+        "target_top_p": 0.9,
+        "draft_top_p": 0.9,
+        "variant": "ranker_mlp_greedy_feature_set_w64",
+        "mean_accepted_length": 0.8333333333333334,
+        "mean_generated_per_round": 2.3333333333333335,
+        "tree_runtime_stats": {
+          "graph_enabled": true,
+          "max_width": 64,
+          "runtime_init_ms": 0.007973052561283112,
+          "graph_count": 1,
+          "graph_events": [
+            {
+              "cache_id": 129976381412000,
+              "width": 64,
+              "node_count": 130,
+              "read_bucket": 256,
+              "first_before": 2,
+              "prepare_ms": 5.102395894937217,
+              "warmup_ms": 64.35296789277345,
+              "capture_ms": 243.71482396963984,
+              "memory_allocated_before": 8150173696,
+              "memory_allocated_after": 8158595072,
+              "memory_allocated_delta": 8421376,
+              "kv_bytes": 6442450944
+            }
+          ],
+          "calls": {
+            "verify_attempts": 5,
+            "graph_forward": 5,
+            "graph_forward_W64": 5,
+            "verify": 5,
+            "commit_contiguous": 4,
+            "commit": 5,
+            "commit_nodes_2": 2,
+            "commit_nodes_1": 2,
+            "commit_branched": 1,
+            "commit_nodes_3": 1
+          },
+          "fallbacks": {},
+          "pending_verify": false,
+          "copy_bytes": {
+            "static_token_inputs": 7280,
+            "rope_inputs": 232960,
+            "attention_masks": 232960,
+            "token_cache_writes": 7280,
+            "graph_output_views": 0,
+            "commit_token_clear": 5152,
+            "commit_kv_payload": 589824,
+            "commit_kv_device_moved": 1179648,
+            "commit_token_write": 24
+          },
+          "output_lifetime": "borrowed_until_next_matching_graph_verify"
+        },
+        "acceptance_verified": 0.5,
+        "acceptance_proposed": 0.015105740181268883,
+        "unverified": 321,
+        "position_acceptance_verified": 0.5714285714285714,
+        "position_acceptance_proposed": 0.36363636363636365,
+        "position_unverified": 4,
+        "feature_acceptance_verified": 0.3333333333333333,
+        "feature_acceptance_proposed": 0.003125,
+        "feature_unverified": 317,
+        "eos_acceptance_verified": null,
+        "eos_acceptance_proposed": null,
+        "eos_unverified": 0,
+        "acceptance": 0.5,
+        "draft_architecture": "diffusion_context",
+        "draft_masked_feature_outputs": 10,
+        "draft_target_context_tokens": 30,
+        "draft_block_input_tokens": 25,
+        "draft_context_limit": 64
+      },
+      "runtime": {
+        "runtime_init_ms": 0.040474929846823215,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 147,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 3.8479530485346913,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "position"
+            ],
+            "first_pos": 0,
+            "prepare_ms": 132.60193704627454,
+            "warmup_ms": 152.18181093223393,
+            "capture_ms": 204.6036149840802,
+            "memory_allocated_before": 8113332224,
+            "memory_allocated_after": 8121917952,
+            "memory_allocated_delta": 8585728,
+            "memory_reserved_before": 8147435520,
+            "memory_reserved_after": 8170504192,
+            "memory_reserved_delta": 23068672,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 1,
+            "prepare_ms": 0.9950209641829133,
+            "warmup_ms": 39.72959495149553,
+            "capture_ms": 198.7199051072821,
+            "memory_allocated_before": 8130452992,
+            "memory_allocated_after": 8130518016,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 8193572864,
+            "memory_reserved_after": 8193572864,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 16,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 9,
+            "prepare_ms": 0.9337109513580799,
+            "warmup_ms": 45.85126903839409,
+            "capture_ms": 218.94335909746587,
+            "memory_allocated_before": 8167215104,
+            "memory_allocated_after": 8167280128,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 8294236160,
+            "memory_reserved_after": 8290041856,
+            "memory_reserved_delta": -4194304,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 16,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 14,
+            "prepare_ms": 0.8108600741252303,
+            "warmup_ms": 42.00651298742741,
+            "capture_ms": 209.4184170709923,
+            "memory_allocated_before": 8176633856,
+            "memory_allocated_after": 8176763904,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 8313110528,
+            "memory_reserved_after": 8313110528,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 4,
+        "disabled_graphs": {},
+        "calls": {
+          "graph_forward": 6,
+          "graph_forward_T1": 5,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {},
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.007973052561283112,
+        "graph_count": 1,
+        "graph_events": [
+          {
+            "cache_id": 129976381412000,
+            "width": 64,
+            "node_count": 130,
+            "read_bucket": 256,
+            "first_before": 2,
+            "prepare_ms": 5.102395894937217,
+            "warmup_ms": 64.35296789277345,
+            "capture_ms": 243.71482396963984,
+            "memory_allocated_before": 8150173696,
+            "memory_allocated_after": 8158595072,
+            "memory_allocated_delta": 8421376,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 5,
+          "graph_forward": 5,
+          "graph_forward_W64": 5,
+          "verify": 5,
+          "commit_contiguous": 4,
+          "commit": 5,
+          "commit_nodes_2": 2,
+          "commit_nodes_1": 2,
+          "commit_branched": 1,
+          "commit_nodes_3": 1
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 7280,
+          "rope_inputs": 232960,
+          "attention_masks": 232960,
+          "token_cache_writes": 7280,
+          "graph_output_views": 0,
+          "commit_token_clear": 5152,
+          "commit_kv_payload": 589824,
+          "commit_kv_device_moved": 1179648,
+          "commit_token_write": 24
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify"
+      },
+      "graph_initialization_accounting": {
+        "graph_count": 5,
+        "additional_target_trunk_evaluations": 15,
+        "additional_target_input_nodes": 405,
+        "recorded_graph_initialization_seconds": 1.5599662009626627,
+        "scope": "Two warmup evaluations and one capture per saved graph event; replay calls are recorded separately"
+      }
+    }
+  ],
+  "scope": "Discarded 16-token warmup requests retain all logical counters and graph initialization work"
+}

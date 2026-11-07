@@ -1,0 +1,322 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "bos": {
+      "lk_adaptive": {
+        "states": 1536,
+        "sources": 4,
+        "state_means": {
+          "feature_overlap": 0.25834991713002253,
+          "pair_joint_probability": 0.25353191396820834,
+          "position_probability": 0.9527226050267927,
+          "raw_teacher_cross_entropy": 5.417429037275724,
+          "target_top1_agreement": 0.17643229166666666
+        },
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.25834991713002253,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.2535319139682084,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 0.9527226050267927,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.417429037275724,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.17643229166666669,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "feature_overlap": {
+            "difference": 0.04133076314193692,
+            "ci95": [
+              0.02981247348492151,
+              0.05695720971078326
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.04145913639936886,
+            "ci95": [
+              0.029881060758398033,
+              0.05722070188037748
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "position_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "raw_teacher_cross_entropy": {
+            "difference": -0.31708979963635403,
+            "ci95": [
+              -0.4061053837261473,
+              -0.2535186355235055
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "target_top1_agreement": {
+            "difference": 0.022135416666666664,
+            "ci95": [
+              0.009114583333333332,
+              0.045572916666666664
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "w1": {
+        "states": 1536,
+        "sources": 4,
+        "state_means": {
+          "feature_overlap": 0.2170191539880856,
+          "pair_joint_probability": 0.21207277756883955,
+          "position_probability": 0.9527226050267927,
+          "raw_teacher_cross_entropy": 5.734518836912078,
+          "target_top1_agreement": 0.154296875
+        },
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.21701915398808563,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.21207277756883952,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 0.9527226050267927,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.734518836912079,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.154296875,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    },
+    "completion": {
+      "lk_adaptive": {
+        "states": 1536,
+        "sources": 4,
+        "state_means": {
+          "feature_overlap": 0.3217841603014892,
+          "pair_joint_probability": 0.31809062672830213,
+          "position_probability": 0.9557524084035928,
+          "raw_teacher_cross_entropy": 5.007432615772511,
+          "target_top1_agreement": 0.21809895833333334
+        },
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3217841603014892,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.3180906267283022,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 0.9557524084035928,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.00743261577251,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.21809895833333331,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "feature_overlap": {
+            "difference": 0.03499032789297374,
+            "ci95": [
+              0.017407544194385356,
+              0.05246003094896423
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.03541170527028843,
+            "ci95": [
+              0.017831870059683372,
+              0.052243947486098924
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "position_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "raw_teacher_cross_entropy": {
+            "difference": -0.1929851001283775,
+            "ci95": [
+              -0.26843193639069796,
+              -0.08872169465757906
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "target_top1_agreement": {
+            "difference": 0.013020833333333334,
+            "ci95": [
+              0.0013020833333333335,
+              0.02734375
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "w1": {
+        "states": 1536,
+        "sources": 4,
+        "state_means": {
+          "feature_overlap": 0.28679383240851547,
+          "pair_joint_probability": 0.2826789214580137,
+          "position_probability": 0.9557524084035928,
+          "raw_teacher_cross_entropy": 5.200417715900888,
+          "target_top1_agreement": 0.205078125
+        },
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.28679383240851547,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.2826789214580137,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 0.9557524084035928,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.200417715900888,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.205078125,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    }
+  },
+  "models": {
+    "w1": {
+      "checkpoint": "/root/workspace/GaussianGPT/draft_a/runs/feature_target_continue_20261014/selected.pt",
+      "kind": "top",
+      "draft_sampling": {
+        "temperature": 0.9,
+        "top_p": 0.9
+      },
+      "parameters": 2864384,
+      "seconds": 4.405157529050484,
+      "peak_gpu_gib": 0.035292625427246094
+    },
+    "lk_adaptive": {
+      "checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper03_lk/training/lk_adaptive/selected.pt",
+      "kind": "fusion",
+      "draft_sampling": {
+        "temperature": 0.9,
+        "top_p": 1.0
+      },
+      "parameters": 3388672,
+      "seconds": 3.761898122029379,
+      "peak_gpu_gib": 0.037253379821777344
+    }
+  },
+  "data": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/development_states/data/val.pt",
+  "selection": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/development_states/data/selection.json",
+  "split": "val",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "fp32": true,
+  "tf32": false,
+  "batch_size": 1,
+  "temperature": 0.9,
+  "top_p": 0.9,
+  "top_p_scope": "Target; Draft policy listed per model",
+  "target_information": "Saved states and labels shared by all methods; labels used only for evaluation",
+  "cross_entropy": "Raw full-vocabulary teacher soft-label CE; top1 means Target argmax agreement",
+  "joint_scope": "Mean of per-state Position probability times Feature overlap"
+}

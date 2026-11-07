@@ -1,0 +1,125 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: LK losses after bounded Draft-OPD results",
+    "goal": "Determine how LK gradients differ from current CE and TV, then test actual acceptance improvement with unchanged Target sampling",
+    "capabilities": [
+      "Finite-capacity acceptance loss mathematics",
+      "Actual temperature/top-p objective",
+      "LK comparison with CE/KL/TV",
+      "Official loss source if available",
+      "Paired common histories and online acceptance"
+    ],
+    "context": [
+      "RTX5090",
+      "single Feature W1 starting from committed Target states",
+      "fusion_long multi-layer Target inputs",
+      "temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "no repeat EAGLE-3 training",
+      "formal evaluation excluded from training",
+      "one paper at a time",
+      "up to eight distinct mechanisms"
+    ],
+    "evidence": [
+      "original PDF method and mathematics",
+      "training and rollout source",
+      "lossless conditions",
+      "ablation results"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "LK Losses Direct Acceptance Rate Optimization for Speculative Decoding original paper",
+    "LK losses Samarin Krutikov Shevtsov ICML 2026 PMLR 306 method",
+    "LK losses acceptance probability objective gradient mathematics",
+    "LK losses relationship total variation divergence and KL",
+    "LK losses finite capacity draft model optimum acceptance",
+    "LK losses temperature top p sampling training distribution",
+    "LK losses loss definition K hyperparameter theory",
+    "LK losses derivative underrepresented target probability",
+    "LK losses speculative decoding method ablation results",
+    "LK losses official implementation source loss function",
+    "LK losses official github repository Samarin",
+    "LK Losses OpenReview ZqnVidXtxV supplementary code",
+    "LK Losses arxiv author preprint full PDF",
+    "LK losses acceptance rate normalization vocabulary",
+    "LK losses direct token draft EAGLE architectures comparison",
+    "LK losses clipped loss numerical stability conditions",
+    "LK losses soft label teacher probability training",
+    "LK losses single token speculative rejection residual unchanged",
+    "LK losses acceptance length versus per-token acceptance metrics",
+    "LK losses sparse top-p support differentiable training"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "depth": "deep",
+      "queries": [
+        "LK Losses Direct Acceptance Rate Optimization for Speculative Decoding original paper",
+        "LK losses Samarin Krutikov Shevtsov ICML 2026 PMLR 306 method",
+        "LK losses acceptance probability objective gradient mathematics",
+        "LK losses relationship total variation divergence and KL",
+        "LK losses finite capacity draft model optimum acceptance",
+        "LK losses temperature top p sampling training distribution",
+        "LK losses loss definition K hyperparameter theory",
+        "LK losses derivative underrepresented target probability",
+        "LK losses speculative decoding method ablation results",
+        "LK losses official implementation source loss function"
+      ],
+      "agent_id": null,
+      "skill_order": [
+        "academic-local",
+        "academic-evidence"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "depth": "deep",
+      "queries": [
+        "LK losses official github repository Samarin",
+        "LK Losses OpenReview ZqnVidXtxV supplementary code",
+        "LK Losses arxiv author preprint full PDF",
+        "LK losses acceptance rate normalization vocabulary"
+      ],
+      "agent_id": null,
+      "skill_order": [
+        "github-local"
+      ]
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "First mechanism is Draft-OPD; academic and official source evidence are complementary. Current v1 subagent entry is unavailable; primary agent executes both routes sequentially.",
+  "status": "running",
+  "route_id": "pfspec-lk-losses-20261106",
+  "created_at": "2026-11-06T09:36:51.601598+00:00",
+  "executed_leaf_skills": [
+    "academic-local"
+  ],
+  "source_coverage": {
+    "status": "partial",
+    "covered": [
+      "PMLR title, authors, publication metadata and abstract",
+      "OpenAlex source locations"
+    ],
+    "missing": [
+      "Full primary PDF",
+      "Method mathematics",
+      "Official implementation"
+    ]
+  }
+}

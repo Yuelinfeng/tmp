@@ -1,0 +1,739 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "bos": {
+      "fusion_long": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.25256605456580866,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w16": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.4913626247545058,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.4834212119338006,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.23383601888841096,
+            "ci95": [
+              0.1777993093469945,
+              0.30229973886934164
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.23085515736799195,
+            "ci95": [
+              0.1733667475654118,
+              0.3014215484951518
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w32": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.5530879975641673,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.5442610428119928,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.2955613916980724,
+            "ci95": [
+              0.24275016416841785,
+              0.3584066785017323
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.29169498824618423,
+            "ci95": [
+              0.23641138046498525,
+              0.35735103933081874
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w4": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.3726160959984857,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.36694275167444546,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.11508949013239089,
+            "ci95": [
+              0.07508591949617008,
+              0.1730173185668112
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.11437669710863678,
+            "ci95": [
+              0.0743832976810088,
+              0.17274441366828117
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6174511033117749,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.606669578933783,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.35992449744568,
+            "ci95": [
+              0.3059732666178358,
+              0.4131385507736999
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.35410352436797427,
+            "ci95": [
+              0.29643195181236276,
+              0.41136151060340626
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w8": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.4328876300372618,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.4262593379680703,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.17536102417116695,
+            "ci95": [
+              0.1266938081175984,
+              0.2422848504657035
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.17369328340226162,
+            "ci95": [
+              0.12459261547615834,
+              0.24207415364487408
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      }
+    },
+    "completion": {
+      "fusion_long": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.32673540564550163,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w16": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6074626314269835,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.601863856099121,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.2767410822432481,
+            "ci95": [
+              0.21744566067425808,
+              0.33603650381223815
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.2751284504536193,
+            "ci95": [
+              0.21500994669630025,
+              0.33524695421093836
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w32": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6677978958679395,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.6608067763797488,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.33707634668420405,
+            "ci95": [
+              0.2822970660125274,
+              0.39185562735588064
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.3340713707342472,
+            "ci95": [
+              0.278629744055434,
+              0.38951299741306045
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w4": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.46630639422689063,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.4619819131891619,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.13558484504315516,
+            "ci95": [
+              0.09598494795498405,
+              0.17518474213132623
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.1352465075436602,
+            "ci95": [
+              0.0954915376676784,
+              0.175001477419642
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.7190654453083501,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.7091650775231834,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.38834389612461473,
+            "ci95": [
+              0.34579704189910865,
+              0.4308907503501208
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.3824296718776818,
+            "ci95": [
+              0.3394206695178935,
+              0.42543867423747006
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w8": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.5410801507755423,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.5361683612921322,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.2103586015918069,
+            "ci95": [
+              0.15686264486114965,
+              0.2638545583224641
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.2094329556466305,
+            "ci95": [
+              0.15540358065410043,
+              0.26346233063916064
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      }
+    }
+  },
+  "seconds": 10.43114818399772,
+  "peak_gpu_gib": 0.037238121032714844,
+  "checkpoint": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "parameters": 3388672,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "widths": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "rows": 18432,
+  "scope": "Development histories only; larger sets do not change single Feature prediction"
+}

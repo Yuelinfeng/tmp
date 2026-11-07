@@ -1,0 +1,287 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: Acceptance-aware WTV after two-Feature block study",
+    "goal": "Optimize the complete-conditional accepted length of the actual P1/F1/P2 proposals on the valid 130-node runtime",
+    "capabilities": [
+      "P/F/P accepted-length mathematics",
+      "Full-support first Feature observations",
+      "Complete conditional second Position probability",
+      "Matched CE/TV comparison",
+      "Paired natural acceptance and advancement"
+    ],
+    "context": [
+      "RTX5090",
+      "DFlash selected step2800",
+      "64 first Feature candidates, 130 Target nodes",
+      "Target temperature/top-p 0.9/0.9, Draft 0.9/1"
+    ],
+    "constraints": [
+      "one paper at a time",
+      "no formal data for candidate selection",
+      "one major implementation and at most two justified refinements"
+    ],
+    "evidence": [
+      "Original WTV and GRPO definitions",
+      "Conditional-independence limitations",
+      "Matched loss ablations",
+      "Official source if available"
+    ],
+    "time": [
+      "as of 2026-11-07"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Acceptance-Aware Draft Model Training 2609.24150 original WTV method",
+    "Acceptance-aware WTV equation 4 14 15 conditional independence approximation",
+    "Acceptance-aware draft training WTV versus KL TV and LK gradients",
+    "Acceptance-aware draft training actual temperature top p support",
+    "WTV two Feature window complete autoregressive Target branch conditions",
+    "WTV multi-candidate accepted output mass fixed set remaining proposal",
+    "Acceptance-aware full-support teacher importance sampling coverage",
+    "WTV second Feature training first Feature proposal state dependence",
+    "WTV actual Position acceptance weighted two Feature joint objective",
+    "WTV source equal development model selection on new training histories",
+    "Acceptance-aware training controlled same-data CE TV comparison",
+    "Acceptance-aware training GRPO greedy reward stochastic verification differences",
+    "WTV author model capacity and training budget ablations",
+    "WTV sampling verification acceptance length performance tables",
+    "2609.24150 author version official PDF metadata",
+    "Acceptance-aware training Target output distribution preservation",
+    "2609.24150 official source repository",
+    "Acceptance-Aware Draft Model Training official GitHub",
+    "Tianhua Xia Sai Qian Zhang WTV training implementation",
+    "Acceptance-aware speculative decoding window loss author code"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "agent_id": "academic-agent",
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "Acceptance-Aware Draft Model Training 2609.24150 original WTV method",
+        "Acceptance-aware WTV equation 4 14 15 conditional independence approximation",
+        "Acceptance-aware draft training WTV versus KL TV and LK gradients",
+        "Acceptance-aware draft training actual temperature top p support",
+        "WTV two Feature window complete autoregressive Target branch conditions",
+        "WTV multi-candidate accepted output mass fixed set remaining proposal",
+        "Acceptance-aware full-support teacher importance sampling coverage",
+        "WTV second Feature training first Feature proposal state dependence",
+        "WTV actual Position acceptance weighted two Feature joint objective",
+        "WTV source equal development model selection on new training histories",
+        "Acceptance-aware training controlled same-data CE TV comparison",
+        "Acceptance-aware training GRPO greedy reward stochastic verification differences",
+        "WTV author model capacity and training budget ablations",
+        "WTV sampling verification acceptance length performance tables",
+        "2609.24150 author version official PDF metadata",
+        "Acceptance-aware training Target output distribution preservation"
+      ],
+      "skill_order": [
+        "academic-local"
+      ],
+      "scripts": [
+        "scripts/fast_search.py",
+        "academic-evidence/scripts/academic_public.py",
+        "academic-evidence/scripts/extract_paper_brief.py"
+      ],
+      "search_components": [
+        "fast-search",
+        "academic-public-evidence",
+        "google-scholar-html",
+        "openalex-api",
+        "arxiv-api",
+        "crossref-api",
+        "semantic-scholar-api",
+        "rss-atom",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "autocli",
+        "anysearch",
+        "paper-research-router",
+        "literature-evidence-audit"
+      ],
+      "adapter_type": "bundled-academic-workflow",
+      "access_mode": "public-or-pdf",
+      "depth_routes": {
+        "light": [
+          "academic-local"
+        ],
+        "medium": [
+          "academic-local"
+        ],
+        "deep": [
+          "academic-local"
+        ]
+      },
+      "status": "completed",
+      "goal": "Determine whether a complete-conditional window objective improves the weak second Feature without changing exact inference",
+      "evidence": [
+        "Original WTV and GRPO definitions",
+        "Conditional-independence limitations",
+        "Matched loss ablations",
+        "Official source if available"
+      ],
+      "stop_condition": "",
+      "retrieval_methods": [
+        "raw"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "agent_id": "github-agent",
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "2609.24150 official source repository",
+        "Acceptance-Aware Draft Model Training official GitHub",
+        "Tianhua Xia Sai Qian Zhang WTV training implementation",
+        "Acceptance-aware speculative decoding window loss author code"
+      ],
+      "skill_order": [
+        "github-local"
+      ],
+      "scripts": [
+        "scripts/github_public.py",
+        "scripts/platform_discovery.py"
+      ],
+      "search_components": [
+        "github-public-multipath",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "github-search",
+        "github-analyze",
+        "last30days-cn"
+      ],
+      "adapter_type": "bundled-public-research",
+      "access_mode": "public-repository",
+      "depth_routes": {
+        "light": [
+          "github-local"
+        ],
+        "medium": [
+          "github-local"
+        ],
+        "deep": [
+          "github-local"
+        ]
+      },
+      "status": "completed",
+      "goal": "Determine whether a complete-conditional window objective improves the weak second Feature without changing exact inference",
+      "evidence": [
+        "Original WTV and GRPO definitions",
+        "Conditional-independence limitations",
+        "Matched loss ablations",
+        "Official source if available"
+      ],
+      "stop_condition": "",
+      "retrieval_methods": [
+        "rest",
+        "generic-web-discovery"
+      ]
+    }
+  ],
+  "router_path": [
+    {
+      "stage": "requirements",
+      "skill_ids": [
+        "research-router"
+      ]
+    },
+    {
+      "stage": "primary paper and metadata",
+      "skill_ids": [
+        "academic-local",
+        "academic-evidence"
+      ]
+    },
+    {
+      "stage": "public author implementation discovery",
+      "skill_ids": [
+        "github-local"
+      ]
+    },
+    {
+      "stage": "matched training and paired development",
+      "skill_ids": [
+        "research-router"
+      ]
+    }
+  ],
+  "selection_summary": "Chosen P/F/P objective after the two-Feature runtime numeric failure; source alternatives remain in the query plan",
+  "status": "completed",
+  "route_id": "pfspec-aat-pfp-window-20261107",
+  "actual_agent_count": 0,
+  "execution_mode": "primary-agent-public-retrieval",
+  "created_at": "2026-11-06T16:26:10.920034+00:00",
+  "final_leaf_skills": [
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "executed_leaf_skills": [
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "matched_skills": [
+    {
+      "skill_id": "research-router"
+    },
+    {
+      "skill_id": "academic-local"
+    },
+    {
+      "skill_id": "academic-evidence"
+    },
+    {
+      "skill_id": "github-local"
+    }
+  ],
+  "source_coverage": {
+    "status": "partial",
+    "requested": [
+      "Complete WTV and GRPO definitions",
+      "Ablations and original PDF metadata",
+      "Public author training implementation"
+    ],
+    "covered": [
+      "13-page original method and ablations",
+      "Actual conditional P/F/P loss and independent gradients",
+      "Matched 4000-step training and 16 natural EOS outputs"
+    ],
+    "missing": [
+      "No author implementation located by retained discovery attempts"
+    ],
+    "source_count": 2,
+    "direct_source_count": 2,
+    "recency_score": 10
+  },
+  "route_evaluation": {
+    "method": "manual",
+    "problem_coverage": 9,
+    "evidence_directness": 10,
+    "recency": 10,
+    "deduplication": 10,
+    "overall": 9,
+    "execution_cost": {
+      "query_count": 4,
+      "skill_calls": 3,
+      "agent_count": 0,
+      "query_count_scope": "Retained arXiv lookup, GitHub title/id, and domain discovery; other expanded queries are plans only"
+    },
+    "unconfirmed_items": [
+      "Earlier attempts beyond the retained lookup tally are not reconstructed",
+      "No separate controlled attribution of the online history mismatch"
+    ]
+  },
+  "stop_reason": "One major matched P/F/P implementation completed, zero subsequent scientific refinements; no stable online improvement over the full-support 64-candidate starting model"
+}

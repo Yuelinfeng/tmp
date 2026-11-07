@@ -1,0 +1,168 @@
+{
+  "feedback_shards": [
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69401.pt",
+      "bytes": 11314595
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69402.pt",
+      "bytes": 11329123
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69403.pt",
+      "bytes": 11303395
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69404.pt",
+      "bytes": 11316195
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265041.pt",
+      "bytes": 11319765
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265280.pt",
+      "bytes": 11325077
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265287.pt",
+      "bytes": 11317525
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265456.pt",
+      "bytes": 11320917
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72001.pt",
+      "bytes": 11322503
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72002.pt",
+      "bytes": 11317191
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72003.pt",
+      "bytes": 11318471
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72004.pt",
+      "bytes": 11312647
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72005.pt",
+      "bytes": 11307143
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72006.pt",
+      "bytes": 11314503
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72007.pt",
+      "bytes": 11314823
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72008.pt",
+      "bytes": 11310023
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72009.pt",
+      "bytes": 11315271
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72010.pt",
+      "bytes": 11330631
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72011.pt",
+      "bytes": 11304071
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72012.pt",
+      "bytes": 11325639
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72013.pt",
+      "bytes": 11318407
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72014.pt",
+      "bytes": 11310215
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72015.pt",
+      "bytes": 11328519
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-bos-72016.pt",
+      "bytes": 11311111
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20262001.pt",
+      "bytes": 11342969
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20262006.pt",
+      "bytes": 11322873
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20264001.pt",
+      "bytes": 11337081
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265032.pt",
+      "bytes": 11337465
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265115.pt",
+      "bytes": 11329273
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265126.pt",
+      "bytes": 11330489
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265153.pt",
+      "bytes": 11340409
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265163.pt",
+      "bytes": 11334457
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265172.pt",
+      "bytes": 11330105
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265185.pt",
+      "bytes": 11330041
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265189.pt",
+      "bytes": 11339577
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265199.pt",
+      "bytes": 11328057
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265323.pt",
+      "bytes": 11337145
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265400.pt",
+      "bytes": 11322681
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265435.pt",
+      "bytes": 11334969
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/opd-train-completion-sequence_20265453.pt",
+      "bytes": 11314425
+    }
+  ],
+  "common_states": {
+    "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/development_states/data/val.pt",
+    "bytes": 88193629
+  }
+}

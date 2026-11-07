@@ -1,0 +1,71 @@
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+dev-bos-69401 block_joint_w1 5329 31.555
+dev-bos-69401 block_joint_w64 4831 184.693
+dev-bos-69402 block_joint_w64 5121 145.785
+dev-bos-69402 block_joint_w1 3873 16.124
+dev-bos-69403 block_joint_w64 5119 156.168
+dev-bos-69403 block_joint_w1 4763 20.085
+dev-bos-69404 block_joint_w1 5103 23.814
+Traceback (most recent call last):
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_block.py", line 55, in <module>
+    if __name__=='__main__':main()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_block.py", line 52, in main
+    evaluate()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_multidraft.py", line 94, in main
+    evaluate.main()
+  File "/root/autodl-tmp/pfspec_feature_states_20261105/source/evaluate.py", line 206, in main
+    stats,suffix=generate(method,case,budget,arms[method])
+  File "/root/autodl-tmp/pfspec_feature_states_20261105/source/evaluate.py", line 153, in generate
+    return decode(target,adapter.model,ctx['ranker'],ctx['ranks'],case['prompt'],budget,
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_multidraft.py", line 42, in decode
+    result=multi_decode(target,adapter,*args,**kwargs)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_block.py", line 36, in multiple
+    return block_decode(target,adapter,*args,**kwargs)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/block_decoder.py", line 464, in decode
+    return _decode_impl(
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/block_decoder.py", line 301, in _decode_impl
+    logits, states = verify_tree(pending_f, p1, features, p2s)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/block_decoder.py", line 156, in verify_tree
+    logits, states = tree_runtime.verify(cache, pending_f, p1, features, p2s)
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/tree_runtime.py", line 689, in verify
+    state = self._build_graph(
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/tree_runtime.py", line 565, in _build_graph
+    graph_outputs = graph_forward()
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/tree_runtime.py", line 543, in graph_forward
+    return self._trunk(
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/tree_runtime.py", line 482, in _trunk
+    return self.linear_runtime._trunk(
+  File "/root/autodl-tmp/pfspec_feature_states_20261105/source/state_draft.py", line 46, in _trunk
+    logits, high, normalized = super()._trunk(*args, **kwargs)
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/reference/runtime/dynamic_target_graph.py", line 471, in _trunk
+    x = block(x, value_embed, rope,
+  File "/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/workspace/GaussianGPT/model/gpt/nanochat_gpt.py", line 220, in forward
+    x = x + self.attn(norm(x), ve, rope, window_size, kv_cache)
+  File "/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/workspace/GaussianGPT/model/gpt/nanochat_gpt.py", line 180, in forward
+    y = flash_attn.flash_attn_with_kvcache(
+  File "/root/autodl-tmp/gaussiangpt_feature_tree_20261021/source_run04/tree_runtime.py", line 401, in explicit_tree_attention
+    scores = torch.matmul(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 31.36 GiB of which 5.31 MiB is free. Including non-PyTorch memory, this process has 31.35 GiB memory in use. Of the allocated memory 28.57 GiB is allocated by PyTorch, with 13.56 GiB allocated in private pools (e.g., CUDA Graphs), and 391.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

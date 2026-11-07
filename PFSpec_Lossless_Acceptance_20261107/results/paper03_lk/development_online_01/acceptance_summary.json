@@ -1,0 +1,354 @@
+{
+  "cohorts": {
+    "bos": {
+      "lk_ce_tv": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 18664,
+        "generation_seconds": 81.95176354190335,
+        "counts": {
+          "eligible_full_rounds": 7377,
+          "first_position_accepted": 6905,
+          "first_feature_accepted": 1953,
+          "first_pair_accepted": 1953,
+          "total_draft_tokens": 22131,
+          "total_accepted_draft_tokens": 10733,
+          "target_verification_calls": 7377,
+          "target_verification_tokens": 29508,
+          "rounds": 7377,
+          "total_target_calls": 7931,
+          "total_target_input_tokens": 30062
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.936017351226786,
+          "feature_conditional_acceptance": 0.2828385228095583,
+          "pair_joint_acceptance": 0.26474176494509966
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9376028087883832,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.28304634262902056,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.26821960744036366,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.5358910446619793,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 233.68190485181907,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 20.487940885475837,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "lk_full_init": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 17482,
+        "generation_seconds": 76.32242358417716,
+        "counts": {
+          "eligible_full_rounds": 6978,
+          "first_position_accepted": 6519,
+          "first_feature_accepted": 1761,
+          "first_pair_accepted": 1761,
+          "total_draft_tokens": 20934,
+          "total_accepted_draft_tokens": 9962,
+          "target_verification_calls": 6978,
+          "target_verification_tokens": 27912,
+          "rounds": 6978,
+          "total_target_calls": 7520,
+          "total_target_input_tokens": 28454
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9342218400687876,
+          "feature_conditional_acceptance": 0.27013345605154165,
+          "pair_joint_acceptance": 0.2523645743766122
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9349244474102816,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.2764034258067366,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.25939652659072565,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.518209239168705,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 238.38127595061255,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 19.08060589604429,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "lk_log": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 16568,
+        "generation_seconds": 73.1161933398107,
+        "counts": {
+          "eligible_full_rounds": 6828,
+          "first_position_accepted": 6305,
+          "first_feature_accepted": 1454,
+          "first_pair_accepted": 1454,
+          "total_draft_tokens": 20484,
+          "total_accepted_draft_tokens": 9140,
+          "target_verification_calls": 6828,
+          "target_verification_tokens": 27312,
+          "rounds": 6828,
+          "total_target_calls": 7428,
+          "total_target_input_tokens": 27912
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9234036321031048,
+          "feature_conditional_acceptance": 0.23061062648691516,
+          "pair_joint_acceptance": 0.2129466900995899
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9244430690994252,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.230667256652633,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.2164435707561284,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.432300433211091,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 229.57176023224136,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 18.279048334952677,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    },
+    "completion": {
+      "lk_ce_tv": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 15132,
+        "generation_seconds": 62.337326809880324,
+        "counts": {
+          "eligible_full_rounds": 6154,
+          "first_position_accepted": 5688,
+          "first_feature_accepted": 1414,
+          "first_pair_accepted": 1414,
+          "total_draft_tokens": 18462,
+          "total_accepted_draft_tokens": 8451,
+          "target_verification_calls": 6154,
+          "target_verification_tokens": 24616,
+          "rounds": 6154,
+          "total_target_calls": 6685,
+          "total_target_input_tokens": 26167
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.924276893077673,
+          "feature_conditional_acceptance": 0.24859353023909986,
+          "pair_joint_acceptance": 0.2297692557686058
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9342536906694305,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.25676642937098226,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.24341206448099262,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.486133580538141,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 251.36200128580737,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 15.584331702470081,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "lk_full_init": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 16516,
+        "generation_seconds": 68.38007174502127,
+        "counts": {
+          "eligible_full_rounds": 6538,
+          "first_position_accepted": 6147,
+          "first_feature_accepted": 1722,
+          "first_pair_accepted": 1722,
+          "total_draft_tokens": 19614,
+          "total_accepted_draft_tokens": 9523,
+          "target_verification_calls": 6538,
+          "target_verification_tokens": 26152,
+          "rounds": 6538,
+          "total_target_calls": 6997,
+          "total_target_input_tokens": 27631
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9401957785255429,
+          "feature_conditional_acceptance": 0.28013665202537824,
+          "pair_joint_acceptance": 0.2633832976445396
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9458590074443753,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.277917418121645,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.2638479422913568,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.52705037228282,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 247.52538360846296,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 17.095017936255317,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "lk_log": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 15600,
+        "generation_seconds": 63.748218362918124,
+        "counts": {
+          "eligible_full_rounds": 6220,
+          "first_position_accepted": 5716,
+          "first_feature_accepted": 1582,
+          "first_pair_accepted": 1582,
+          "total_draft_tokens": 18660,
+          "total_accepted_draft_tokens": 8802,
+          "target_verification_calls": 6220,
+          "target_verification_tokens": 24880,
+          "rounds": 6220,
+          "total_target_calls": 6802,
+          "total_target_input_tokens": 26482
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9189710610932476,
+          "feature_conditional_acceptance": 0.27676696990902727,
+          "pair_joint_acceptance": 0.2543408360128617
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9251911982888983,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.280290172103644,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.2602951076217835,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.5199252514428885,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 250.30581485979377,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 15.937054590729531,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Original draft candidates only; residual and bonus samples are emitted tokens",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

@@ -1,0 +1,65 @@
+{
+  "files": {
+    "val": [
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69401.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69402.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69403.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69404.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265041.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265280.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265287.pt",
+      "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265456.pt"
+    ]
+  },
+  "source_metadata": {
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69401.pt": {
+      "source": "dev-bos-69401",
+      "pair_id": "dev-bos-69401",
+      "cohort": "bos",
+      "prefix": 0
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69402.pt": {
+      "source": "dev-bos-69402",
+      "pair_id": "dev-bos-69402",
+      "cohort": "bos",
+      "prefix": 0
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69403.pt": {
+      "source": "dev-bos-69403",
+      "pair_id": "dev-bos-69403",
+      "cohort": "bos",
+      "prefix": 0
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-bos-69404.pt": {
+      "source": "dev-bos-69404",
+      "pair_id": "dev-bos-69404",
+      "cohort": "bos",
+      "prefix": 0
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265041.pt": {
+      "source": "sequence_20265041.pt",
+      "pair_id": "dev-completion-sequence_20265041",
+      "cohort": "completion",
+      "prefix": 256
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265280.pt": {
+      "source": "sequence_20265280.pt",
+      "pair_id": "dev-completion-sequence_20265280",
+      "cohort": "completion",
+      "prefix": 256
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265287.pt": {
+      "source": "sequence_20265287.pt",
+      "pair_id": "dev-completion-sequence_20265287",
+      "cohort": "completion",
+      "prefix": 256
+    },
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_shards/dev-completion-sequence_20265456.pt": {
+      "source": "sequence_20265456.pt",
+      "pair_id": "dev-completion-sequence_20265456",
+      "cohort": "completion",
+      "prefix": 256
+    }
+  },
+  "scope": "Prior development inputs; all sampled full-round starts, including unreached Feature branches; never a formal holdout"
+}

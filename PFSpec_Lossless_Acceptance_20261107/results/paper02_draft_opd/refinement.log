@@ -1,0 +1,47 @@
+  File "<string>", line 9
+    meta.write_text(json.dumps(dict(pid=os.getpid(),child=p.pid,status='running'))+'
+                                                                                   ^
+SyntaxError: unterminated string literal (detected at line 9)
+opd_forward 200 {'step': 200, 'loss': 3.321565866470337, 'validation': {'overlap': 0.28707271814346313, 'joint': 0.28657838702201843, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.14935092628002167, 'joint': 0.14881324768066406}, '1': {'overlap': 0.26798686385154724, 'joint': 0.26739776134490967}, '2': {'overlap': 0.32933101058006287, 'joint': 0.3291785418987274}, '3': {'overlap': 0.25791630148887634, 'joint': 0.2568668723106384}, '4': {'overlap': 0.3483904302120209, 'joint': 0.3470798134803772}, '5': {'overlap': 0.30464309453964233, 'joint': 0.30461034178733826}, '6': {'overlap': 0.4240989089012146, 'joint': 0.42406487464904785}, '7': {'overlap': 0.21486404538154602, 'joint': 0.21461552381515503}}}, 'seconds': 2.2835432059364393}
+opd_forward 400 {'step': 400, 'loss': 3.1984939575195312, 'validation': {'overlap': 0.2906932532787323, 'joint': 0.2901957333087921, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.15583094954490662, 'joint': 0.15529726445674896}, '1': {'overlap': 0.27397388219833374, 'joint': 0.27337947487831116}, '2': {'overlap': 0.3313295543193817, 'joint': 0.33119335770606995}, '3': {'overlap': 0.2612678110599518, 'joint': 0.2601778507232666}, '4': {'overlap': 0.3586980998516083, 'joint': 0.35738930106163025}, '5': {'overlap': 0.30512890219688416, 'joint': 0.3050955533981323}, '6': {'overlap': 0.4212391972541809, 'joint': 0.42120447754859924}, '7': {'overlap': 0.21807761490345, 'joint': 0.2178284227848053}}}, 'seconds': 4.422254562960006}
+opd_forward 600 {'step': 600, 'loss': 2.737619400024414, 'validation': {'overlap': 0.2962613105773926, 'joint': 0.29574182629585266, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16085344552993774, 'joint': 0.16030386090278625}, '1': {'overlap': 0.2783677279949188, 'joint': 0.2777307331562042}, '2': {'overlap': 0.3439047336578369, 'joint': 0.34375420212745667}, '3': {'overlap': 0.26378217339515686, 'joint': 0.26263731718063354}, '4': {'overlap': 0.3602590262889862, 'joint': 0.35890957713127136}, '5': {'overlap': 0.30819326639175415, 'joint': 0.30816033482551575}, '6': {'overlap': 0.43493565917015076, 'joint': 0.43488043546676636}, '7': {'overlap': 0.21979443728923798, 'joint': 0.21955806016921997}}}, 'seconds': 6.554299062001519}
+opd_forward 800 {'step': 800, 'loss': 2.5636157989501953, 'validation': {'overlap': 0.2964915335178375, 'joint': 0.2959598898887634, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16259020566940308, 'joint': 0.16201680898666382}, '1': {'overlap': 0.2792172133922577, 'joint': 0.27855512499809265}, '2': {'overlap': 0.33849361538887024, 'joint': 0.33834731578826904}, '3': {'overlap': 0.2664555609226227, 'joint': 0.26532548666000366}, '4': {'overlap': 0.3628491759300232, 'joint': 0.36144182085990906}, '5': {'overlap': 0.3085328936576843, 'joint': 0.30849936604499817}, '6': {'overlap': 0.4317612946033478, 'joint': 0.43170738220214844}, '7': {'overlap': 0.22203224897384644, 'joint': 0.22178567945957184}}}, 'seconds': 8.686470931977965}
+opd_forward 1000 {'step': 1000, 'loss': 2.7742490768432617, 'validation': {'overlap': 0.2996927797794342, 'joint': 0.2991522252559662, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16287663578987122, 'joint': 0.16229555010795593}, '1': {'overlap': 0.2818087041378021, 'joint': 0.2811320424079895}, '2': {'overlap': 0.3477141857147217, 'joint': 0.3475652039051056}, '3': {'overlap': 0.2671044170856476, 'joint': 0.26595476269721985}, '4': {'overlap': 0.36391013860702515, 'joint': 0.3624766767024994}, '5': {'overlap': 0.3138686716556549, 'joint': 0.31383511424064636}, '6': {'overlap': 0.4360312819480896, 'joint': 0.43597662448883057}, '7': {'overlap': 0.22422829270362854, 'joint': 0.22398161888122559}}}, 'seconds': 10.644467658014037}
+opd_forward 1200 {'step': 1200, 'loss': 2.589609146118164, 'validation': {'overlap': 0.29905739426612854, 'joint': 0.2985146939754486, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16543133556842804, 'joint': 0.16483810544013977}, '1': {'overlap': 0.2823750674724579, 'joint': 0.2816943824291229}, '2': {'overlap': 0.34544041752815247, 'joint': 0.345294713973999}, '3': {'overlap': 0.26621896028518677, 'joint': 0.2650507688522339}, '4': {'overlap': 0.3624971807003021, 'joint': 0.3610842823982239}, '5': {'overlap': 0.31298911571502686, 'joint': 0.3129560351371765}, '6': {'overlap': 0.43315306305885315, 'joint': 0.43309399485588074}, '7': {'overlap': 0.22435376048088074, 'joint': 0.2241051346063614}}}, 'seconds': 12.80371071700938}
+opd_forward 1400 {'step': 1400, 'loss': 2.6000449657440186, 'validation': {'overlap': 0.2992071807384491, 'joint': 0.2986665368080139, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16552333533763885, 'joint': 0.16494043171405792}, '1': {'overlap': 0.2830219268798828, 'joint': 0.2823482155799866}, '2': {'overlap': 0.34586918354034424, 'joint': 0.3457220792770386}, '3': {'overlap': 0.2672118842601776, 'joint': 0.26604539155960083}, '4': {'overlap': 0.3621402382850647, 'joint': 0.36072224378585815}, '5': {'overlap': 0.31375184655189514, 'joint': 0.3137190639972687}, '6': {'overlap': 0.4319572150707245, 'joint': 0.4319031238555908}, '7': {'overlap': 0.22418195009231567, 'joint': 0.2239319086074829}}}, 'seconds': 14.926535106962547}
+opd_forward 1600 {'step': 1600, 'loss': 2.4636590480804443, 'validation': {'overlap': 0.2990930676460266, 'joint': 0.2985522150993347, 'reached_rows': 2930, 'sources': 8, 'per_source': {'0': {'overlap': 0.16546405851840973, 'joint': 0.16487686336040497}, '1': {'overlap': 0.28289034962654114, 'joint': 0.282215416431427}, '2': {'overlap': 0.34516584873199463, 'joint': 0.34502026438713074}, '3': {'overlap': 0.2671445906162262, 'joint': 0.26597487926483154}, '4': {'overlap': 0.36246252059936523, 'joint': 0.3610512614250183}, '5': {'overlap': 0.3138055205345154, 'joint': 0.31377261877059937}, '6': {'overlap': 0.4313226640224457, 'joint': 0.4312683045864105}, '7': {'overlap': 0.22448886930942535, 'joint': 0.22423814237117767}}}, 'seconds': 17.061901754001155}
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+dev-bos-69401 opd_forward 4537 24.547
+dev-bos-69401 opd_split_last 5281 29.299
+dev-bos-69402 opd_split_last 4991 22.148
+dev-bos-69402 opd_forward 6071 29.258
+dev-bos-69403 opd_split_last 4091 16.894
+dev-bos-69403 opd_forward 4081 14.024
+dev-bos-69404 opd_forward 4975 21.804
+dev-bos-69404 opd_split_last 4443 16.852
+dev-completion-sequence_20265041 opd_forward 4103 15.341
+dev-completion-sequence_20265041 opd_split_last 5133 22.731
+dev-completion-sequence_20265456 opd_split_last 4293 19.142
+dev-completion-sequence_20265456 opd_forward 3815 15.711
+dev-completion-sequence_20265280 opd_split_last 2585 8.924
+dev-completion-sequence_20265280 opd_forward 4483 17.82
+dev-completion-sequence_20265287 opd_forward 4009 14.145
+dev-completion-sequence_20265287 opd_split_last 3389 11.37
+Common development states 3072 sources 8
+{"status": "complete", "rows": 18432, "output": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/development_offline_01"}
+Saved paired development comparisons

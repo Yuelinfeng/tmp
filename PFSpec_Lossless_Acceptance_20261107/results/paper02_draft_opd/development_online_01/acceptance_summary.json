@@ -1,0 +1,768 @@
+{
+  "cohorts": {
+    "bos": {
+      "fusion_long": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 19664,
+        "generation_seconds": 90.408052682993,
+        "counts": {
+          "eligible_full_rounds": 7824,
+          "first_position_accepted": 7345,
+          "first_feature_accepted": 2006,
+          "first_pair_accepted": 2006,
+          "total_draft_tokens": 23472,
+          "total_accepted_draft_tokens": 11240,
+          "target_verification_calls": 7824,
+          "target_verification_tokens": 31296,
+          "rounds": 7824,
+          "total_target_calls": 8424,
+          "total_target_input_tokens": 31896
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.938778118609407,
+          "feature_conditional_acceptance": 0.27311095983662353,
+          "pair_joint_acceptance": 0.25639059304703476
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9452558878407953,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.27745333484374485,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.26330243585563484,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.5260781465352005,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 225.3265798058204,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 22.60201317074825,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.009071155388553298,
+            "ci95": [
+              -0.010174346136204826,
+              0.028316656913311422
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.07234090932009579,
+            "ci95": [
+              0.020557620812001104,
+              0.13426908855442438
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.06935467992740565,
+            "ci95": [
+              0.019632484049530507,
+              0.1221990646801225
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.1386739241326861,
+            "ci95": [
+              0.03927948658054914,
+              0.24441493918613255
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "opd_ce_tv": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 19418,
+        "generation_seconds": 86.29760600998998,
+        "counts": {
+          "eligible_full_rounds": 7407,
+          "first_position_accepted": 6985,
+          "first_feature_accepted": 2300,
+          "first_pair_accepted": 2300,
+          "total_draft_tokens": 22221,
+          "total_accepted_draft_tokens": 11512,
+          "target_verification_calls": 7407,
+          "target_verification_tokens": 29628,
+          "rounds": 7407,
+          "total_target_calls": 7906,
+          "total_target_input_tokens": 30127
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9430268664776563,
+          "feature_conditional_acceptance": 0.329277022190408,
+          "pair_joint_acceptance": 0.31051707843931414
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.949451342282224,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.34897927736790973,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.3341103538055221,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.667635620327161,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 245.11844167988173,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 21.574401502497494,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.01326660982998204,
+            "ci95": [
+              -0.015179458142934033,
+              0.04171267780289811
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.14386685184426065,
+            "ci95": [
+              0.10899699291588036,
+              0.2029035626821316
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.1401625978772929,
+            "ci95": [
+              0.10085625341606394,
+              0.1968192750827707
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.28023139792464646,
+            "ci95": [
+              0.20163883581205622,
+              0.3936461950112602
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "opd_split": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 19664,
+        "generation_seconds": 90.03572411695495,
+        "counts": {
+          "eligible_full_rounds": 7824,
+          "first_position_accepted": 7345,
+          "first_feature_accepted": 2006,
+          "first_pair_accepted": 2006,
+          "total_draft_tokens": 23472,
+          "total_accepted_draft_tokens": 11240,
+          "target_verification_calls": 7824,
+          "target_verification_tokens": 31296,
+          "rounds": 7824,
+          "total_target_calls": 8424,
+          "total_target_input_tokens": 31896
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.938778118609407,
+          "feature_conditional_acceptance": 0.27311095983662353,
+          "pair_joint_acceptance": 0.25639059304703476
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9452558878407953,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.27745333484374485,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.26330243585563484,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.5260781465352005,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 226.6525476185153,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 22.508931029238738,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.009071155388553298,
+            "ci95": [
+              -0.010174346136204826,
+              0.028316656913311422
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.07234090932009579,
+            "ci95": [
+              0.020557620812001104,
+              0.13426908855442438
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.06935467992740565,
+            "ci95": [
+              0.019632484049530507,
+              0.1221990646801225
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.1386739241326861,
+            "ci95": [
+              0.03927948658054914,
+              0.24441493918613255
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "w1": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 19596,
+        "generation_seconds": 93.77173946308903,
+        "counts": {
+          "eligible_full_rounds": 8272,
+          "first_position_accepted": 7735,
+          "first_feature_accepted": 1524,
+          "first_pair_accepted": 1524,
+          "total_draft_tokens": 24816,
+          "total_accepted_draft_tokens": 10748,
+          "target_verification_calls": 8272,
+          "target_verification_tokens": 33088,
+          "rounds": 8272,
+          "total_target_calls": 8848,
+          "total_target_input_tokens": 33664
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9350822050290135,
+          "feature_conditional_acceptance": 0.19702650290885584,
+          "pair_joint_acceptance": 0.18423597678916828
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.936184732452242,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.20511242552364908,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.1939477559282292,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.3874042224025143,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 215.54350811560505,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 23.44293486577226,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    },
+    "completion": {
+      "fusion_long": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 16410,
+        "generation_seconds": 63.64089180890005,
+        "counts": {
+          "eligible_full_rounds": 6202,
+          "first_position_accepted": 5935,
+          "first_feature_accepted": 2005,
+          "first_pair_accepted": 2005,
+          "total_draft_tokens": 18606,
+          "total_accepted_draft_tokens": 9876,
+          "target_verification_calls": 6202,
+          "target_verification_tokens": 24808,
+          "rounds": 6202,
+          "total_target_calls": 6538,
+          "total_target_input_tokens": 26164
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9569493711705901,
+          "feature_conditional_acceptance": 0.33782645324347094,
+          "pair_joint_acceptance": 0.3232828119961303
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9575420183691753,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.3396622305853243,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.32687458234297356,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.6531012325826353,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 258.76105180916346,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 15.910222952225013,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.030924253532593204,
+            "ci95": [
+              0.00017291570253341604,
+              0.06588013605389229
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.07926109519478437,
+            "ci95": [
+              0.0459023013937615,
+              0.10785771192525369
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.08373279753004466,
+            "ci95": [
+              0.048033731533938556,
+              0.12152741860398457
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.16749595782915438,
+            "ci95": [
+              0.09604391645527754,
+              0.24296034552349877
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "opd_ce_tv": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 16628,
+        "generation_seconds": 71.73906907008495,
+        "counts": {
+          "eligible_full_rounds": 6585,
+          "first_position_accepted": 6085,
+          "first_feature_accepted": 1731,
+          "first_pair_accepted": 1731,
+          "total_draft_tokens": 19755,
+          "total_accepted_draft_tokens": 9425,
+          "target_verification_calls": 6585,
+          "target_verification_tokens": 26340,
+          "rounds": 6585,
+          "total_target_calls": 7207,
+          "total_target_input_tokens": 27982
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9240698557327259,
+          "feature_conditional_acceptance": 0.28447000821692686,
+          "pair_joint_acceptance": 0.26287015945330294
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9330403631955158,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.2861907222925415,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.2679090947796401,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.535159355155638,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 241.10852738319323,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 17.934767267521238,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.006422598358933607,
+            "ci95": [
+              -0.0006836294706001333,
+              0.014566303113241585
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.025789586902001532,
+            "ci95": [
+              -0.023925912778521324,
+              0.08130213111119448
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.024767309966711178,
+            "ci95": [
+              -0.022924254627809476,
+              0.07380328682956372
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.04955408040215736,
+            "ci95": [
+              -0.045705355208015996,
+              0.1475181473723256
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "opd_split": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 16410,
+        "generation_seconds": 63.96820759808179,
+        "counts": {
+          "eligible_full_rounds": 6202,
+          "first_position_accepted": 5935,
+          "first_feature_accepted": 2005,
+          "first_pair_accepted": 2005,
+          "total_draft_tokens": 18606,
+          "total_accepted_draft_tokens": 9876,
+          "target_verification_calls": 6202,
+          "target_verification_tokens": 24808,
+          "rounds": 6202,
+          "total_target_calls": 6538,
+          "total_target_input_tokens": 26164
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9569493711705901,
+          "feature_conditional_acceptance": 0.33782645324347094,
+          "pair_joint_acceptance": 0.3232828119961303
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9575420183691753,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.3396622305853243,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.32687458234297356,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.6531012325826353,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 257.37854810089743,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 15.992051899520447,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "paired_differences_vs_w1": {
+          "position_acceptance": {
+            "difference": 0.030924253532593204,
+            "ci95": [
+              0.00017291570253341604,
+              0.06588013605389229
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_conditional_acceptance": {
+            "difference": 0.07926109519478437,
+            "ci95": [
+              0.0459023013937615,
+              0.10785771192525369
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_acceptance": {
+            "difference": 0.08373279753004466,
+            "ci95": [
+              0.048033731533938556,
+              0.12152741860398457
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "mean_emitted_per_round": {
+            "difference": 0.16749595782915438,
+            "ci95": [
+              0.09604391645527754,
+              0.24296034552349877
+            ],
+            "sources": 4,
+            "requests": 4,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "w1": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 15668,
+        "generation_seconds": 67.72947019792628,
+        "counts": {
+          "eligible_full_rounds": 6368,
+          "first_position_accepted": 5827,
+          "first_feature_accepted": 1468,
+          "first_pair_accepted": 1468,
+          "total_draft_tokens": 19104,
+          "total_accepted_draft_tokens": 8685,
+          "target_verification_calls": 6368,
+          "target_verification_tokens": 25472,
+          "rounds": 6368,
+          "total_target_calls": 6987,
+          "total_target_input_tokens": 27111
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9150439698492462,
+          "feature_conditional_acceptance": 0.2519306675819461,
+          "pair_joint_acceptance": 0.2305276381909548
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9266177648365821,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.26040113539053994,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.24314178481292892,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.485605274753481,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 241.5494892857809,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 16.93236754948157,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Original draft candidates only; residual and bonus samples are emitted tokens",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

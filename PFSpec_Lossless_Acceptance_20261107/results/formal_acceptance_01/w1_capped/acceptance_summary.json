@@ -1,0 +1,68 @@
+{
+  "cohorts": {
+    "capped": {
+      "w1": {
+        "requests": 120,
+        "sources": 30,
+        "eos": 4,
+        "emitted_tokens": 59916,
+        "generation_seconds": 178.996102176141,
+        "counts": {
+          "eligible_full_rounds": 22746,
+          "first_position_accepted": 21055,
+          "first_feature_accepted": 7116,
+          "first_pair_accepted": 7116,
+          "total_draft_tokens": 68336,
+          "total_accepted_draft_tokens": 35088,
+          "target_verification_calls": 22746,
+          "target_verification_tokens": 90984,
+          "rounds": 22844,
+          "total_target_calls": 24948,
+          "total_target_input_tokens": 112364
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9256572584190627,
+          "feature_conditional_acceptance": 0.33797197815245783,
+          "pair_joint_acceptance": 0.3128462147190715
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.919640609544513,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.3412355073426338,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.3179382268547595,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 2.6315491841284713,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 338.0026643828953,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 1.491634184801175,
+            "sources": 30,
+            "omitted_rows": 0
+          }
+        },
+        "feature_acceptance_scope": "Single original sampled Feature candidate"
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Per-method scope is recorded: single candidate or output membership in a verified set",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

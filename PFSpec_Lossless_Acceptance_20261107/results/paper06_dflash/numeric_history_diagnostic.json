@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "source": "dev-bos-69401",
+      "anchor": 1834,
+      "stored_position_probability": 1.0,
+      "linear_position_probability": 1.0,
+      "saved_feature_vs_fresh_linear_tv": 4.9192458391189575e-06,
+      "saved_feature_vs_fresh_linear_support_equal": true,
+      "saved_anchor_hidden_maximum_errors": {
+        "linear2": 0.00015926361083984375,
+        "tree4": 0.00015926361083984375,
+        "tree130": 0.00015926361083984375,
+        "tree642": 0.00015926361083984375
+      },
+      "fresh_tree_vs_linear": {
+        "tree4": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 3.7364661693573e-06,
+            "support_equal": true
+          }
+        ],
+        "tree130": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 3.6191195249557495e-06,
+            "support_equal": true
+          }
+        ],
+        "tree642": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 1.0494142770767212e-05,
+            "support_equal": true
+          }
+        ]
+      }
+    },
+    {
+      "source": "sequence_20265456.pt",
+      "anchor": 2532,
+      "stored_position_probability": 0.0,
+      "linear_position_probability": 0.0,
+      "saved_feature_vs_fresh_linear_tv": 0.00013054694863967597,
+      "saved_feature_vs_fresh_linear_support_equal": false,
+      "saved_anchor_hidden_maximum_errors": {
+        "linear2": 0.001953125,
+        "tree4": 0.001953125,
+        "tree130": 0.001953125,
+        "tree642": 0.001953125
+      },
+      "fresh_tree_vs_linear": {
+        "tree4": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 5.308102117851377e-07,
+            "support_equal": true
+          }
+        ],
+        "tree130": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 1.3075987226329744e-06,
+            "support_equal": true
+          }
+        ],
+        "tree642": [
+          {
+            "tv": 0.0,
+            "support_equal": true
+          },
+          {
+            "tv": 1.255895767826587e-06,
+            "support_equal": true
+          }
+        ]
+      }
+    }
+  ],
+  "work": {
+    "prefix_calls": 276,
+    "prefix_tokens": 17464,
+    "verification_nodes": 1556
+  },
+  "seconds": 11.772189553943463,
+  "scope": "Identical independent fresh caches and 64-token prefill chunks; two retained numeric outliers, ordinary execution only"
+}

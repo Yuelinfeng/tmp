@@ -1,0 +1,105 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: DFlash block drafting with Target history",
+    "goal": "Assess a distinct block-draft architecture using Target history and exact proposal probabilities",
+    "capabilities": [
+      "Multiple Feature predictions",
+      "Target history conditioning",
+      "Exact proposal distribution",
+      "Complete P/F branch dependencies",
+      "Training on actual speculative prefixes"
+    ],
+    "context": [
+      "RTX5090",
+      "fusion_long",
+      "64 Feature candidates",
+      "Target temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "one paper at a time",
+      "no formal data for candidate selection",
+      "one major implementation and at most two justified refinements"
+    ],
+    "evidence": [
+      "Complete original DFlash method and mathematics",
+      "Official architecture, mask, training and inference code",
+      "Ablations and limitations",
+      "Actual proposal law under block diffusion"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "DFlash Block diffusion for flash speculative decoding 2602.06036 original paper",
+    "2602.06036 latest version Jian Chen Yesheng Liang Zhijian Liu",
+    "DFlash model architecture Target hidden history block masks",
+    "DFlash sampling proposal probability single diffusion step lossless verification",
+    "DFlash training noisy prefixes on policy target labels",
+    "DFlash cross attention Target hidden states layer selection",
+    "DFlash draft block conditional dependencies acceptance proof",
+    "DFlash position Feature structured vocabulary GaussianGPT adaptation",
+    "DFlash versus EAGLE3 architecture ablation history context",
+    "DFlash block length draft size training ablations temperature top p",
+    "DFlash exact verification nonautoregressive proposal joint distribution",
+    "DFlash full Target history memory information bottleneck",
+    "DFlash speculative branch training distribution shift",
+    "DFlash autoregressive versus diffusion draft acceptance",
+    "DFlash practical implementation attention mask KV state",
+    "DFlash limitations implementation assumptions",
+    "2602.06036 official GitHub repository",
+    "DFlash Zhijian Liu Jian Chen official training source",
+    "DFlash block diffusion architecture sampling verifier code",
+    "DFlash target feature collection data training mask source"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "depth": "deep",
+      "queries": [
+        "DFlash Block diffusion for flash speculative decoding 2602.06036 original paper",
+        "2602.06036 latest version Jian Chen Yesheng Liang Zhijian Liu",
+        "DFlash model architecture Target hidden history block masks",
+        "DFlash sampling proposal probability single diffusion step lossless verification",
+        "DFlash training noisy prefixes on policy target labels",
+        "DFlash cross attention Target hidden states layer selection",
+        "DFlash draft block conditional dependencies acceptance proof",
+        "DFlash position Feature structured vocabulary GaussianGPT adaptation",
+        "DFlash versus EAGLE3 architecture ablation history context",
+        "DFlash block length draft size training ablations temperature top p",
+        "DFlash exact verification nonautoregressive proposal joint distribution",
+        "DFlash full Target history memory information bottleneck",
+        "DFlash speculative branch training distribution shift",
+        "DFlash autoregressive versus diffusion draft acceptance",
+        "DFlash practical implementation attention mask KV state",
+        "DFlash limitations implementation assumptions"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "depth": "deep",
+      "queries": [
+        "2602.06036 official GitHub repository",
+        "DFlash Zhijian Liu Jian Chen official training source",
+        "DFlash block diffusion architecture sampling verifier code",
+        "DFlash target feature collection data training mask source"
+      ]
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "Prepared from the Draft-OPD primary citation; begin only after the bounded block-verification conclusions are recorded",
+  "status": "prepared",
+  "route_id": "pfspec-dflash-block-20261106"
+}

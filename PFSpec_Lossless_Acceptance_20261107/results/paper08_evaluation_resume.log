@@ -1,0 +1,36 @@
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+Traceback (most recent call last):
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_univer.py", line 43, in <module>
+    if __name__=='__main__':main()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_univer.py", line 40, in main
+    run()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_diffusion.py", line 64, in main
+    evaluate()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_multidraft.py", line 94, in main
+    evaluate.main()
+  File "/root/autodl-tmp/pfspec_feature_states_20261105/source/evaluate.py", line 170, in main
+    eager_stats,eager_tokens=generate(method,case,128,eager_arm)
+  File "/root/autodl-tmp/pfspec_feature_states_20261105/source/evaluate.py", line 153, in generate
+    return decode(target,adapter.model,ctx['ranker'],ctx['ranks'],case['prompt'],budget,
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_multidraft.py", line 42, in decode
+    result=multi_decode(target,adapter,*args,**kwargs)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/evaluate_diffusion.py", line 34, in decode
+    stats,tokens=run(target,adapter,*args,**kwargs)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/univer_decoder.py", line 469, in decode
+    return _decode_impl(
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/univer_decoder.py", line 229, in _decode_impl
+    first = choose_position(ranker, online, previous)
+  File "/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/workspace/GaussianGPT/gpt_position_spec_decode_smoke.py", line 124, in choose_position
+    out = causal.propose(prev)
+  File "/root/workspace/GaussianGPT/gpt_position_spec_decode_smoke.py", line 48, in propose
+    raise RuntimeError('Previous proposal has not been finalized')
+RuntimeError: Previous proposal has not been finalized

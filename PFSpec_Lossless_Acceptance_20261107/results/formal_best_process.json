@@ -1,0 +1,9 @@
+{
+  "pid": 139559,
+  "status": "complete",
+  "log": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/formal_best.log",
+  "started_utc": "2026-11-07 01:06:04",
+  "scope": "Wait for fixed references, then evaluate the selected development winner and formal common histories",
+  "returncode": 0,
+  "ended_utc": "2026-11-07 04:25:12"
+}

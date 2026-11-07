@@ -1,0 +1,24 @@
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+dev-bos-69401 diffusion_univer_w16 3505 165.85
+dev-bos-69402 diffusion_univer_w16 4773 332.319
+dev-bos-69403 diffusion_univer_w16 2615 126.431
+dev-bos-69404 diffusion_univer_w16 5499 419.217
+dev-completion-sequence_20265041 diffusion_univer_w16 5453 399.631
+dev-completion-sequence_20265456 diffusion_univer_w16 4857 367.241
+dev-completion-sequence_20265280 diffusion_univer_w16 2587 99.413
+dev-completion-sequence_20265287 diffusion_univer_w16 3425 142.002

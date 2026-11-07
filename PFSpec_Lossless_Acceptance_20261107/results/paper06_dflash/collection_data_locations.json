@@ -1,0 +1,288 @@
+{
+  "status": "complete",
+  "shards": [
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69401.pt",
+      "bytes": 73469888,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-bos-69401.json",
+      "generated_tokens": 4537,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69402.pt",
+      "bytes": 92334208,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-bos-69402.json",
+      "generated_tokens": 6071,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69403.pt",
+      "bytes": 67855296,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-bos-69403.json",
+      "generated_tokens": 4081,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-bos-69404.pt",
+      "bytes": 78853632,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-bos-69404.json",
+      "generated_tokens": 4975,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265041.pt",
+      "bytes": 71295109,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-completion-sequence_20265041.json",
+      "generated_tokens": 4103,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265280.pt",
+      "bytes": 75969925,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-completion-sequence_20265280.json",
+      "generated_tokens": 4483,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265287.pt",
+      "bytes": 70137861,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-completion-sequence_20265287.json",
+      "generated_tokens": 4009,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/dev-completion-sequence_20265456.pt",
+      "bytes": 67757381,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/dev-completion-sequence_20265456.json",
+      "generated_tokens": 3815,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74001.pt",
+      "bytes": 79968554,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74001.json",
+      "generated_tokens": 5065,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74002.pt",
+      "bytes": 81589930,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74002.json",
+      "generated_tokens": 5197,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74003.pt",
+      "bytes": 84615274,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74003.json",
+      "generated_tokens": 5443,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74004.pt",
+      "bytes": 83778410,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74004.json",
+      "generated_tokens": 5375,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74005.pt",
+      "bytes": 74604202,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74005.json",
+      "generated_tokens": 4629,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74006.pt",
+      "bytes": 56920298,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74006.json",
+      "generated_tokens": 3191,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74007.pt",
+      "bytes": 71063210,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74007.json",
+      "generated_tokens": 4341,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74008.pt",
+      "bytes": 76774442,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74008.json",
+      "generated_tokens": 4805,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74009.pt",
+      "bytes": 83147690,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74009.json",
+      "generated_tokens": 5323,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74010.pt",
+      "bytes": 77335274,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74010.json",
+      "generated_tokens": 4851,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74011.pt",
+      "bytes": 80948586,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74011.json",
+      "generated_tokens": 5145,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74012.pt",
+      "bytes": 57037482,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74012.json",
+      "generated_tokens": 3201,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74013.pt",
+      "bytes": 62035818,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74013.json",
+      "generated_tokens": 3607,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74014.pt",
+      "bytes": 64764458,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74014.json",
+      "generated_tokens": 3829,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74015.pt",
+      "bytes": 71088234,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74015.json",
+      "generated_tokens": 4343,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-bos-74016.pt",
+      "bytes": 87152746,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-bos-74016.json",
+      "generated_tokens": 5649,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20262001.pt",
+      "bytes": 71357103,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20262001.json",
+      "generated_tokens": 4107,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20262006.pt",
+      "bytes": 67293935,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20262006.json",
+      "generated_tokens": 3777,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20264001.pt",
+      "bytes": 81955631,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20264001.json",
+      "generated_tokens": 4969,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265032.pt",
+      "bytes": 81543983,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265032.json",
+      "generated_tokens": 4935,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265115.pt",
+      "bytes": 82152623,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265115.json",
+      "generated_tokens": 4985,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265126.pt",
+      "bytes": 68548911,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265126.json",
+      "generated_tokens": 3879,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265153.pt",
+      "bytes": 77877167,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265153.json",
+      "generated_tokens": 4637,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265163.pt",
+      "bytes": 90986095,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265163.json",
+      "generated_tokens": 5703,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265172.pt",
+      "bytes": 63014063,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265172.json",
+      "generated_tokens": 3429,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265185.pt",
+      "bytes": 70714991,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265185.json",
+      "generated_tokens": 4055,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265189.pt",
+      "bytes": 85327791,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265189.json",
+      "generated_tokens": 5243,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265199.pt",
+      "bytes": 74997743,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265199.json",
+      "generated_tokens": 4403,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265323.pt",
+      "bytes": 79522415,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265323.json",
+      "generated_tokens": 4771,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265400.pt",
+      "bytes": 83286255,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265400.json",
+      "generated_tokens": 5077,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265435.pt",
+      "bytes": 80702639,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265435.json",
+      "generated_tokens": 4867,
+      "eos": true
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/feedback_shards/opd-train-completion-sequence_20265453.pt",
+      "bytes": 80107055,
+      "token_file": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/collection_tokens/opd-train-completion-sequence_20265453.json",
+      "generated_tokens": 4819,
+      "eos": true
+    }
+  ],
+  "count": 40,
+  "eos": 40,
+  "scope": "Original collected prompts, suffixes, actions and counts retained separately; full Target-state memory and teacher rows remain in original server files"
+}

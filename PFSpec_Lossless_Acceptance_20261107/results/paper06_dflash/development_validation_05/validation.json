@@ -1,0 +1,328 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "method": "diffusion_block_w64x4",
+      "pair_id": "dev-bos-69401",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.026565976440906525,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 259,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7393249543383718,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "position"
+            ],
+            "first_pos": 0,
+            "prepare_ms": 0.9174380684271455,
+            "warmup_ms": 38.700215984135866,
+            "capture_ms": 205.87430603336543,
+            "memory_allocated_before": 14617423360,
+            "memory_allocated_after": 14622830592,
+            "memory_allocated_delta": 5407232,
+            "memory_reserved_before": 14810087424,
+            "memory_reserved_after": 14694744064,
+            "memory_reserved_delta": -115343360,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 1,
+            "prepare_ms": 0.7713650120422244,
+            "warmup_ms": 38.598170038312674,
+            "capture_ms": 207.1546909864992,
+            "memory_allocated_before": 14631365632,
+            "memory_allocated_after": 14631430656,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14717812736,
+            "memory_reserved_after": 14717812736,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 16,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 11,
+            "prepare_ms": 0.8178750285878778,
+            "warmup_ms": 38.8936250237748,
+            "capture_ms": 243.2675379095599,
+            "memory_allocated_before": 14696447488,
+            "memory_allocated_after": 14696512512,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15208546304,
+            "memory_reserved_after": 14835253248,
+            "memory_reserved_delta": -373293056,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 64,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 43,
+            "prepare_ms": 0.8737780153751373,
+            "warmup_ms": 41.681949980556965,
+            "capture_ms": 207.3766590328887,
+            "memory_allocated_before": 14705846272,
+            "memory_allocated_after": 14705911296,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14990442496,
+            "memory_reserved_after": 14845739008,
+            "memory_reserved_delta": -144703488,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 128,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 67,
+            "prepare_ms": 0.7867340464144945,
+            "warmup_ms": 38.876887992955744,
+            "capture_ms": 205.886701005511,
+            "memory_allocated_before": 14714696704,
+            "memory_allocated_after": 14714761728,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15003025408,
+            "memory_reserved_after": 14868807680,
+            "memory_reserved_delta": -134217728,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 128,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 126,
+            "prepare_ms": 0.7644189754500985,
+            "warmup_ms": 39.96864799410105,
+            "capture_ms": 208.72808003332466,
+            "memory_allocated_before": 14695484416,
+            "memory_allocated_after": 14695614464,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 14931722240,
+            "memory_reserved_after": 14885584896,
+            "memory_reserved_delta": -46137344,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 6,
+        "disabled_graphs": {},
+        "calls": {
+          "graph_forward": 11,
+          "graph_forward_T1": 10,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {},
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.015686964616179466,
+        "graph_count": 1,
+        "graph_events": [
+          {
+            "cache_id": 130918033025168,
+            "width": 64,
+            "node_count": 130,
+            "read_bucket": 256,
+            "first_before": 124,
+            "prepare_ms": 5.330104031600058,
+            "warmup_ms": 58.7121689459309,
+            "capture_ms": 236.46841500885785,
+            "memory_allocated_before": 14725500928,
+            "memory_allocated_after": 14733922304,
+            "memory_allocated_delta": 8421376,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "calls": {
+          "verify_attempts": 37,
+          "graph_forward": 1,
+          "graph_forward_W64": 1,
+          "verify": 37,
+          "commit_contiguous": 16,
+          "commit": 37,
+          "commit_nodes_1": 4,
+          "eager_forward": 36,
+          "eager_forward_W64": 36,
+          "commit_nodes_2": 10,
+          "commit_branched": 21,
+          "commit_nodes_3": 4,
+          "commit_nodes_4": 17,
+          "commit_nodes_6": 2
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "static_token_inputs": 3120,
+          "rope_inputs": 6016512,
+          "attention_masks": 23766528,
+          "token_cache_writes": 188016,
+          "graph_output_views": 0,
+          "commit_token_clear": 185688,
+          "commit_kv_payload": 16711680,
+          "commit_kv_device_moved": 33423360,
+          "commit_token_write": 680
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify",
+        "feature_levels": 2,
+        "long_tree_graph_enabled": false,
+        "long_tree_execution_reason": "Captured 642-node execution changed a Top-p boundary in native comparison; use ordinary execution for this tree"
+      }
+    },
+    {
+      "method": "diffusion_block_w64x4",
+      "pair_id": "dev-completion-sequence_20265287",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.02697901800274849,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 515,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.8872579783201218,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 512,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 337,
+            "prepare_ms": 0.953968963585794,
+            "warmup_ms": 39.183755056001246,
+            "capture_ms": 210.33646701835096,
+            "memory_allocated_before": 14760830464,
+            "memory_allocated_after": 14760895488,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15214837760,
+            "memory_reserved_after": 14975762432,
+            "memory_reserved_delta": -239075328,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 1,
+        "disabled_graphs": {},
+        "calls": {
+          "original_forward": 1,
+          "graph_forward": 2,
+          "graph_forward_T1": 2
+        },
+        "fallbacks": {
+          "unsupported_query_tokens": 1
+        },
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 64,
+        "runtime_init_ms": 0.016243895515799522,
+        "graph_count": 0,
+        "graph_events": [],
+        "calls": {
+          "verify_attempts": 29,
+          "eager_forward": 29,
+          "eager_forward_W64": 29,
+          "verify": 29,
+          "commit_branched": 21,
+          "commit": 29,
+          "commit_nodes_6": 9,
+          "commit_contiguous": 8,
+          "commit_nodes_4": 17,
+          "commit_nodes_1": 2,
+          "commit_nodes_2": 1
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "token_cache_writes": 148944,
+          "rope_inputs": 4766208,
+          "attention_masks": 19064832,
+          "commit_token_clear": 148752,
+          "commit_kv_payload": 20054016,
+          "commit_kv_device_moved": 40108032,
+          "commit_token_write": 816
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify",
+        "feature_levels": 2,
+        "long_tree_graph_enabled": false,
+        "long_tree_execution_reason": "Captured 642-node execution changed a Top-p boundary in native comparison; use ordinary execution for this tree"
+      }
+    }
+  ]
+}

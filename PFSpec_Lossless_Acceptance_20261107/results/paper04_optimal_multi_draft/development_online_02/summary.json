@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "multi_greedy_w64": {
+      "requests": 4,
+      "tokens": 17944,
+      "seconds": 533.346621783101,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 33.64416172733796
+    }
+  },
+  "completion": {
+    "multi_greedy_w64": {
+      "requests": 4,
+      "tokens": 17816,
+      "seconds": 408.4717894188361,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 43.61623118538535
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "lk_adaptive": {
+      "requests": 4,
+      "tokens": 19058,
+      "seconds": 83.78751050203573,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 227.45633431293987
+    }
+  },
+  "completion": {
+    "lk_adaptive": {
+      "requests": 4,
+      "tokens": 15396,
+      "seconds": 64.69531591492705,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 237.97704334955887
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "cohorts": {
+    "bos": {
+      "diffusion_block_w64x4": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 17826,
+        "generation_seconds": 2203.1958057099255,
+        "counts": {
+          "eligible_full_rounds": 4869,
+          "first_position_accepted": 4477,
+          "first_feature_accepted": 3096,
+          "first_pair_accepted": 3096,
+          "total_draft_tokens": 345699,
+          "total_accepted_draft_tokens": 12346,
+          "target_verification_calls": 4869,
+          "target_verification_tokens": 3125898,
+          "rounds": 4869,
+          "total_target_calls": 5480,
+          "total_target_input_tokens": 3126509
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9194906551653317,
+          "feature_conditional_acceptance": 0.6915345097163279,
+          "pair_joint_acceptance": 0.6358595194085028
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.9258827384124659,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.707795466723015,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.6615058643383741,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 3.73058884075267,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 8.720332548681052,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 550.7989514274814,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_conditional_acceptance": {
+            "mean": 0.31876373125383006,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_joint_acceptance": {
+            "mean": 0.20422333089982184,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_target_tokens_per_call": {
+            "mean": 3.3879265499045945,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "feature_acceptance_scope": "Output belongs to the preverified candidate set, including residual hits",
+        "candidate_count": 311616,
+        "random_proposal_accepts": 210,
+        "residual_set_hits": 2886,
+        "second_feature_counts": {
+          "second_feature_eligible_rounds": 4869,
+          "second_feature_reached": 2898,
+          "second_feature_hits": 946,
+          "second_feature_distinct_candidates": 19476,
+          "second_feature_branch_nodes": 1246464,
+          "total_feature_candidate_nodes": 1558080
+        }
+      }
+    },
+    "completion": {
+      "diffusion_block_w64x4": {
+        "requests": 4,
+        "sources": 4,
+        "eos": 4,
+        "emitted_tokens": 15844,
+        "generation_seconds": 1955.940109915915,
+        "counts": {
+          "eligible_full_rounds": 4191,
+          "first_position_accepted": 3847,
+          "first_feature_accepted": 2755,
+          "first_pair_accepted": 2755,
+          "total_draft_tokens": 297561,
+          "total_accepted_draft_tokens": 11072,
+          "target_verification_calls": 4191,
+          "target_verification_tokens": 2690622,
+          "rounds": 4191,
+          "total_target_calls": 4776,
+          "total_target_input_tokens": 2692227
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9179193509902172,
+          "feature_conditional_acceptance": 0.7161424486612945,
+          "pair_joint_acceptance": 0.6573610116917203
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.933998250270943,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.7517995630281611,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.709865428209641,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 4.012941219965704,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 9.58964118655202,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 488.98502747897874,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_conditional_acceptance": {
+            "mean": 0.41071519612617735,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_joint_acceptance": {
+            "mean": 0.2971667906158292,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "total_target_tokens_per_call": {
+            "mean": 3.6555434034548875,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "feature_acceptance_scope": "Output belongs to the preverified candidate set, including residual hits",
+        "candidate_count": 268224,
+        "random_proposal_accepts": 160,
+        "residual_set_hits": 2595,
+        "second_feature_counts": {
+          "second_feature_eligible_rounds": 4191,
+          "second_feature_reached": 2523,
+          "second_feature_hits": 978,
+          "second_feature_distinct_candidates": 16764,
+          "second_feature_branch_nodes": 1072896,
+          "total_feature_candidate_nodes": 1341120
+        }
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Per-method scope is recorded: single candidate or output membership in a verified set",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

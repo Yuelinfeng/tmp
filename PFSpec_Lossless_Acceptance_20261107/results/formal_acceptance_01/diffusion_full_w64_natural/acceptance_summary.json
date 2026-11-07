@@ -1,0 +1,134 @@
+{
+  "cohorts": {
+    "bos": {
+      "diffusion_full_w64": {
+        "requests": 30,
+        "sources": 30,
+        "eos": 30,
+        "emitted_tokens": 145096,
+        "generation_seconds": 3979.649008677341,
+        "counts": {
+          "eligible_full_rounds": 43566,
+          "first_position_accepted": 40781,
+          "first_feature_accepted": 28967,
+          "first_pair_accepted": 28967,
+          "total_draft_tokens": 2875356,
+          "total_accepted_draft_tokens": 96854,
+          "target_verification_calls": 43566,
+          "target_verification_tokens": 5663580,
+          "rounds": 43566,
+          "total_target_calls": 48242,
+          "total_target_input_tokens": 5668256
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9360740026626269,
+          "feature_conditional_acceptance": 0.7103062700767514,
+          "pair_joint_acceptance": 0.6648992333471055
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.937087364704153,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.7176036495768369,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.6738392206992202,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 3.346956650386399,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 38.9214418167922,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 132.65496695591136,
+            "sources": 30,
+            "omitted_rows": 0
+          }
+        },
+        "feature_acceptance_scope": "Output belongs to the preverified candidate set, including residual hits",
+        "candidate_count": 2788224,
+        "random_proposal_accepts": 1758,
+        "residual_set_hits": 27209
+      }
+    },
+    "completion": {
+      "diffusion_full_w64": {
+        "requests": 60,
+        "sources": 30,
+        "eos": 60,
+        "emitted_tokens": 190812,
+        "generation_seconds": 4718.399781972286,
+        "counts": {
+          "eligible_full_rounds": 59592,
+          "first_position_accepted": 54400,
+          "first_feature_accepted": 35840,
+          "first_pair_accepted": 35840,
+          "total_draft_tokens": 3933074,
+          "total_accepted_draft_tokens": 123446,
+          "target_verification_calls": 59592,
+          "target_verification_tokens": 7746960,
+          "rounds": 59596,
+          "total_target_calls": 67426,
+          "total_target_input_tokens": 7770096
+        },
+        "pooled_rates": {
+          "position_acceptance": 0.9128742113035306,
+          "feature_conditional_acceptance": 0.6588235294117647,
+          "pair_joint_acceptance": 0.6014230097999731
+        },
+        "source_mean_metrics": {
+          "position_acceptance": {
+            "mean": 0.91663411687409,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "feature_conditional_acceptance": {
+            "mean": 0.6675232456828107,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.614610067291948,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 3.2276310231722096,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 48.32827333172069,
+            "sources": 30,
+            "omitted_rows": 0
+          },
+          "total_generation_seconds": {
+            "mean": 78.63999636620477,
+            "sources": 30,
+            "omitted_rows": 0
+          }
+        },
+        "feature_acceptance_scope": "Output belongs to the preverified candidate set, including residual hits",
+        "candidate_count": 3813888,
+        "random_proposal_accepts": 3080,
+        "residual_set_hits": 32760
+      }
+    }
+  },
+  "rate_scope": "Pooled rates retain raw counts; paired differences average within each source first",
+  "feature_scope": "Per-method scope is recorded: single candidate or output membership in a verified set",
+  "verification_scope": "Full-round tree verification, including its pending input; total Target counts also include prefix, bootstrap, K1 and recovery",
+  "draft_time_scope": "Not measured by this count normalizer"
+}

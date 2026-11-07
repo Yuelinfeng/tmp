@@ -1,0 +1,28 @@
+block_joint_w1 completed 4 remaining 4
+block_joint_w64 completed 3 remaining 5
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+dev-completion-sequence_20265041 block_joint_w1 4153 20.187
+dev-completion-sequence_20265456 block_joint_w1 4823 24.611
+dev-completion-sequence_20265280 block_joint_w1 3693 12.965
+dev-completion-sequence_20265287 block_joint_w1 3425 11.546
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+dev-bos-69404 block_joint_w64 5091 193.619
+dev-completion-sequence_20265041 block_joint_w64 5351 164.333
+dev-completion-sequence_20265456 block_joint_w64 4679 159.657
+dev-completion-sequence_20265280 block_joint_w64 2705 50.513
+dev-completion-sequence_20265287 block_joint_w64 4329 61.3
+Paired multi-draft comparisons saved 40

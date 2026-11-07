@@ -1,0 +1,1697 @@
+{
+  "status": "complete",
+  "methods": [
+    "w1",
+    "fusion_long",
+    "diffusion_full_w64"
+  ],
+  "rows": 24,
+  "requests": 2,
+  "sources": [
+    {
+      "pair_id": "dev-bos-69401",
+      "source": "dev-bos-69401",
+      "cohort": "bos",
+      "prescribed_states": 4,
+      "evaluated_states": 4,
+      "unavailable": []
+    },
+    {
+      "pair_id": "dev-completion-sequence_20265041",
+      "source": "sequence_20265041.pt",
+      "cohort": "completion",
+      "prescribed_states": 4,
+      "evaluated_states": 4,
+      "unavailable": []
+    }
+  ],
+  "cohorts": {
+    "bos": {
+      "w1": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.16234643111238256,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.8376535688876174,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.16234643111238256,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.16234643111238256,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 6.11272668838501,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.16234643111238256,
+            "ci95": [
+              0.16234643111238256,
+              0.16234643111238256
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.8376535688876174,
+            "ci95": [
+              0.8376535688876174,
+              0.8376535688876174
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.16234643111238256,
+            "ci95": [
+              0.16234643111238256,
+              0.16234643111238256
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.16234643111238256,
+            "ci95": [
+              0.16234643111238256,
+              0.16234643111238256
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 6.11272668838501,
+            "ci95": [
+              6.11272668838501,
+              6.11272668838501
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "fusion_long": {
+            "feature_overlap": {
+              "difference": -0.02579733604216017,
+              "ci95": [
+                -0.02579733604216017,
+                -0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.02579733604216017,
+              "ci95": [
+                0.02579733604216017,
+                0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.02579733604216017,
+              "ci95": [
+                -0.02579733604216017,
+                -0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.02579733604216017,
+              "ci95": [
+                -0.02579733604216017,
+                -0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.24786818027496338,
+              "ci95": [
+                0.24786818027496338,
+                0.24786818027496338
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "diffusion_full_w64": {
+            "feature_overlap": {
+              "difference": 0.019650344795081764,
+              "ci95": [
+                0.019650344795081764,
+                0.019650344795081764
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.019650344795081764,
+              "ci95": [
+                -0.019650344795081764,
+                -0.019650344795081764
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.3485848870477639,
+              "ci95": [
+                -0.3485848870477639,
+                -0.3485848870477639
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.3485848870477639,
+              "ci95": [
+                -0.3485848870477639,
+                -0.3485848870477639
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.16641241312026978,
+              "ci95": [
+                0.16641241312026978,
+                0.16641241312026978
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      },
+      "fusion_long": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.18814376715454273,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.8118562328454573,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.18814376715454273,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.18814376715454273,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.864858508110046,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.18814376715454273,
+            "ci95": [
+              0.18814376715454273,
+              0.18814376715454273
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.8118562328454573,
+            "ci95": [
+              0.8118562328454573,
+              0.8118562328454573
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.18814376715454273,
+            "ci95": [
+              0.18814376715454273,
+              0.18814376715454273
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.18814376715454273,
+            "ci95": [
+              0.18814376715454273,
+              0.18814376715454273
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.864858508110046,
+            "ci95": [
+              5.864858508110046,
+              5.864858508110046
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "w1": {
+            "feature_overlap": {
+              "difference": 0.02579733604216017,
+              "ci95": [
+                0.02579733604216017,
+                0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.02579733604216017,
+              "ci95": [
+                -0.02579733604216017,
+                -0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.02579733604216017,
+              "ci95": [
+                0.02579733604216017,
+                0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.02579733604216017,
+              "ci95": [
+                0.02579733604216017,
+                0.02579733604216017
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.24786818027496338,
+              "ci95": [
+                -0.24786818027496338,
+                -0.24786818027496338
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "diffusion_full_w64": {
+            "feature_overlap": {
+              "difference": 0.04544768083724193,
+              "ci95": [
+                0.04544768083724193,
+                0.04544768083724193
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.04544768083724193,
+              "ci95": [
+                -0.04544768083724193,
+                -0.04544768083724193
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.32278755100560375,
+              "ci95": [
+                -0.32278755100560375,
+                -0.32278755100560375
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.32278755100560375,
+              "ci95": [
+                -0.32278755100560375,
+                -0.32278755100560375
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.0814557671546936,
+              "ci95": [
+                -0.0814557671546936,
+                -0.0814557671546936
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      },
+      "diffusion_full_w64": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.1426960863173008,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.8573039136826992,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.5109313181601465,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.5109313181601465,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.94631427526474,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.1426960863173008,
+            "ci95": [
+              0.1426960863173008,
+              0.1426960863173008
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.8573039136826992,
+            "ci95": [
+              0.8573039136826992,
+              0.8573039136826992
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.5109313181601465,
+            "ci95": [
+              0.5109313181601465,
+              0.5109313181601465
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.5109313181601465,
+            "ci95": [
+              0.5109313181601465,
+              0.5109313181601465
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.94631427526474,
+            "ci95": [
+              5.94631427526474,
+              5.94631427526474
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "w1": {
+            "feature_overlap": {
+              "difference": -0.019650344795081764,
+              "ci95": [
+                -0.019650344795081764,
+                -0.019650344795081764
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.019650344795081764,
+              "ci95": [
+                0.019650344795081764,
+                0.019650344795081764
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.3485848870477639,
+              "ci95": [
+                0.3485848870477639,
+                0.3485848870477639
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.3485848870477639,
+              "ci95": [
+                0.3485848870477639,
+                0.3485848870477639
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.16641241312026978,
+              "ci95": [
+                -0.16641241312026978,
+                -0.16641241312026978
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "fusion_long": {
+            "feature_overlap": {
+              "difference": -0.04544768083724193,
+              "ci95": [
+                -0.04544768083724193,
+                -0.04544768083724193
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.04544768083724193,
+              "ci95": [
+                0.04544768083724193,
+                0.04544768083724193
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.32278755100560375,
+              "ci95": [
+                0.32278755100560375,
+                0.32278755100560375
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.32278755100560375,
+              "ci95": [
+                0.32278755100560375,
+                0.32278755100560375
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.0814557671546936,
+              "ci95": [
+                0.0814557671546936,
+                0.0814557671546936
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      }
+    },
+    "completion": {
+      "w1": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.29931579902768135,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.7006842009723186,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.29931579902768135,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.29931579902768135,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.8306885957717896,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.29931579902768135,
+            "ci95": [
+              0.29931579902768135,
+              0.29931579902768135
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.7006842009723186,
+            "ci95": [
+              0.7006842009723186,
+              0.7006842009723186
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.29931579902768135,
+            "ci95": [
+              0.29931579902768135,
+              0.29931579902768135
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.29931579902768135,
+            "ci95": [
+              0.29931579902768135,
+              0.29931579902768135
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.8306885957717896,
+            "ci95": [
+              5.8306885957717896,
+              5.8306885957717896
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "fusion_long": {
+            "feature_overlap": {
+              "difference": -0.017861884087324142,
+              "ci95": [
+                -0.017861884087324142,
+                -0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.017861884087324142,
+              "ci95": [
+                0.017861884087324142,
+                0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.017861884087324142,
+              "ci95": [
+                -0.017861884087324142,
+                -0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.017861884087324142,
+              "ci95": [
+                -0.017861884087324142,
+                -0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.08691954612731934,
+              "ci95": [
+                0.08691954612731934,
+                0.08691954612731934
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "diffusion_full_w64": {
+            "feature_overlap": {
+              "difference": -0.03067735955119133,
+              "ci95": [
+                -0.03067735955119133,
+                -0.03067735955119133
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.03067735955119133,
+              "ci95": [
+                0.03067735955119133,
+                0.03067735955119133
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.5307249836623669,
+              "ci95": [
+                -0.5307249836623669,
+                -0.5307249836623669
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.5307249836623669,
+              "ci95": [
+                -0.5307249836623669,
+                -0.5307249836623669
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.4030427932739258,
+              "ci95": [
+                0.4030427932739258,
+                0.4030427932739258
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      },
+      "fusion_long": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3171776831150055,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.6828223168849945,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.3171776831150055,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.3171776831150055,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.74376904964447,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.3171776831150055,
+            "ci95": [
+              0.3171776831150055,
+              0.3171776831150055
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.6828223168849945,
+            "ci95": [
+              0.6828223168849945,
+              0.6828223168849945
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.3171776831150055,
+            "ci95": [
+              0.3171776831150055,
+              0.3171776831150055
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.3171776831150055,
+            "ci95": [
+              0.3171776831150055,
+              0.3171776831150055
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.74376904964447,
+            "ci95": [
+              5.74376904964447,
+              5.74376904964447
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "w1": {
+            "feature_overlap": {
+              "difference": 0.017861884087324142,
+              "ci95": [
+                0.017861884087324142,
+                0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.017861884087324142,
+              "ci95": [
+                -0.017861884087324142,
+                -0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.017861884087324142,
+              "ci95": [
+                0.017861884087324142,
+                0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.017861884087324142,
+              "ci95": [
+                0.017861884087324142,
+                0.017861884087324142
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.08691954612731934,
+              "ci95": [
+                -0.08691954612731934,
+                -0.08691954612731934
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "diffusion_full_w64": {
+            "feature_overlap": {
+              "difference": -0.012815475463867188,
+              "ci95": [
+                -0.012815475463867188,
+                -0.012815475463867188
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": 0.012815475463867188,
+              "ci95": [
+                0.012815475463867188,
+                0.012815475463867188
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": -0.5128630995750427,
+              "ci95": [
+                -0.5128630995750427,
+                -0.5128630995750427
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": -0.5128630995750427,
+              "ci95": [
+                -0.5128630995750427,
+                -0.5128630995750427
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": 0.31612324714660645,
+              "ci95": [
+                0.31612324714660645,
+                0.31612324714660645
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      },
+      "diffusion_full_w64": {
+        "states": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3299931585788727,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_tv": {
+            "mean": 0.6700068414211273,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.8300407826900482,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.8300407826900482,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.427645802497864,
+            "sources": 1,
+            "omitted_rows": 0
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "sources": 1,
+            "omitted_rows": 0
+          }
+        },
+        "source_mean_intervals": {
+          "feature_overlap": {
+            "mean": 0.3299931585788727,
+            "ci95": [
+              0.3299931585788727,
+              0.3299931585788727
+            ],
+            "sources": 1
+          },
+          "feature_tv": {
+            "mean": 0.6700068414211273,
+            "ci95": [
+              0.6700068414211273,
+              0.6700068414211273
+            ],
+            "sources": 1
+          },
+          "feature_set_acceptance": {
+            "mean": 0.8300407826900482,
+            "ci95": [
+              0.8300407826900482,
+              0.8300407826900482
+            ],
+            "sources": 1
+          },
+          "pair_joint_probability": {
+            "mean": 0.8300407826900482,
+            "ci95": [
+              0.8300407826900482,
+              0.8300407826900482
+            ],
+            "sources": 1
+          },
+          "position_probability": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "sources": 1
+          },
+          "raw_teacher_cross_entropy": {
+            "mean": 5.427645802497864,
+            "ci95": [
+              5.427645802497864,
+              5.427645802497864
+            ],
+            "sources": 1
+          },
+          "target_top1_agreement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 1
+          }
+        },
+        "paired_differences": {
+          "w1": {
+            "feature_overlap": {
+              "difference": 0.03067735955119133,
+              "ci95": [
+                0.03067735955119133,
+                0.03067735955119133
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.03067735955119133,
+              "ci95": [
+                -0.03067735955119133,
+                -0.03067735955119133
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.5307249836623669,
+              "ci95": [
+                0.5307249836623669,
+                0.5307249836623669
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.5307249836623669,
+              "ci95": [
+                0.5307249836623669,
+                0.5307249836623669
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.4030427932739258,
+              "ci95": [
+                -0.4030427932739258,
+                -0.4030427932739258
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          },
+          "fusion_long": {
+            "feature_overlap": {
+              "difference": 0.012815475463867188,
+              "ci95": [
+                0.012815475463867188,
+                0.012815475463867188
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_tv": {
+              "difference": -0.012815475463867188,
+              "ci95": [
+                -0.012815475463867188,
+                -0.012815475463867188
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "feature_set_acceptance": {
+              "difference": 0.5128630995750427,
+              "ci95": [
+                0.5128630995750427,
+                0.5128630995750427
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "pair_joint_probability": {
+              "difference": 0.5128630995750427,
+              "ci95": [
+                0.5128630995750427,
+                0.5128630995750427
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "position_probability": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "raw_teacher_cross_entropy": {
+              "difference": -0.31612324714660645,
+              "ci95": [
+                -0.31612324714660645,
+                -0.31612324714660645
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            },
+            "target_top1_agreement": {
+              "difference": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "sources": 1,
+              "requests": 4,
+              "undefined_cases": [],
+              "bootstrap_repeats": 5000,
+              "bootstrap_seed": 20261106
+            }
+          }
+        }
+      }
+    }
+  },
+  "work": {
+    "prefix_target_calls": 149,
+    "prefix_target_tokens": 9360,
+    "conditional_target_calls": 8,
+    "conditional_target_tokens": 16,
+    "ranker_calls": 16,
+    "draft_calls": 24,
+    "draft_input_tokens": 56,
+    "draft_context_tokens": 512
+  },
+  "seconds": 8.099401748972014,
+  "scope": "Development validation",
+  "sampling": {
+    "rows_per_request": 4,
+    "seed": 20261107,
+    "prefix_chunk_tokens": 64
+  },
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "diffusion_full_w64": {
+      "temperature": 0.9,
+      "top_p": 1.0
+    }
+  },
+  "history_scope": "All methods use identical committed states, actual causal Position proposals, and one ordinary full conditional Target policy; unavailable full-round states remain listed",
+  "feature_scope": "First Feature acceptance from the actual coupling; zero first-Position probability remains in joint rows and is undefined for Feature conditional acceptance",
+  "cross_entropy_scope": "Raw teacher soft-label CE over all Feature tokens; overlap uses each actual inference policy",
+  "cost_scope": "Additional Target prefix and conditional work is measured separately from online generation"
+}

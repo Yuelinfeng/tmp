@@ -1,0 +1,13 @@
+{
+  "draft_top_p": 1.0,
+  "feature_block_depth": 2,
+  "first_feature_candidates": 16,
+  "second_feature_candidates_per_parent": 4,
+  "second_candidate_randomness": "Independent remaining draw for every first Feature parent",
+  "target_temperature": 0.9,
+  "target_top_p": 0.9,
+  "verification": "UniVer",
+  "selected_training_step": 2800,
+  "weight_update_steps": 0,
+  "source_checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt"
+}

@@ -1,0 +1,58 @@
+Prepared 40 inputs
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+Observation equivalence passed
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+opd-train-bos-74001 5065 {'feature_accepted': 485, 'feature_rejected': 1392, 'position_rejected': 170}
+opd-train-bos-74002 5197 {'feature_rejected': 1273, 'position_rejected': 123, 'feature_accepted': 601}
+opd-train-bos-74003 5443 {'feature_rejected': 1291, 'feature_accepted': 642, 'position_rejected': 146}
+opd-train-bos-74004 5375 {'feature_rejected': 1278, 'feature_accepted': 652, 'position_rejected': 105}
+opd-train-bos-74005 4629 {'feature_accepted': 526, 'feature_rejected': 1168, 'position_rejected': 94}
+opd-train-bos-74006 3191 {'feature_rejected': 967, 'position_rejected': 76, 'feature_accepted': 276}
+opd-train-bos-74007 4341 {'feature_rejected': 1106, 'feature_accepted': 445, 'position_rejected': 174}
+opd-train-bos-74008 4805 {'feature_rejected': 1642, 'feature_accepted': 280, 'position_rejected': 200}
+opd-train-bos-74009 5323 {'feature_rejected': 1912, 'position_rejected': 281, 'feature_accepted': 234}
+opd-train-bos-74010 4851 {'feature_rejected': 1197, 'feature_accepted': 546, 'position_rejected': 136}
+opd-train-bos-74011 5145 {'feature_rejected': 1165, 'position_rejected': 25, 'feature_accepted': 691}
+opd-train-bos-74012 3201 {'feature_accepted': 538, 'feature_rejected': 522, 'position_rejected': 2}
+opd-train-bos-74013 3607 {'feature_rejected': 1070, 'feature_accepted': 343, 'position_rejected': 47}
+opd-train-bos-74014 3829 {'feature_rejected': 857, 'position_rejected': 133, 'feature_accepted': 462}
+opd-train-bos-74015 4343 {'feature_rejected': 1216, 'position_rejected': 105, 'feature_accepted': 425}
+opd-train-bos-74016 5649 {'feature_rejected': 1606, 'feature_accepted': 478, 'position_rejected': 262}
+opd-train-completion-sequence_20265400 5077 {'feature_rejected': 1529, 'feature_accepted': 427, 'position_rejected': 156}
+opd-train-completion-sequence_20265172 3429 {'feature_rejected': 863, 'feature_accepted': 391, 'position_rejected': 70}
+opd-train-completion-sequence_20265199 4403 {'feature_accepted': 293, 'feature_rejected': 1385, 'position_rejected': 231}
+opd-train-completion-sequence_20265189 5243 {'feature_accepted': 491, 'feature_rejected': 1460, 'position_rejected': 180}
+opd-train-completion-sequence_20265453 4819 {'feature_rejected': 1029, 'feature_accepted': 677, 'position_rejected': 27}
+opd-train-completion-sequence_20265032 4935 {'feature_accepted': 201, 'feature_rejected': 1836, 'position_rejected': 230}
+opd-train-completion-sequence_20262006 3777 {'position_rejected': 93, 'feature_accepted': 444, 'feature_rejected': 908}
+opd-train-completion-sequence_20265115 4985 {'feature_rejected': 1286, 'feature_accepted': 512, 'position_rejected': 183}
+opd-train-completion-sequence_20265323 4771 {'feature_accepted': 407, 'feature_rejected': 1364, 'position_rejected': 208}
+opd-train-completion-sequence_20265185 4055 {'feature_accepted': 387, 'feature_rejected': 1104, 'position_rejected': 150}
+opd-train-completion-sequence_20265153 4637 {'feature_rejected': 1540, 'feature_accepted': 255, 'position_rejected': 269}
+opd-train-completion-sequence_20265435 4867 {'feature_rejected': 1383, 'position_rejected': 117, 'feature_accepted': 467}
+opd-train-completion-sequence_20264001 4969 {'feature_accepted': 524, 'feature_rejected': 1218, 'position_rejected': 219}
+opd-train-completion-sequence_20265126 3879 {'feature_rejected': 1042, 'feature_accepted': 439, 'position_rejected': 20}
+opd-train-completion-sequence_20262001 4107 {'feature_accepted': 298, 'feature_rejected': 1295, 'position_rejected': 163}
+opd-train-completion-sequence_20265163 5703 {'feature_rejected': 1710, 'position_rejected': 200, 'feature_accepted': 471}
+dev-bos-69401 4537 {'feature_rejected': 1525, 'position_rejected': 99, 'feature_accepted': 322}
+dev-bos-69402 6071 {'feature_accepted': 609, 'position_rejected': 269, 'feature_rejected': 1548}
+dev-bos-69403 4081 {'feature_rejected': 936, 'feature_accepted': 550, 'position_rejected': 4}
+dev-bos-69404 4975 {'feature_rejected': 1330, 'feature_accepted': 525, 'position_rejected': 107}
+dev-completion-sequence_20265041 4103 {'feature_rejected': 895, 'feature_accepted': 551, 'position_rejected': 55}
+dev-completion-sequence_20265456 3815 {'feature_accepted': 306, 'feature_rejected': 1174, 'position_rejected': 122}
+dev-completion-sequence_20265280 4483 {'feature_accepted': 553, 'feature_rejected': 1078, 'position_rejected': 58}
+dev-completion-sequence_20265287 4009 {'feature_rejected': 783, 'feature_accepted': 595, 'position_rejected': 32}

@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "opd_fullsplit": {
+      "requests": 4,
+      "tokens": 19796,
+      "seconds": 87.21865020901896,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 226.9698046525486
+    }
+  },
+  "completion": {
+    "opd_fullsplit": {
+      "requests": 4,
+      "tokens": 14918,
+      "seconds": 60.45386276592035,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 246.7666964105017
+    }
+  }
+}

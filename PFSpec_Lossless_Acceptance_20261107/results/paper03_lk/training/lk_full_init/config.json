@@ -1,0 +1,12 @@
+{
+  "initial": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "trained": false,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 1.0
+  }
+}

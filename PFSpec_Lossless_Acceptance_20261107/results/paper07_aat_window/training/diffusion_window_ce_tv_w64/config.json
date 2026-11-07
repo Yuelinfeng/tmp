@@ -1,0 +1,278 @@
+{
+  "root": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window",
+  "loss": "ce_tv",
+  "steps": 4000,
+  "batch_size": 16,
+  "lr": 0.0001,
+  "base_lr": 1e-05,
+  "evaluate_every": 400,
+  "seed": 20261107,
+  "initial": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "starting_checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_full_w64/selected.pt",
+  "starting_step": 2800,
+  "layers": 5,
+  "memory_tokens": 64,
+  "kind": "diffusion_context",
+  "feature_candidate_width": 64,
+  "feature_block_depth": 1,
+  "draft_top_p": 1.0,
+  "parameters": 71809280,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 1.0
+  },
+  "train_sources": [
+    {
+      "source": "aat-bos-75001",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75001.pt"
+    },
+    {
+      "source": "aat-bos-75002",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75002.pt"
+    },
+    {
+      "source": "aat-bos-75003",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75003.pt"
+    },
+    {
+      "source": "aat-bos-75004",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75004.pt"
+    },
+    {
+      "source": "aat-bos-75005",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75005.pt"
+    },
+    {
+      "source": "aat-bos-75006",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75006.pt"
+    },
+    {
+      "source": "aat-bos-75007",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75007.pt"
+    },
+    {
+      "source": "aat-bos-75008",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75008.pt"
+    },
+    {
+      "source": "aat-bos-75009",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75009.pt"
+    },
+    {
+      "source": "aat-bos-75010",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75010.pt"
+    },
+    {
+      "source": "aat-bos-75011",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75011.pt"
+    },
+    {
+      "source": "aat-bos-75012",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75012.pt"
+    },
+    {
+      "source": "aat-bos-75013",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75013.pt"
+    },
+    {
+      "source": "aat-bos-75014",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75014.pt"
+    },
+    {
+      "source": "aat-bos-75015",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75015.pt"
+    },
+    {
+      "source": "aat-bos-75016",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-bos-75016.pt"
+    },
+    {
+      "source": "sequence_20264009.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20264009.pt"
+    },
+    {
+      "source": "sequence_20264030.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20264030.pt"
+    },
+    {
+      "source": "sequence_20265005.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265005.pt"
+    },
+    {
+      "source": "sequence_20265045.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265045.pt"
+    },
+    {
+      "source": "sequence_20265053.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265053.pt"
+    },
+    {
+      "source": "sequence_20265058.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265058.pt"
+    },
+    {
+      "source": "sequence_20265070.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265070.pt"
+    },
+    {
+      "source": "sequence_20265104.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265104.pt"
+    },
+    {
+      "source": "sequence_20265140.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265140.pt"
+    },
+    {
+      "source": "sequence_20265306.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265306.pt"
+    },
+    {
+      "source": "sequence_20265321.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265321.pt"
+    },
+    {
+      "source": "sequence_20265345.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265345.pt"
+    },
+    {
+      "source": "sequence_20265349.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265349.pt"
+    },
+    {
+      "source": "sequence_20265368.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265368.pt"
+    },
+    {
+      "source": "sequence_20265371.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265371.pt"
+    },
+    {
+      "source": "sequence_20265394.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/aat-train-completion-sequence_20265394.pt"
+    }
+  ],
+  "development_sources": [
+    {
+      "source": "dev-bos-69401",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-bos-69401.pt"
+    },
+    {
+      "source": "dev-bos-69402",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-bos-69402.pt"
+    },
+    {
+      "source": "dev-bos-69403",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-bos-69403.pt"
+    },
+    {
+      "source": "dev-bos-69404",
+      "cohort": "bos",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-bos-69404.pt"
+    },
+    {
+      "source": "sequence_20265041.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-completion-sequence_20265041.pt"
+    },
+    {
+      "source": "sequence_20265280.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-completion-sequence_20265280.pt"
+    },
+    {
+      "source": "sequence_20265287.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-completion-sequence_20265287.pt"
+    },
+    {
+      "source": "sequence_20265456.pt",
+      "cohort": "completion",
+      "rows": 384,
+      "shard": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper07_aat_window/feedback_shards/dev-completion-sequence_20265456.pt"
+    }
+  ],
+  "train_rows": 12288,
+  "development_rows": 3072,
+  "formal_sources_used": false,
+  "window_scope": "P1/F1/P2 actual Draft tokens; second Feature prediction is unused",
+  "teacher_scope": "Full-support old Feature sample and its full conditional Target P2 probability",
+  "objective_scope": "First-Feature CE+2TV at actual Target/Draft sampling probabilities or pure negative expected P/F/P accepted length; no KL term in the window objective"
+}

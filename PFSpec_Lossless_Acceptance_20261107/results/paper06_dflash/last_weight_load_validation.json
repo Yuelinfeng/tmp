@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "checkpoint": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/last.pt",
+  "parameters": 71809280,
+  "shape": [
+    1,
+    2,
+    4096
+  ],
+  "finite": true,
+  "mass_error": 2.384185791015625e-07,
+  "scope": "Actual last-weight loading through the same model factory and a real recorded CPU example; no new natural or performance trial"
+}

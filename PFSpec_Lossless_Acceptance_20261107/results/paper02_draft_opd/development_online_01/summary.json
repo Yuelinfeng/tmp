@@ -1,0 +1,184 @@
+{
+  "bos": {
+    "fusion_long": {
+      "requests": 4,
+      "tokens": 19664,
+      "seconds": 90.408052682993,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 1.0429222462473784,
+            "ci95": [
+              0.9493034772881109,
+              1.1457735463319785
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 1.0470301253119403,
+            "ci95": [
+              0.7774638055280275,
+              1.41006189036181
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 217.50274910742624
+    },
+    "opd_ce_tv": {
+      "requests": 4,
+      "tokens": 19418,
+      "seconds": 86.29760600998998,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 1.1241334888199803,
+            "ci95": [
+              1.0439206582903868,
+              1.2199224635895547
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 1.1589814729952048,
+            "ci95": [
+              0.872317284584482,
+              1.561669565204628
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 225.01203564965795
+    },
+    "opd_split": {
+      "requests": 4,
+      "tokens": 19664,
+      "seconds": 90.03572411695495,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 1.0485445979163255,
+            "ci95": [
+              0.9470933158228181,
+              1.1608631963201321
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 1.0526746223908616,
+            "ci95": [
+              0.7756537199392265,
+              1.4286321745644
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 218.4021974928172
+    },
+    "w1": {
+      "requests": 4,
+      "tokens": 19596,
+      "seconds": 93.77173946308903,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 208.97554116198825
+    }
+  },
+  "completion": {
+    "fusion_long": {
+      "requests": 4,
+      "tokens": 16410,
+      "seconds": 63.64089180890005,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 1.0781016219583763,
+            "ci95": [
+              0.9700698445166375,
+              1.198164352638371
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 1.0013093712782961,
+            "ci95": [
+              0.6894426718043317,
+              1.4542477540384773
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 257.8530805205513
+    },
+    "opd_ce_tv": {
+      "requests": 4,
+      "tokens": 16628,
+      "seconds": 71.73906907008495,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 0.999751626253829,
+            "ci95": [
+              0.9048795228586958,
+              1.104570596359109
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 0.9470321814362815,
+            "ci95": [
+              0.7255013792951316,
+              1.2243443155385683
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 231.784440689569
+    },
+    "opd_split": {
+      "requests": 4,
+      "tokens": 16410,
+      "seconds": 63.96820759808179,
+      "eos": 4,
+      "comparisons": {
+        "w1": {
+          "throughput": {
+            "ratio": 1.0725573505679051,
+            "ci95": [
+              0.961549097341627,
+              1.1963812076134972
+            ],
+            "sources": 4
+          },
+          "generation_request_time": {
+            "ratio": 0.9961600135673739,
+            "ci95": [
+              0.6833868535234991,
+              1.4520834978228447
+            ],
+            "sources": 4
+          }
+        }
+      },
+      "pooled_tokens_per_second": 256.5336847189085
+    },
+    "w1": {
+      "requests": 4,
+      "tokens": 15668,
+      "seconds": 67.72947019792628,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 231.33209154321304
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "two_feature_levels": false,
+      "accepted_prefix_length": 0,
+      "submitted_positions": [
+        21
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": false,
+      "accepted_prefix_length": 1,
+      "submitted_positions": [
+        11
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": false,
+      "accepted_prefix_length": 2,
+      "submitted_positions": [
+        11,
+        21
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": false,
+      "accepted_prefix_length": 3,
+      "submitted_positions": [
+        11,
+        13
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 0,
+      "submitted_positions": [
+        21
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 1,
+      "submitted_positions": [
+        11
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 2,
+      "submitted_positions": [
+        11,
+        21
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 3,
+      "submitted_positions": [
+        11,
+        13
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 4,
+      "submitted_positions": [
+        11,
+        13,
+        21
+      ],
+      "next_proposal_ready": true
+    },
+    {
+      "two_feature_levels": true,
+      "accepted_prefix_length": 5,
+      "submitted_positions": [
+        11,
+        13,
+        16
+      ],
+      "next_proposal_ready": true
+    }
+  ]
+}

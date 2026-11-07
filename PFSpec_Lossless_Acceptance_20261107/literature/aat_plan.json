@@ -1,0 +1,119 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: Acceptance-aware WTV after two-Feature block study",
+    "goal": "Determine whether a complete-conditional window objective improves the weak second Feature without changing exact inference",
+    "capabilities": [
+      "Complete P/F window mathematics",
+      "Full-support feedback teachers",
+      "Matched CE/TV training comparison",
+      "Actual independent block proposal probabilities",
+      "Source-level joint acceptance and advancement"
+    ],
+    "context": [
+      "RTX5090",
+      "DFlash step2800",
+      "64 first and 4 second Feature candidates",
+      "Target temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "one paper at a time",
+      "no formal data for candidate selection",
+      "one major implementation and at most two justified refinements"
+    ],
+    "evidence": [
+      "Original WTV and GRPO definitions",
+      "Conditional-independence limitations",
+      "Matched loss ablations",
+      "Official source if available"
+    ],
+    "time": [
+      "as of 2026-11-07"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Acceptance-Aware Draft Model Training 2609.24150 original WTV method",
+    "Acceptance-aware WTV equation 4 14 15 conditional independence approximation",
+    "Acceptance-aware draft training WTV versus KL TV and LK gradients",
+    "Acceptance-aware draft training actual temperature top p support",
+    "WTV two Feature window complete autoregressive Target branch conditions",
+    "WTV multi-candidate accepted output mass fixed set remaining proposal",
+    "Acceptance-aware full-support teacher importance sampling coverage",
+    "WTV second Feature training first Feature proposal state dependence",
+    "WTV actual Position acceptance weighted two Feature joint objective",
+    "WTV source equal development model selection on new training histories",
+    "Acceptance-aware training controlled same-data CE TV comparison",
+    "Acceptance-aware training GRPO greedy reward stochastic verification differences",
+    "WTV author model capacity and training budget ablations",
+    "WTV sampling verification acceptance length performance tables",
+    "2609.24150 author version official PDF metadata",
+    "Acceptance-aware training Target output distribution preservation",
+    "2609.24150 official source repository",
+    "Acceptance-Aware Draft Model Training official GitHub",
+    "Tianhua Xia Sai Qian Zhang WTV training implementation",
+    "Acceptance-aware speculative decoding window loss author code"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "depth": "deep",
+      "queries": [
+        "Acceptance-Aware Draft Model Training 2609.24150 original WTV method",
+        "Acceptance-aware WTV equation 4 14 15 conditional independence approximation",
+        "Acceptance-aware draft training WTV versus KL TV and LK gradients",
+        "Acceptance-aware draft training actual temperature top p support",
+        "WTV two Feature window complete autoregressive Target branch conditions",
+        "WTV multi-candidate accepted output mass fixed set remaining proposal",
+        "Acceptance-aware full-support teacher importance sampling coverage",
+        "WTV second Feature training first Feature proposal state dependence",
+        "WTV actual Position acceptance weighted two Feature joint objective",
+        "WTV source equal development model selection on new training histories",
+        "Acceptance-aware training controlled same-data CE TV comparison",
+        "Acceptance-aware training GRPO greedy reward stochastic verification differences",
+        "WTV author model capacity and training budget ablations",
+        "WTV sampling verification acceptance length performance tables",
+        "2609.24150 author version official PDF metadata",
+        "Acceptance-aware training Target output distribution preservation"
+      ],
+      "goal": "Determine whether a complete-conditional window objective improves the weak second Feature without changing exact inference",
+      "evidence": [
+        "Original WTV and GRPO definitions",
+        "Conditional-independence limitations",
+        "Matched loss ablations",
+        "Official source if available"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "depth": "deep",
+      "queries": [
+        "2609.24150 official source repository",
+        "Acceptance-Aware Draft Model Training official GitHub",
+        "Tianhua Xia Sai Qian Zhang WTV training implementation",
+        "Acceptance-aware speculative decoding window loss author code"
+      ],
+      "goal": "Determine whether a complete-conditional window objective improves the weak second Feature without changing exact inference",
+      "evidence": [
+        "Original WTV and GRPO definitions",
+        "Conditional-independence limitations",
+        "Matched loss ablations",
+        "Official source if available"
+      ]
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "Prepared candidate only; the current DFlash common-history measurement must finish before starting this mechanism",
+  "status": "prepared",
+  "route_id": "pfspec-dflash-block-20261106"
+}

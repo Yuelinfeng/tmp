@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper08_deliverables_01.tgz",
+  "bytes": 280523,
+  "regular_files": 142,
+  "archive_read_to_end": true,
+  "weight_scope": "UniVer reuses the locally complete selected DFlash model; this development archive omits duplicate model tensors",
+  "development_natural_requests": 8,
+  "eos_requests": 8,
+  "common_rows": 1024,
+  "native_branch_rows": 1544,
+  "source_snapshot": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper08_source_major",
+  "token_audit_status": "complete",
+  "verified_output_token_files": 8
+}

@@ -1,0 +1,38 @@
+{
+  "bos": {
+    "opd_forward": {
+      "requests": 4,
+      "tokens": 19664,
+      "seconds": 89.63294339203276,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 219.38362454521248
+    },
+    "opd_split_last": {
+      "requests": 4,
+      "tokens": 18806,
+      "seconds": 85.19350256200414,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 220.7445337314653
+    }
+  },
+  "completion": {
+    "opd_forward": {
+      "requests": 4,
+      "tokens": 16410,
+      "seconds": 63.01711695303675,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 260.4054389258951
+    },
+    "opd_split_last": {
+      "requests": 4,
+      "tokens": 15400,
+      "seconds": 62.16634466603864,
+      "eos": 4,
+      "comparisons": {},
+      "pooled_tokens_per_second": 247.72246273654548
+    }
+  }
+}

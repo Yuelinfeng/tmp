@@ -1,0 +1,43 @@
+{
+  "remote_root": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106",
+  "development_evaluation": {
+    "pid": 136110,
+    "metadata": "paper08_evaluation_resume_03_process.json",
+    "log": "paper08_evaluation_resume_03.log",
+    "expected_requests": 8,
+    "status": "complete"
+  },
+  "common_history": {
+    "pid": 136663,
+    "metadata": "paper08_common_process.json",
+    "log": "paper08_common.log",
+    "expected_states": 256,
+    "methods": 4,
+    "status": "complete"
+  },
+  "formal_references": {
+    "metadata": "formal_references_process.json",
+    "log": "formal_references.log",
+    "expected_requests": 420,
+    "selection_scope": "No formal scientific outputs read before method selection",
+    "pid": 136909,
+    "status": "complete: 420 requests, supervisor returncode0, ended2026-11-07 01:29:01 UTC"
+  },
+  "scope": "Completed study locations; formal reports and token outputs are complete",
+  "univer_width_interleave": {
+    "pid": 137876,
+    "remote_metadata": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/univer_width_interleave_process.json",
+    "remote_log": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/univer_width_interleave.log",
+    "scope": "Wait for current W1 natural cohort, run development common-adapter validation and widths32/64, resume formal reference queue",
+    "status": "complete; both wider variants invalid on reachable BOS; formal queue resumed"
+  },
+  "paper08_major_status": "complete: 8 EOS natural requests and 1024 common-history rows",
+  "formal_best": {
+    "pid": 139559,
+    "remote_metadata": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/formal_best_process.json",
+    "remote_log": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/formal_best.log",
+    "scope": "Prespecified Full64 natural90+capped120, W1 formal common histories and complete reports",
+    "status": "complete: 210 selected-method requests, 34344 common rows, complete three-method reports, returncode0"
+  },
+  "selection_before_formal_scientific_read": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/selection_before_final.json"
+}

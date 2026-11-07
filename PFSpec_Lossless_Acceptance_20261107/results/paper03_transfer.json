@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper03_deliverables.tgz",
+  "archive_bytes": 89739412,
+  "extracted_regular_files": 71,
+  "archived_source_files": 7,
+  "weights": [
+    "paper03_lk/training/lk_adaptive/last.pt",
+    "paper03_lk/training/lk_adaptive/selected.pt",
+    "paper03_lk/training/lk_ce_tv/last.pt",
+    "paper03_lk/training/lk_ce_tv/selected.pt",
+    "paper03_lk/training/lk_full_init/selected.pt",
+    "paper03_lk/training/lk_log/last.pt",
+    "paper03_lk/training/lk_log/selected.pt"
+  ],
+  "natural_records": 32,
+  "eos_records": 32,
+  "token_files": 32,
+  "skipped_remote_links": [
+    {
+      "path": "paper03_lk/data",
+      "target": "/root/autodl-tmp/pfspec_feature_states_20261105/data"
+    },
+    {
+      "path": "paper03_lk/training/fusion_long",
+      "target": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long"
+    }
+  ],
+  "validation": "Complete gzip/tar stream and actual file counts",
+  "scope": "Training feedback and the old common-state data remain at their recorded remote paths"
+}

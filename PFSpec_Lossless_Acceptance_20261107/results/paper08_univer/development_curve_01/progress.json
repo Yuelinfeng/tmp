@@ -1,0 +1,13 @@
+{
+  "status": "running",
+  "rows": 1024,
+  "work": {
+    "prefix_target_calls": 272,
+    "prefix_target_tokens": 4198,
+    "verification_calls": 256,
+    "verification_nodes": 41472,
+    "ranker_calls": 768
+  },
+  "seconds": 28.751904486096464,
+  "last_source": "sequence_20265456.pt"
+}

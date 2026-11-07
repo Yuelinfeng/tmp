@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper07_deliverables.tgz",
+  "bytes": 1499686,
+  "regular_files": 136,
+  "skipped_links": [],
+  "physical_weights_scope": "Server paths retained in paper07_aat_window/weight_locations.json; large weights excluded from this archive"
+}

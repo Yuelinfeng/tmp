@@ -1,0 +1,306 @@
+{
+  "sources": [
+    {
+      "source": "1af21af5-a873-492c-b201-c8d3eb4888b4",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 0,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/1af21af5-a873-492c-b201-c8d3eb4888b4/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "1be3ff59-e514-409a-a3cf-a9aab31c95e3",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 2,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/1be3ff59-e514-409a-a3cf-a9aab31c95e3/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "2aabe005-d9d1-4b73-80a2-21fa2fad8c6f",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 5,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/2aabe005-d9d1-4b73-80a2-21fa2fad8c6f/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "44858e7f-9b00-4ddc-871f-966f18535227",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 7,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/44858e7f-9b00-4ddc-871f-966f18535227/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "4fa56715-fad5-4f60-a57e-e628df21a914",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 9,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/4fa56715-fad5-4f60-a57e-e628df21a914/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "5a0f02be-9bb0-47cc-b272-660088fb4636",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 11,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/5a0f02be-9bb0-47cc-b272-660088fb4636/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "78f54b4e-5031-4aa4-bd58-6a287cd64dc3",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 15,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/78f54b4e-5031-4aa4-bd58-6a287cd64dc3/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "876631f3-8f59-4a3b-bae1-8da99beff4c5",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 17,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/876631f3-8f59-4a3b-bae1-8da99beff4c5/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "888f5f5c-4947-4bfe-b50b-ee6d4f80ae28",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 19,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/888f5f5c-4947-4bfe-b50b-ee6d4f80ae28/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "89d895eb-50d7-49bb-9856-d8301892d048",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 20,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/89d895eb-50d7-49bb-9856-d8301892d048/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "a33765d2-6c9f-441e-a839-5de9d487648c",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 21,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/a33765d2-6c9f-441e-a839-5de9d487648c/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "a38c6892-4aad-4e6d-b7e5-ffd31b5bd659",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 23,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/a38c6892-4aad-4e6d-b7e5-ffd31b5bd659/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "a791d489-d419-435f-9235-827390615fdf",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 25,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/a791d489-d419-435f-9235-827390615fdf/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "a855d99f-3aab-4ad6-8ed7-231c37524f25",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 27,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/a855d99f-3aab-4ad6-8ed7-231c37524f25/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "abbcc79a-b1f7-4b3d-b50c-113423592207",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 29,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/abbcc79a-b1f7-4b3d-b50c-113423592207/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "aee07a67-c3a3-4382-955c-82bb53a70c36",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 31,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/aee07a67-c3a3-4382-955c-82bb53a70c36/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "b7f55c1e-7725-46ac-befc-b25aeba50fe2",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 33,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/b7f55c1e-7725-46ac-befc-b25aeba50fe2/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "b9d74420-fc18-4a49-aee4-b99763f9f4fa",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 35,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/b9d74420-fc18-4a49-aee4-b99763f9f4fa/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "c28a2210-cc62-4ab7-8e2c-ddee21852317",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 37,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/c28a2210-cc62-4ab7-8e2c-ddee21852317/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "c69e0c9d-9bec-44ec-9ced-73935534013a",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 39,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/c69e0c9d-9bec-44ec-9ced-73935534013a/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "d091a071-232d-4cd1-a677-796d2126fb68",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 42,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/d091a071-232d-4cd1-a677-796d2126fb68/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "d0e0f18e-7d93-4c1d-b93e-218470d8f283",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 44,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/d0e0f18e-7d93-4c1d-b93e-218470d8f283/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "f081f259-c8d0-4745-974c-0e99b28b7e93",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 48,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/f081f259-c8d0-4745-974c-0e99b28b7e93/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "f2469055-5566-47f8-9625-99ea6f74ceaf",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 50,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/f2469055-5566-47f8-9625-99ea6f74ceaf/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "f32ae7af-2144-411e-b8f4-d83da5a4f44a",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 52,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/f32ae7af-2144-411e-b8f4-d83da5a4f44a/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "f5696e0a-1c20-489d-8eb8-b47d856970ce",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "row": 54,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/scenes/f5696e0a-1c20-489d-8eb8-b47d856970ce/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "1da9156e-927b-42e0-a242-e13513e9fcad",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/stage_c/adaptation_pool_crops.pt",
+      "row": 0,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/scenes/1da9156e-927b-42e0-a242-e13513e9fcad/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "2870f364-65d3-4682-9c42-0b751885f100",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/stage_c/adaptation_pool_crops.pt",
+      "row": 2,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/scenes/2870f364-65d3-4682-9c42-0b751885f100/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "2a7c0764-8e9c-4b0b-8f1f-e8e37d0d595f",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/stage_c/adaptation_pool_crops.pt",
+      "row": 4,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/scenes/2a7c0764-8e9c-4b0b-8f1f-e8e37d0d595f/gaussian_init/vfront_pilot_tokens.pt"
+    },
+    {
+      "source": "5c337554-ee3f-4c1b-80c0-f8ee49d87e8d",
+      "catalog": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/stage_c/adaptation_pool_crops.pt",
+      "row": 8,
+      "original_path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/scenes/5c337554-ee3f-4c1b-80c0-f8ee49d87e8d/gaussian_init/vfront_pilot_tokens.pt"
+    }
+  ],
+  "catalog_counts": [
+    {
+      "path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_e_final/final_test_crops.pt",
+      "selected_sources": 26
+    },
+    {
+      "path": "/root/autodl-tmp/pf_multiscene_pilot_20261015/stage_d2_adaptation/stage_c/adaptation_pool_crops.pt",
+      "selected_sources": 4
+    }
+  ],
+  "excluded_sources": [
+    "003ac11d-2abc-44f8-9836-4354e7dfa543",
+    "070bb554-f9b7-4b80-a1a2-fc91f1c861fb",
+    "0fdce50f-b5e6-4d43-909a-fbae7a64f508",
+    "120e3c35-05c5-40a7-b92b-1abbd5592026",
+    "181fa1b2-dd7a-43c3-b09c-163924bb37de",
+    "1ecf4f03-a7cf-4d84-b332-4d58894afd6b",
+    "200710c5-dab8-441c-b61c-bc1379424dfc",
+    "24cbb52c-4daf-417f-a324-0e9a055272a9",
+    "261774c0-9480-40b3-a85a-4804c96ea443",
+    "2dcff54f-32ee-4427-9187-5dc5ac80f26c",
+    "3969c802-3f40-4ec5-b69c-ac570a8a5797",
+    "3f48e194-1e88-4dc1-b1d2-03114248c15f",
+    "4331de47-48f4-4954-88d5-2752e0030845",
+    "491ceb63-5cbd-4c24-b0e6-da8aec15eebc",
+    "558e5b47-716e-4bb2-9dcc-85ed78a7734b",
+    "5699d277-5908-4471-b52a-a6c4add689b6",
+    "58bc5a5b-c6b3-4228-8a1f-718788f40ecc",
+    "58ff6eaa-c53f-4f88-8e83-352de9374778",
+    "5e162f48-e628-440f-b530-311ed1c337b2",
+    "5e80e23f-a2a7-43a0-b3a8-5c705cae3075",
+    "64321004-c08d-4334-984b-4bdbed4895d1",
+    "66f67e6f-2c22-473c-9997-0690a62661ec",
+    "702a3f08-a072-4459-a2ba-2b0b132be3a3",
+    "81c47424-f98c-418d-b810-ad23e586b3b2",
+    "92b94d94-a523-4ae6-bbde-55f5e01590da",
+    "948de760-2e06-43ec-b68e-82ced8a3f42e",
+    "9da0c89f-c7b1-46f8-b37a-8377ad190e71",
+    "b1fb2628-f260-4bee-8db1-6f4f10520a09",
+    "bos-68201",
+    "bos-68202",
+    "bos-68203",
+    "bos-68204",
+    "bos-68205",
+    "bos-68206",
+    "bos-68207",
+    "bos-68208",
+    "bos-68209",
+    "bos-68210",
+    "bos-68211",
+    "bos-68212",
+    "bos-68213",
+    "bos-68214",
+    "bos-68215",
+    "bos-68216",
+    "bos-68217",
+    "bos-68218",
+    "bos-68219",
+    "bos-68220",
+    "bos-68221",
+    "bos-68222",
+    "bos-68223",
+    "bos-68224",
+    "bos-68225",
+    "bos-68226",
+    "bos-68227",
+    "bos-68228",
+    "bos-68229",
+    "bos-68230",
+    "c08eb829-f1ce-46a3-94fb-148bb1e0b36f",
+    "c5b12c08-1059-494e-8320-5b4b9ae6b846",
+    "cbbaa3ef-e12d-42bf-a8c6-35719d6e86c8",
+    "cc14e409-5e44-4237-a4b0-11521ca7639d",
+    "cc5f69b9-c76d-41a9-8a40-094e5664ebbd",
+    "cedbec31-e5b6-48b6-bf73-becb689097a9",
+    "d5051ff6-1923-45ed-9e4f-d26d1a76bc39",
+    "dev-bos-69401",
+    "dev-bos-69402",
+    "dev-bos-69403",
+    "dev-bos-69404",
+    "ebb55c6a-0af2-4727-ad86-b18d0061a415",
+    "opd-bos-72001",
+    "opd-bos-72002",
+    "opd-bos-72003",
+    "opd-bos-72004",
+    "opd-bos-72005",
+    "opd-bos-72006",
+    "opd-bos-72007",
+    "opd-bos-72008",
+    "opd-bos-72009",
+    "opd-bos-72010",
+    "opd-bos-72011",
+    "opd-bos-72012",
+    "opd-bos-72013",
+    "opd-bos-72014",
+    "opd-bos-72015",
+    "opd-bos-72016",
+    "sequence_20262001.pt",
+    "sequence_20262006.pt",
+    "sequence_20264001.pt",
+    "sequence_20265032.pt",
+    "sequence_20265041.pt",
+    "sequence_20265115.pt",
+    "sequence_20265126.pt",
+    "sequence_20265153.pt",
+    "sequence_20265163.pt",
+    "sequence_20265172.pt",
+    "sequence_20265185.pt",
+    "sequence_20265189.pt",
+    "sequence_20265199.pt",
+    "sequence_20265280.pt",
+    "sequence_20265287.pt",
+    "sequence_20265323.pt",
+    "sequence_20265400.pt",
+    "sequence_20265435.pt",
+    "sequence_20265453.pt",
+    "sequence_20265456.pt"
+  ],
+  "previous_formal": "/root/autodl-tmp/pfspec_feature_states_20261105/acceptance_study/formal_natural_inputs.json",
+  "natural_supervision": "/root/autodl-tmp/pfspec_fresh_qualitative_20261105/fresh_run01/plan.json",
+  "feedback": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/feedback_inputs.json",
+  "source_scope": "Catalog labels refer to older room studies. This reserve is independent of the current W1/fusion_long training and new candidate weight selection, not a claim that no room was ever used for another historical experiment."
+}

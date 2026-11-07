@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    meta.write_text(json.dumps(v,indent=2)+'
+                                           ^
+SyntaxError: unterminated string literal (detected at line 8)

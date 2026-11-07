@@ -1,0 +1,8 @@
+{
+  "pid": 116163,
+  "status": "failed",
+  "log": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_training.log",
+  "started_training_utc": "2026-11-06 13:40:24",
+  "returncode": 1,
+  "ended_utc": "2026-11-06 13:45:51"
+}

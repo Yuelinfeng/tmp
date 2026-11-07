@@ -1,0 +1,355 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "case": 0,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 4.163336342344337e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 1,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 8.326672684688674e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 0.9999999999999998,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 2,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 1.3877787807814457e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 3,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 1.3877787807814457e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0000000000000002,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 4,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 2.220446049250313e-16,
+      "total_output_mass": 0.9999999999999999,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 5,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 2.7755575615628914e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0000000000000004,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 6,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 1.3877787807814457e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 7,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 1.1102230246251565e-16,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 8,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 1.1102230246251565e-16,
+      "total_output_mass": 0.9999999999999999,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 9,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 4.163336342344337e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 1.0000000000000002,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 10,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 1.3877787807814457e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 11,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 5.551115123125783e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0000000000000004,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 12,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 6.938893903907228e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 1.0000000000000002,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 13,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 5.551115123125783e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 1.0000000000000002,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 14,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 2.7755575615628914e-17,
+      "total_output_mass": 0.9999999999999998,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 15,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 8.326672684688674e-17,
+      "total_output_mass": 0.9999999999999998,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 16,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 2.7755575615628914e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 17,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 2.7755575615628914e-17,
+      "total_output_mass": 0.9999999999999999,
+      "total_tree_probability": 0.9999999999999997,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 18,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 2.7755575615628914e-17,
+      "total_output_mass": 1.0,
+      "total_tree_probability": 0.9999999999999999,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 19,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 1.3877787807814457e-16,
+      "total_output_mass": 1.0000000000000007,
+      "total_tree_probability": 1.0000000000000004,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 20,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 5.551115123125783e-17,
+      "total_output_mass": 0.9999999999999999,
+      "total_tree_probability": 1.0,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 21,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 2.0816681711721685e-17,
+      "total_output_mass": 0.9999999999999999,
+      "total_tree_probability": 0.9999999999999997,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 22,
+      "widths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tree_count": 8,
+      "complete_output_sequences": 243,
+      "maximum_output_error": 1.3877787807814457e-17,
+      "total_output_mass": 1.0000000000000002,
+      "total_tree_probability": 1.0000000000000002,
+      "maximum_unresolved_probability": 0.0
+    },
+    {
+      "case": 23,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "tree_count": 128,
+      "complete_output_sequences": 81,
+      "maximum_output_error": 4.163336342344337e-17,
+      "total_output_mass": 0.9999999999999997,
+      "total_tree_probability": 0.9999999999999997,
+      "maximum_unresolved_probability": 0.0
+    }
+  ],
+  "maximum_output_error": 2.220446049250313e-16,
+  "scope": "Independent exact enumeration of candidate randomness and every post-order decision, including complete conditional P/F/P/F analogues; no GPU or KV claim"
+}

@@ -1,0 +1,292 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "method": "diffusion_univer_w16",
+      "pair_id": "dev-bos-69401",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.027982983738183975,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 163,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7664719596505165,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "position"
+            ],
+            "first_pos": 0,
+            "prepare_ms": 0.9186440147459507,
+            "warmup_ms": 40.06572801154107,
+            "capture_ms": 206.84759807772934,
+            "memory_allocated_before": 14618205696,
+            "memory_allocated_after": 14623612928,
+            "memory_allocated_delta": 5407232,
+            "memory_reserved_before": 14669578240,
+            "memory_reserved_after": 14684258304,
+            "memory_reserved_delta": 14680064,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 8,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 1,
+            "prepare_ms": 0.7628879975527525,
+            "warmup_ms": 43.35519403684884,
+            "capture_ms": 204.78849089704454,
+            "memory_allocated_before": 14632147968,
+            "memory_allocated_after": 14632212992,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 14707326976,
+            "memory_reserved_after": 14707326976,
+            "memory_reserved_delta": 0,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 16,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 9,
+            "prepare_ms": 0.8455389179289341,
+            "warmup_ms": 39.57566001918167,
+            "capture_ms": 228.90075901523232,
+            "memory_allocated_before": 14662930944,
+            "memory_allocated_after": 14662995968,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15122563072,
+            "memory_reserved_after": 14757658624,
+            "memory_reserved_delta": -364904448,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 128,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 126,
+            "prepare_ms": 0.975416973233223,
+            "warmup_ms": 42.03701391816139,
+            "capture_ms": 223.3248259872198,
+            "memory_allocated_before": 14672305664,
+            "memory_allocated_after": 14672435712,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 14807990272,
+            "memory_reserved_after": 14782824448,
+            "memory_reserved_delta": -25165824,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 4,
+        "disabled_graphs": {},
+        "calls": {
+          "graph_forward": 5,
+          "graph_forward_T1": 4,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {},
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 16,
+        "runtime_init_ms": 0.018572085537016392,
+        "graph_count": 0,
+        "graph_events": [],
+        "calls": {
+          "verify_attempts": 35,
+          "eager_forward": 35,
+          "eager_forward_W16": 35,
+          "verify": 35,
+          "commit_contiguous": 19,
+          "commit": 35,
+          "commit_nodes_2": 14,
+          "commit_nodes_1": 1,
+          "commit_branched": 16,
+          "commit_nodes_3": 1,
+          "commit_nodes_6": 7,
+          "commit_nodes_4": 12
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "token_cache_writes": 45360,
+          "rope_inputs": 1451520,
+          "attention_masks": 1783296,
+          "commit_token_clear": 45000,
+          "commit_kv_payload": 15138816,
+          "commit_kv_device_moved": 30277632,
+          "commit_token_write": 616
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify",
+        "feature_levels": 2,
+        "long_tree_graph_enabled": false,
+        "long_tree_execution_reason": "Independent per-parent UniVer candidates; ordinary execution validated on full branches and retained numeric cases"
+      }
+    },
+    {
+      "method": "diffusion_univer_w16",
+      "pair_id": "dev-completion-sequence_20265287",
+      "output_equal": true,
+      "actions_equal": true,
+      "tokens": 128,
+      "runtime": {
+        "runtime_init_ms": 0.028138980269432068,
+        "max_query_tokens": 8,
+        "supported_query_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "cache_events": [
+          {
+            "event": "allocate",
+            "requested_capacity": 419,
+            "cache_capacity": 32768,
+            "host_enqueue_ms": 0.7467139512300491,
+            "kv_bytes": 6442450944
+          }
+        ],
+        "graph_events": [
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 1,
+            "read_bucket": 512,
+            "logit_types": [
+              "feature"
+            ],
+            "first_pos": 341,
+            "prepare_ms": 0.8958589751273394,
+            "warmup_ms": 39.84357707668096,
+            "capture_ms": 206.11521799582988,
+            "memory_allocated_before": 14701714432,
+            "memory_allocated_after": 14701779456,
+            "memory_allocated_delta": 65024,
+            "memory_reserved_before": 15154020352,
+            "memory_reserved_after": 14860419072,
+            "memory_reserved_delta": -293601280,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          },
+          {
+            "cache_capacity": 32768,
+            "query_tokens": 2,
+            "read_bucket": 512,
+            "logit_types": [
+              "position",
+              "feature"
+            ],
+            "first_pos": 382,
+            "prepare_ms": 0.8895799983292818,
+            "warmup_ms": 40.42905196547508,
+            "capture_ms": 201.7981510143727,
+            "memory_allocated_before": 14709990400,
+            "memory_allocated_after": 14710120448,
+            "memory_allocated_delta": 130048,
+            "memory_reserved_before": 14912847872,
+            "memory_reserved_after": 14904459264,
+            "memory_reserved_delta": -8388608,
+            "kv_bytes": 6442450944,
+            "estimated_kv_bytes": 6442450944
+          }
+        ],
+        "graph_count": 2,
+        "disabled_graphs": {},
+        "calls": {
+          "original_forward": 1,
+          "graph_forward": 3,
+          "graph_forward_T1": 2,
+          "graph_forward_T2": 1
+        },
+        "fallbacks": {
+          "unsupported_query_tokens": 1
+        },
+        "numerical_records": 0,
+        "numerical_recording": false,
+        "cache_bytes_by_capacity": {
+          "32768": 6442450944
+        }
+      },
+      "tree": {
+        "graph_enabled": true,
+        "max_width": 16,
+        "runtime_init_ms": 0.01786684151738882,
+        "graph_count": 0,
+        "graph_events": [],
+        "calls": {
+          "verify_attempts": 32,
+          "eager_forward": 32,
+          "eager_forward_W16": 32,
+          "verify": 32,
+          "commit_contiguous": 12,
+          "commit": 32,
+          "commit_nodes_4": 14,
+          "commit_branched": 20,
+          "commit_nodes_6": 8,
+          "commit_nodes_2": 8,
+          "commit_nodes_1": 1,
+          "commit_nodes_3": 1
+        },
+        "fallbacks": {},
+        "pending_verify": false,
+        "copy_bytes": {
+          "token_cache_writes": 41472,
+          "rope_inputs": 1327104,
+          "attention_masks": 3317760,
+          "commit_token_clear": 41240,
+          "commit_kv_payload": 18677760,
+          "commit_kv_device_moved": 37355520,
+          "commit_token_write": 760
+        },
+        "output_lifetime": "borrowed_until_next_matching_graph_verify",
+        "feature_levels": 2,
+        "long_tree_graph_enabled": false,
+        "long_tree_execution_reason": "Independent per-parent UniVer candidates; ordinary execution validated on full branches and retained numeric cases"
+      }
+    }
+  ]
+}

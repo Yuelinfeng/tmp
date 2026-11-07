@@ -1,0 +1,501 @@
+{
+  "multi_greedy_full_w64": {
+    "runtime": {
+      "runtime_init_ms": 0.03872509114444256,
+      "max_query_tokens": 8,
+      "supported_query_tokens": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "cache_events": [
+        {
+          "event": "allocate",
+          "requested_capacity": 16131,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.7880940102040768,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16131,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.039394013583660126,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16131,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03961403854191303,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16131,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03940798342227936,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16387,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036384910345077515,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16387,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.042601022869348526,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16387,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.04037900362163782,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 16387,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037344987504184246,
+          "kv_bytes": 6442450944
+        }
+      ],
+      "graph_events": [
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 8,
+          "logit_types": [
+            "position"
+          ],
+          "first_pos": 0,
+          "prepare_ms": 1.3597969664260745,
+          "warmup_ms": 38.95273304078728,
+          "capture_ms": 201.3368810294196,
+          "memory_allocated_before": 7883558912,
+          "memory_allocated_after": 7883624960,
+          "memory_allocated_delta": 66048,
+          "memory_reserved_before": 7998537728,
+          "memory_reserved_after": 8002732032,
+          "memory_reserved_delta": 4194304,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 8,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 1,
+          "prepare_ms": 0.782680930569768,
+          "warmup_ms": 38.76929101534188,
+          "capture_ms": 202.99666409846395,
+          "memory_allocated_before": 7892147712,
+          "memory_allocated_after": 7892212736,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8025800704,
+          "memory_reserved_after": 8025800704,
+          "memory_reserved_delta": 0,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 16,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 9,
+          "prepare_ms": 0.7700769929215312,
+          "warmup_ms": 39.0700469724834,
+          "capture_ms": 237.72850504610687,
+          "memory_allocated_before": 7926413312,
+          "memory_allocated_after": 7926478336,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8124366848,
+          "memory_reserved_after": 8122269696,
+          "memory_reserved_delta": -2097152,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 128,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 125,
+          "prepare_ms": 0.8805330144241452,
+          "warmup_ms": 42.300962028093636,
+          "capture_ms": 207.5152259785682,
+          "memory_allocated_before": 7935062528,
+          "memory_allocated_after": 7935127552,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8145338368,
+          "memory_reserved_after": 8145338368,
+          "memory_reserved_delta": 0,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 256,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 135,
+          "prepare_ms": 0.8062650449573994,
+          "warmup_ms": 39.39580894075334,
+          "capture_ms": 202.97014596872032,
+          "memory_allocated_before": 7960699392,
+          "memory_allocated_after": 7960764416,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8220835840,
+          "memory_reserved_after": 8218738688,
+          "memory_reserved_delta": -2097152,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 512,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 289,
+          "prepare_ms": 0.8206450147554278,
+          "warmup_ms": 39.447700954042375,
+          "capture_ms": 222.54585300106555,
+          "memory_allocated_before": 7969278464,
+          "memory_allocated_after": 7969343488,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8241807360,
+          "memory_reserved_after": 8262778880,
+          "memory_reserved_delta": 20971520,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 1024,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 531,
+          "prepare_ms": 0.7975460030138493,
+          "warmup_ms": 39.342442993074656,
+          "capture_ms": 207.77011092286557,
+          "memory_allocated_before": 7994988032,
+          "memory_allocated_after": 7995053056,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8359247872,
+          "memory_reserved_after": 8378122240,
+          "memory_reserved_delta": 18874368,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 2048,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 1027,
+          "prepare_ms": 0.7889959961175919,
+          "warmup_ms": 39.5259540528059,
+          "capture_ms": 205.47217701096088,
+          "memory_allocated_before": 8020851200,
+          "memory_allocated_after": 8020916224,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8474591232,
+          "memory_reserved_after": 8491368448,
+          "memory_reserved_delta": 16777216,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 4096,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 2059,
+          "prepare_ms": 0.946718966588378,
+          "warmup_ms": 39.67726696282625,
+          "capture_ms": 232.53834794741124,
+          "memory_allocated_before": 8046984704,
+          "memory_allocated_after": 8047049728,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8652849152,
+          "memory_reserved_after": 8648654848,
+          "memory_reserved_delta": -4194304,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 8192,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 4097,
+          "prepare_ms": 0.8910270407795906,
+          "warmup_ms": 39.85752200242132,
+          "capture_ms": 223.17493404261768,
+          "memory_allocated_before": 8073835008,
+          "memory_allocated_after": 8073900032,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8910798848,
+          "memory_reserved_after": 8906604544,
+          "memory_reserved_delta": -4194304,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 32,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 31,
+          "prepare_ms": 0.7635410875082016,
+          "warmup_ms": 39.33976299595088,
+          "capture_ms": 200.19596291240305,
+          "memory_allocated_before": 8082435072,
+          "memory_allocated_after": 8082500096,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8931770368,
+          "memory_reserved_after": 8929673216,
+          "memory_reserved_delta": -2097152,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 64,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 39,
+          "prepare_ms": 0.7781620370224118,
+          "warmup_ms": 40.43261299375445,
+          "capture_ms": 282.58307406213135,
+          "memory_allocated_before": 8091022848,
+          "memory_allocated_after": 8091087872,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8954839040,
+          "memory_reserved_after": 8952741888,
+          "memory_reserved_delta": -2097152,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        }
+      ],
+      "graph_count": 12,
+      "disabled_graphs": {},
+      "calls": {
+        "graph_forward": 1482,
+        "graph_forward_T1": 1482,
+        "original_forward": 4
+      },
+      "fallbacks": {
+        "unsupported_query_tokens": 4
+      },
+      "numerical_records": 0,
+      "numerical_recording": false,
+      "cache_bytes_by_capacity": {
+        "32768": 6442450944
+      }
+    },
+    "tree": {
+      "graph_enabled": true,
+      "max_width": 64,
+      "runtime_init_ms": 0.006267102435231209,
+      "graph_count": 6,
+      "graph_events": [
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 256,
+          "first_before": 2,
+          "prepare_ms": 4.8470450565218925,
+          "warmup_ms": 59.09384100232273,
+          "capture_ms": 213.5683400556445,
+          "memory_allocated_before": 7911055360,
+          "memory_allocated_after": 7919476736,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 512,
+          "first_before": 130,
+          "prepare_ms": 9.010963956825435,
+          "warmup_ms": 59.301337925717235,
+          "capture_ms": 216.87095297966152,
+          "memory_allocated_before": 7945438208,
+          "memory_allocated_after": 7953859584,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 1024,
+          "first_before": 384,
+          "prepare_ms": 17.471326980739832,
+          "warmup_ms": 59.785543009638786,
+          "capture_ms": 216.10785997472703,
+          "memory_allocated_before": 7979799552,
+          "memory_allocated_after": 7988220928,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 2048,
+          "first_before": 898,
+          "prepare_ms": 34.81014003045857,
+          "warmup_ms": 59.91546099539846,
+          "capture_ms": 214.0435860492289,
+          "memory_allocated_before": 8005775360,
+          "memory_allocated_after": 8014196736,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 4096,
+          "first_before": 1920,
+          "prepare_ms": 71.10147003550082,
+          "warmup_ms": 61.467539984732866,
+          "capture_ms": 347.2888700198382,
+          "memory_allocated_before": 8032146432,
+          "memory_allocated_after": 8040567808,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 132572873030048,
+          "width": 64,
+          "node_count": 130,
+          "read_bucket": 8192,
+          "first_before": 3968,
+          "prepare_ms": 138.94511095713824,
+          "warmup_ms": 61.5686799865216,
+          "capture_ms": 287.01775590889156,
+          "memory_allocated_before": 8059521024,
+          "memory_allocated_after": 8067942400,
+          "memory_allocated_delta": 8421376,
+          "kv_bytes": 6442450944
+        }
+      ],
+      "calls": {
+        "verify_attempts": 11360,
+        "graph_forward": 11360,
+        "graph_forward_W64": 11360,
+        "verify": 11360,
+        "commit_contiguous": 5519,
+        "commit": 11360,
+        "commit_nodes_2": 3617,
+        "commit_nodes_1": 821,
+        "commit_branched": 5841,
+        "commit_nodes_4": 6261,
+        "commit_nodes_3": 661
+      },
+      "fallbacks": {},
+      "pending_verify": false,
+      "copy_bytes": {
+        "static_token_inputs": 11826880,
+        "rope_inputs": 378460160,
+        "attention_masks": 5584317440,
+        "token_cache_writes": 11826880,
+        "graph_output_views": 0,
+        "commit_token_clear": 11716016,
+        "commit_kv_payload": 4479516672,
+        "commit_kv_device_moved": 8959033344,
+        "commit_token_write": 182272
+      },
+      "output_lifetime": "borrowed_until_next_matching_graph_verify"
+    },
+    "proposal": {
+      "runtime_init_ms": 0.005085021257400513,
+      "method_kind": "mlp",
+      "patched_method": "forward",
+      "active": false,
+      "closed": false,
+      "cache_events": [],
+      "graph_count": 1,
+      "graph_events": [
+        {
+          "signature": "('tuple', (('tuple', (('tensor', (1, 3072), (3072, 1), 'torch.float32', 'cuda:0', 'torch.strided'), ('tensor', (1,), (1,), 'torch.int64', 'cuda:0', 'torch.strided'), ('tensor', (1,), (1,), 'torch.int64', 'cuda:0', 'torch.strided'))), ('dict', ())))",
+          "device": "cuda:0",
+          "warmup_calls": 2,
+          "warmup_ms": 1.90495396964252,
+          "capture_ms": 216.28977893851697,
+          "prepare_ms": 1.6092461301013827,
+          "setup_ms": 219.80573399923742,
+          "verified": false
+        }
+      ],
+      "calls": {
+        "proposal_forward": 11360,
+        "graph_capture_attempts": 1,
+        "graph_forward": 11360,
+        "graph_forward_mlp": 11360
+      },
+      "fallbacks": {},
+      "attempt_events": [],
+      "verification": {
+        "calls": 0,
+        "allclose_failures": 0,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "policy_calls": 0,
+        "max_policy_tv": 0.0,
+        "policy_support_mismatches": 0,
+        "enabled": false,
+        "policy_tv_tolerance": 1e-05,
+        "passed": null
+      },
+      "output_lifetime": "borrowed graph-owned tensors; consume or clone before the next call"
+    },
+    "graph_initialization_accounting": {
+      "graph_count": 18,
+      "additional_target_trunk_evaluations": 54,
+      "additional_target_input_nodes": 2376,
+      "recorded_graph_initialization_seconds": 5.245541800977662,
+      "scope": "Two warmup evaluations and one capture per saved graph event; replay calls are recorded separately"
+    }
+  }
+}

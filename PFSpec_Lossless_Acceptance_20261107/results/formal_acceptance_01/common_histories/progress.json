@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "completed_requests": 90,
+  "total_requests": 90,
+  "rows": 34344,
+  "work": {
+    "prefix_target_calls": 12989,
+    "prefix_target_tokens": 324890,
+    "conditional_target_calls": 11448,
+    "conditional_target_tokens": 22896,
+    "ranker_calls": 22896,
+    "draft_calls": 34344,
+    "draft_input_tokens": 80136,
+    "draft_context_tokens": 730958
+  },
+  "seconds": 1244.3374298120616
+}

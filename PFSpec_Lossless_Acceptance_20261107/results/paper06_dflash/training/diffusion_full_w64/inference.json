@@ -1,0 +1,12 @@
+{
+  "draft_top_p": 1.0,
+  "feature_block_depth": 1,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "feature_candidate_width": 64,
+  "checkpoint": "../diffusion_context_w64/selected.pt",
+  "trained": false,
+  "scope": "First targeted evaluation: actual full-support Draft with unchanged selected weights"
+}

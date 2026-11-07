@@ -1,0 +1,9 @@
+{
+  "draft_top_p": 1.0,
+  "feature_block_depth": 1,
+  "feature_candidate_width": 64,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  }
+}

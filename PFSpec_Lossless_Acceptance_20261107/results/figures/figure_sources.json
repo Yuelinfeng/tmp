@@ -1,0 +1,259 @@
+{
+  "comparison": "docs/project/artifacts/lossless_acceptance_20261106/formal_acceptance_01/natural_comparison.json",
+  "points": [
+    {
+      "cohort": "bos",
+      "method": "w1",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.21019829006530905,
+      "ci95": [
+        0.18524516871210298,
+        0.2346767790510449
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "fusion_long",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.2762681872597384,
+      "ci95": [
+        0.2523491099118996,
+        0.3001871264553631
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "diffusion_full_w64",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.7176036495768369,
+      "ci95": [
+        0.6835051043766445,
+        0.7505502548446424
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "w1",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.19630939884483578,
+      "ci95": [
+        0.17203698739433063,
+        0.22020612009310817
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "fusion_long",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.25944276131549776,
+      "ci95": [
+        0.23518762119848147,
+        0.2838300673240352
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "diffusion_full_w64",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.6738392206992202,
+      "ci95": [
+        0.6375795843894237,
+        0.7097761823922604
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "w1",
+      "metric": "mean_emitted_per_round",
+      "mean": 2.3920972631031083,
+      "ci95": [
+        2.343578674016283,
+        2.4398810983082106
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "fusion_long",
+      "metric": "mean_emitted_per_round",
+      "mean": 2.518345602155073,
+      "ci95": [
+        2.46985164290286,
+        2.5670701229182478
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "bos",
+      "method": "diffusion_full_w64",
+      "metric": "mean_emitted_per_round",
+      "mean": 3.346956650386399,
+      "ci95": [
+        3.2744354754811997,
+        3.418818690545597
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 30,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "w1",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.24488291665458017,
+      "ci95": [
+        0.2239185333716168,
+        0.2682278236426209
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "fusion_long",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.2692452987781728,
+      "ci95": [
+        0.247131014472155,
+        0.29458181550880447
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "diffusion_full_w64",
+      "metric": "feature_conditional_acceptance",
+      "mean": 0.6675232456828107,
+      "ci95": [
+        0.6357257813273723,
+        0.6986571773975913
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "w1",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.22573341752113266,
+      "ci95": [
+        0.20567877541270832,
+        0.24813684311218093
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "fusion_long",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.2483636442157968,
+      "ci95": [
+        0.22683299321281322,
+        0.2732389808284377
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "diffusion_full_w64",
+      "metric": "pair_joint_acceptance",
+      "mean": 0.6146100672919481,
+      "ci95": [
+        0.5787559957992485,
+        0.6495855071696549
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "w1",
+      "metric": "mean_emitted_per_round",
+      "mean": 2.449949648502253,
+      "ci95": [
+        2.4102308174441505,
+        2.4943594613516655
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "fusion_long",
+      "metric": "mean_emitted_per_round",
+      "mean": 2.495602630541045,
+      "ci95": [
+        2.4525537243754583,
+        2.545283759991933
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    },
+    {
+      "cohort": "completion",
+      "method": "diffusion_full_w64",
+      "metric": "mean_emitted_per_round",
+      "mean": 3.2276310231722087,
+      "ci95": [
+        3.1563234667735434,
+        3.2969751607326825
+      ],
+      "sources": 30,
+      "input_sources": 30,
+      "requests": 60,
+      "undefined_requests": 0
+    }
+  ],
+  "scope": "Prespecified natural BOS30 and Completion30x2; 5000 paired source resamples",
+  "feature_scope": "First Feature conditional candidate-set acceptance; candidate width differs between single and multi-candidate methods"
+}

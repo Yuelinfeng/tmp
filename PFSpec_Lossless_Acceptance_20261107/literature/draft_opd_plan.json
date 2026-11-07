@@ -1,0 +1,102 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: Draft-OPD adaptation after fusion_long",
+    "goal": "Identify actual draft-induced state mismatch and implement literature-supported exact-sampling acceptance improvements",
+    "capabilities": [
+      "on-policy distillation",
+      "verification-exposed rejection replay",
+      "P/F conditioning",
+      "unchanged Target sampling",
+      "official training implementation",
+      "paired offline and online evaluation"
+    ],
+    "context": [
+      "RTX5090",
+      "single Feature W1 starting from committed Target states",
+      "fusion_long multi-layer Target inputs",
+      "temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "no repeat EAGLE-3 training",
+      "formal evaluation excluded from training",
+      "one paper at a time",
+      "up to eight distinct mechanisms"
+    ],
+    "evidence": [
+      "original PDF method and mathematics",
+      "training and rollout source",
+      "lossless conditions",
+      "ablation results"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Draft-OPD on-policy distillation speculative draft models",
+    "Draft-OPD verification exposed error positions",
+    "Draft-OPD rejected proposal replay",
+    "Draft-OPD target assisted rollout distribution mismatch",
+    "Draft-OPD reverse KL loss training",
+    "Draft-OPD EAGLE3 DFlash ablation",
+    "Draft-OPD official source training implementation",
+    "Draft-OPD lossless acceptance distribution conditions",
+    "draft induced hidden states committed target states",
+    "single token speculative draft on-policy state visitation",
+    "structured position feature speculative on-policy distillation",
+    "rejection prefix replay exact speculative sampling",
+    "verification distribution distillation target top-p",
+    "acceptance-aware distillation total variation gradients",
+    "multi-step P/F draft teacher mismatch",
+    "speculative error positions first rejection replay",
+    "on-policy draft supervision off-policy trajectories",
+    "Draft-OPD training rollout frequency",
+    "Draft-OPD window loss ablation",
+    "Draft-OPD generalization evaluation selection"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "queries": [
+        "Draft-OPD On-Policy Distillation for Speculative Draft Models method rejection replay",
+        "Draft-OPD arxiv 2605.29343 target assisted rollout on policy error positions"
+      ],
+      "evidence": [
+        "original Method",
+        "equations",
+        "ablation",
+        "lossless assumptions"
+      ],
+      "stop_condition": "Full primary paper read and mechanism mapped to actual P/F state availability"
+    },
+    {
+      "platform_id": "github",
+      "queries": [
+        "Draft-OPD official repository training rollout rejected replay",
+        "Simplified-Reasoning Draft-OPD loss data collection source"
+      ],
+      "evidence": [
+        "README",
+        "training source",
+        "rollout source",
+        "loss implementation"
+      ],
+      "stop_condition": "Read relevant official implementation and record exact revision"
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "First mechanism is Draft-OPD; academic and official source evidence are complementary. Current v1 subagent entry is unavailable; primary agent executes both routes sequentially.",
+  "status": "planned"
+}

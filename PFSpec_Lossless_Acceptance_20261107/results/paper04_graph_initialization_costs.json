@@ -1,0 +1,20 @@
+{
+  "16": {
+    "multi_greedy_w16": {
+      "graph_count": 95,
+      "additional_target_trunk_evaluations": 285,
+      "additional_target_input_nodes": 5040,
+      "recorded_graph_initialization_seconds": 27.32916120463051,
+      "scope": "Two warmup evaluations and one capture per saved graph event; replay calls are recorded separately"
+    }
+  },
+  "64": {
+    "multi_greedy_w64": {
+      "graph_count": 374,
+      "additional_target_trunk_evaluations": 1122,
+      "additional_target_input_nodes": 72768,
+      "recorded_graph_initialization_seconds": 111.69129866745789,
+      "scope": "Two warmup evaluations and one capture per saved graph event; replay calls are recorded separately"
+    }
+  }
+}

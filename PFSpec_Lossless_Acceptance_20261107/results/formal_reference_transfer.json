@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/formal_references_deliverables.tgz",
+  "bytes": 1988512,
+  "regular_files": 454,
+  "token_files": 420,
+  "raw_requests": 420,
+  "selection_bytes_unchanged": true,
+  "scope": "Structural transfer verification; complete tensor and paired-result validation runs with all three final methods"
+}

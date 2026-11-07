@@ -1,0 +1,15 @@
+{
+  "methods": [
+    "w1",
+    "fusion_long"
+  ],
+  "w1": "/root/workspace/GaussianGPT/draft_a/runs/feature_target_continue_20261014/selected.pt",
+  "fusion_long": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "natural_inputs": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/evaluation_inputs/natural_complete_inputs.json",
+  "capped_inputs": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/evaluation_inputs/capped_inputs.json",
+  "natural_requests_per_method": 90,
+  "capped_requests_per_method": 120,
+  "target_temperature": 0.9,
+  "target_top_p": 0.9,
+  "selection_scope": "Reference models are fixed; new candidates use development data only. Formal scientific outputs remain unread until all method selection is complete."
+}

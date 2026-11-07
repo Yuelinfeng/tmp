@@ -1,0 +1,105 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: joint P/F and block verification",
+    "goal": "Assess and implement complementary exact block acceptance after the bounded multi-candidate experiments",
+    "capabilities": [
+      "Full conditional P/F distributions",
+      "Joint and prefix acceptance",
+      "Actual proposal law",
+      "Exact recovery distributions",
+      "Reuse of verified candidate branches"
+    ],
+    "context": [
+      "RTX5090",
+      "fusion_long",
+      "64 Feature candidates",
+      "Target temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "one paper at a time",
+      "no formal data for candidate selection",
+      "one major implementation and at most two justified refinements"
+    ],
+    "evidence": [
+      "Complete primary method and proofs",
+      "Official source if public",
+      "Relevant ablations",
+      "Measured gains or a source-backed reason not to adapt"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Optimal block-level draft verification for accelerating speculative decoding 2403.10444 original paper",
+    "2403.10444 current version authors publication venue",
+    "optimal block-level draft verification Algorithm acceptance probabilities",
+    "block verification exact target distribution proof conditional rejection sampler",
+    "block verification maximal prefix acceptance versus tokenwise rejection",
+    "block verification position point proposal feature categorical joint coupling",
+    "block verification multiple candidates tree branch extension",
+    "block verification top p support zero probability assumptions",
+    "block verification experiments ablations draft length sampling temperature",
+    "block verification polynomial verifier vocabulary complexity",
+    "block verification joint P F acceptance GaussianGPT feature candidates",
+    "block verification limitations lookahead draft conditional dependencies",
+    "block verification recursive continuation correction distribution",
+    "block verification finite vocabulary transport numerical precision",
+    "block verification global resolution speculative decoding relationship",
+    "block verification expected accepted tokens bound",
+    "2403.10444 official implementation GitHub",
+    "Optimal block-level draft verification Google Research official code",
+    "Ziteng Sun block verification sampler source tests",
+    "block verification accelerating speculative decoding algorithm repository"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "depth": "deep",
+      "queries": [
+        "Optimal block-level draft verification for accelerating speculative decoding 2403.10444 original paper",
+        "2403.10444 current version authors publication venue",
+        "optimal block-level draft verification Algorithm acceptance probabilities",
+        "block verification exact target distribution proof conditional rejection sampler",
+        "block verification maximal prefix acceptance versus tokenwise rejection",
+        "block verification position point proposal feature categorical joint coupling",
+        "block verification multiple candidates tree branch extension",
+        "block verification top p support zero probability assumptions",
+        "block verification experiments ablations draft length sampling temperature",
+        "block verification polynomial verifier vocabulary complexity",
+        "block verification joint P F acceptance GaussianGPT feature candidates",
+        "block verification limitations lookahead draft conditional dependencies",
+        "block verification recursive continuation correction distribution",
+        "block verification finite vocabulary transport numerical precision",
+        "block verification global resolution speculative decoding relationship",
+        "block verification expected accepted tokens bound"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "depth": "deep",
+      "queries": [
+        "2403.10444 official implementation GitHub",
+        "Optimal block-level draft verification Google Research official code",
+        "Ziteng Sun block verification sampler source tests",
+        "block verification accelerating speculative decoding algorithm repository"
+      ]
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "Current multi-draft paper cites block verification as a complementary direction; prepared for use after Paper 4 concludes",
+  "status": "prepared",
+  "route_id": "pfspec-block-verification-20261106"
+}

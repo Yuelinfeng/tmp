@@ -1,0 +1,58 @@
+Prepared 40 inputs
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+Observation equivalence passed
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+aat-train-bos-75001 4895 {'feature_rejected': 1349, 'position_rejected': 104, 'feature_accepted': 497}
+aat-train-bos-75002 5701 {'feature_rejected': 1602, 'feature_accepted': 517, 'position_rejected': 214}
+aat-train-bos-75003 5245 {'feature_rejected': 1776, 'position_rejected': 242, 'feature_accepted': 302}
+aat-train-bos-75004 4275 {'feature_rejected': 1038, 'position_rejected': 107, 'feature_accepted': 496}
+aat-train-bos-75005 4767 {'feature_accepted': 435, 'feature_rejected': 1289, 'position_rejected': 224}
+aat-train-bos-75006 1747 {'feature_rejected': 399, 'feature_accepted': 206, 'position_rejected': 62}
+aat-train-bos-75007 5161 {'feature_accepted': 543, 'feature_rejected': 1298, 'position_rejected': 196}
+aat-train-bos-75008 6163 {'feature_rejected': 1824, 'position_rejected': 173, 'feature_accepted': 542}
+aat-train-bos-75009 3953 {'feature_accepted': 468, 'feature_rejected': 988, 'position_rejected': 52}
+aat-train-bos-75010 4887 {'feature_rejected': 1794, 'position_rejected': 229, 'feature_accepted': 210}
+aat-train-bos-75011 4089 {'feature_accepted': 386, 'feature_rejected': 1193, 'position_rejected': 79}
+aat-train-bos-75012 4675 {'feature_rejected': 971, 'position_rejected': 72, 'feature_accepted': 647}
+aat-train-bos-75013 5601 {'feature_rejected': 1632, 'feature_accepted': 453, 'position_rejected': 262}
+aat-train-bos-75014 4371 {'feature_rejected': 1231, 'position_rejected': 80, 'feature_accepted': 437}
+aat-train-bos-75015 4385 {'feature_rejected': 1542, 'position_rejected': 168, 'feature_accepted': 241}
+aat-train-bos-75016 4923 {'feature_accepted': 338, 'position_rejected': 211, 'feature_rejected': 1574}
+aat-train-completion-sequence_20265045 4101 {'feature_rejected': 1389, 'feature_accepted': 257, 'position_rejected': 148}
+aat-train-completion-sequence_20265371 3745 {'feature_accepted': 274, 'feature_rejected': 1166, 'position_rejected': 159}
+aat-train-completion-sequence_20265368 5141 {'feature_rejected': 1377, 'feature_accepted': 518, 'position_rejected': 158}
+aat-train-completion-sequence_20265070 5151 {'feature_rejected': 1416, 'position_rejected': 112, 'feature_accepted': 524}
+aat-train-completion-sequence_20265321 4495 {'feature_rejected': 1260, 'feature_accepted': 429, 'position_rejected': 130}
+aat-train-completion-sequence_20265349 2005 {'position_rejected': 77, 'feature_rejected': 514, 'feature_accepted': 206}
+aat-train-completion-sequence_20265053 4313 {'feature_rejected': 1168, 'feature_accepted': 471, 'position_rejected': 47}
+aat-train-completion-sequence_20264009 4529 {'feature_accepted': 386, 'feature_rejected': 1330, 'position_rejected': 163}
+aat-train-completion-sequence_20265394 5731 {'feature_accepted': 458, 'feature_rejected': 1753, 'position_rejected': 197}
+aat-train-completion-sequence_20265104 4863 {'feature_rejected': 1492, 'feature_accepted': 364, 'position_rejected': 212}
+aat-train-completion-sequence_20265005 4741 {'feature_rejected': 1443, 'feature_accepted': 460, 'position_rejected': 8}
+aat-train-completion-sequence_20264030 4511 {'feature_rejected': 1345, 'feature_accepted': 407, 'position_rejected': 97}
+aat-train-completion-sequence_20265140 3427 {'feature_rejected': 1047, 'feature_accepted': 265, 'position_rejected': 137}
+aat-train-completion-sequence_20265345 3305 {'feature_accepted': 388, 'feature_rejected': 828, 'position_rejected': 49}
+aat-train-completion-sequence_20265058 4631 {'feature_rejected': 1199, 'feature_accepted': 458, 'position_rejected': 201}
+aat-train-completion-sequence_20265306 4537 {'feature_accepted': 298, 'feature_rejected': 1452, 'position_rejected': 221}
+dev-bos-69401 4397 {'feature_rejected': 1197, 'position_rejected': 151, 'feature_accepted': 425}
+dev-bos-69402 3721 {'feature_accepted': 299, 'feature_rejected': 1124, 'position_rejected': 138}
+dev-bos-69403 4823 {'feature_rejected': 1175, 'feature_accepted': 570, 'position_rejected': 96}
+dev-bos-69404 4299 {'feature_rejected': 1115, 'position_rejected': 140, 'feature_accepted': 447}
+dev-completion-sequence_20265041 3837 {'feature_rejected': 933, 'feature_accepted': 410, 'position_rejected': 166}
+dev-completion-sequence_20265456 4775 {'feature_accepted': 306, 'feature_rejected': 1503, 'position_rejected': 273}
+dev-completion-sequence_20265280 2585 {'feature_accepted': 291, 'feature_rejected': 691, 'position_rejected': 20}
+dev-completion-sequence_20265287 3363 {'feature_rejected': 955, 'feature_accepted': 347, 'position_rejected': 33}

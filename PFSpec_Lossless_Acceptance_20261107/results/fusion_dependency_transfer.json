@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "remote": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "local": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/dependencies/fusion_long/selected.pt",
+  "bytes": 13560843,
+  "archive_members": 21,
+  "all_members_read": true,
+  "remote_bytes_equal": true
+}

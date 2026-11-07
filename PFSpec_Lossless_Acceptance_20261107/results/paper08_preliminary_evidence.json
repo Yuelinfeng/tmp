@@ -1,0 +1,42 @@
+{
+  "status": "native_and_probability_complete",
+  "shallow_cases": 96,
+  "complete_tree_cases": 24,
+  "enumerated_trees": 1632,
+  "native_rows": 1544,
+  "native_policy_tv_maximum": 1.996755599975586e-06,
+  "retained_case_feature_tv": [
+    3.6191195249557495e-06,
+    1.3075987226329744e-06
+  ],
+  "retained_case_support_equal": true,
+  "online_scope": "Decoder evaluation is ongoing; no online gain or formal result claimed",
+  "source_files": [
+    "univer_shallow_numeric.json",
+    "univer_tree_numeric.json",
+    "univer_native_branches_01.json",
+    "univer_numeric_history_diagnostic.json"
+  ],
+  "major_implementation_status": "complete",
+  "natural_development": {
+    "requests": 8,
+    "eos_requests": 8,
+    "verified_output_token_files": 8,
+    "comparison_path": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper08_development_comparison.json"
+  },
+  "common_history": {
+    "states": 256,
+    "method_rows": 1024,
+    "shared_inputs_verified": true,
+    "summary_path": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper08_univer/development_curve_01/summary.json"
+  },
+  "width_refinements": {
+    "first_candidates": [
+      32,
+      64
+    ],
+    "second_candidates_per_parent": 4,
+    "status": "queued",
+    "formal_outcomes_read": false
+  }
+}

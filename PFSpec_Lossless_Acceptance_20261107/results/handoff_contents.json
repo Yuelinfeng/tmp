@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "files": 1948,
+  "formal_token_files": 630,
+  "selected_weight": "results/paper06_dflash/training/diffusion_context_w64/selected.pt",
+  "initialization_dependency": "results/dependencies/fusion_long/selected.pt",
+  "server_root": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106",
+  "retained_unselected_weights": [
+    "paper02_draft_opd/training/opd_ce_tv/last.pt",
+    "paper02_draft_opd/training/opd_ce_tv/selected.pt",
+    "paper02_draft_opd/training/opd_forward/last.pt",
+    "paper02_draft_opd/training/opd_forward/selected.pt",
+    "paper02_draft_opd/training/opd_fullsplit/last.pt",
+    "paper02_draft_opd/training/opd_fullsplit/selected.pt",
+    "paper02_draft_opd/training/opd_split/last.pt",
+    "paper02_draft_opd/training/opd_split/selected.pt",
+    "paper03_lk/training/lk_adaptive/last.pt",
+    "paper03_lk/training/lk_adaptive/selected.pt",
+    "paper03_lk/training/lk_ce_tv/last.pt",
+    "paper03_lk/training/lk_ce_tv/selected.pt",
+    "paper03_lk/training/lk_full_init/selected.pt",
+    "paper03_lk/training/lk_log/last.pt",
+    "paper03_lk/training/lk_log/selected.pt",
+    "paper04_optimal_multi_draft/training/multi_greedy_full_w64/selected.pt",
+    "paper04_optimal_multi_draft/training/multi_greedy_w16/selected.pt",
+    "paper04_optimal_multi_draft/training/multi_greedy_w64/selected.pt",
+    "paper05_block_verification/training/block_joint_w1/selected.pt",
+    "paper05_block_verification/training/block_joint_w64/selected.pt"
+  ],
+  "external_dependencies": "Original Target, VQ, Ranker, runtime and large teacher data remain at documented server locations"
+}

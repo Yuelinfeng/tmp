@@ -1,0 +1,1115 @@
+{
+  "fusion_long": {
+    "runtime": {
+      "runtime_init_ms": 0.039207981899380684,
+      "max_query_tokens": 8,
+      "supported_query_tokens": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "cache_events": [
+        {
+          "event": "allocate",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 3.2451279694214463,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03789097536355257,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03584998194128275,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03994000144302845,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03585498780012131,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03531400579959154,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035470002330839634,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.044947024434804916,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035258010029792786,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03603310324251652,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0361540587618947,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0369449844583869,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036646961234509945,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03734300844371319,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03642903175204992,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.038134981878101826,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03637094050645828,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036266050301492214,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03671599552035332,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035690958611667156,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03643298987299204,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03675802145153284,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036331010051071644,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03612600266933441,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036153942346572876,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03605207893997431,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03650703001767397,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03612297587096691,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.04391802940517664,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03645499236881733,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0361959682777524,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03547396045178175,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03654800821095705,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.034890021197497845,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035954988561570644,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037066987715661526,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03641203511506319,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036125071346759796,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03599002957344055,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037473044358193874,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035381061024963856,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03592704888433218,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036040088161826134,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.05975097883492708,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035724020563066006,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036604003980755806,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.043075066059827805,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03596197348088026,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03658002242445946,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0353220384567976,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03508699592202902,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03598490729928017,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037661055102944374,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03575696609914303,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03716594073921442,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036946963518857956,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036022975109517574,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03758003003895283,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036346958950161934,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03582006320357323,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03554392606019974,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03619107883423567,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.07823493797332048,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.044721062295138836,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03623496741056442,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03707397263497114,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035837991163134575,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03602798096835613,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0364470761269331,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03622297663241625,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03649399150162935,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03628106787800789,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037807971239089966,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03690994344651699,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.038739992305636406,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03668502904474735,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.035661039873957634,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03599200863391161,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036259996704757214,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.044740037992596626,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.040526967495679855,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03848795313388109,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03514799755066633,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.0364349689334631,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03677897620946169,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.04006305243819952,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036499928683042526,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03586197271943092,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03868900239467621,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03577896859496832,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03593799192458391,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03463507164269686,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036048004403710365,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03594800364226103,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03578094765543938,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.038612051866948605,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036554993130266666,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03723695408552885,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037176068872213364,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036837998777627945,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.039405073039233685,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03688596189022064,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036375015042722225,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03667792771011591,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03625394310802221,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036465004086494446,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03652588929980993,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.038353027775883675,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03542203921824694,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03707106225192547,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.037446036003530025,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.036961049772799015,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03611191641539335,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03691401798278093,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.038051046431064606,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03729306627064943,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03709597513079643,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 583,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03815710078924894,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03649399150162935,
+          "kv_bytes": 6442450944
+        },
+        {
+          "event": "reset",
+          "requested_capacity": 775,
+          "cache_capacity": 32768,
+          "host_enqueue_ms": 0.03944896161556244,
+          "kv_bytes": 6442450944
+        }
+      ],
+      "graph_events": [
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 128,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 67,
+          "prepare_ms": 0.7878070464357734,
+          "warmup_ms": 38.511076010763645,
+          "capture_ms": 207.73486804682761,
+          "memory_allocated_before": 7887081472,
+          "memory_allocated_after": 7887146496,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8002732032,
+          "memory_reserved_after": 8002732032,
+          "memory_reserved_delta": 0,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 512,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 257,
+          "prepare_ms": 0.8137669647112489,
+          "warmup_ms": 38.635252974927425,
+          "capture_ms": 214.00682802777737,
+          "memory_allocated_before": 7913699840,
+          "memory_allocated_after": 7913764864,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8086618112,
+          "memory_reserved_after": 8107589632,
+          "memory_reserved_delta": 20971520,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 1024,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 519,
+          "prepare_ms": 0.7791180396452546,
+          "warmup_ms": 38.327681948430836,
+          "capture_ms": 215.75887803919613,
+          "memory_allocated_before": 7931180032,
+          "memory_allocated_after": 7931245056,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8174698496,
+          "memory_reserved_after": 8195670016,
+          "memory_reserved_delta": 20971520,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 2,
+          "read_bucket": 1024,
+          "logit_types": [
+            "position",
+            "feature"
+          ],
+          "first_pos": 766,
+          "prepare_ms": 0.8049849420785904,
+          "warmup_ms": 40.7172980485484,
+          "capture_ms": 236.29980103578418,
+          "memory_allocated_before": 7939771392,
+          "memory_allocated_after": 7939901440,
+          "memory_allocated_delta": 130048,
+          "memory_reserved_before": 8218738688,
+          "memory_reserved_after": 8239710208,
+          "memory_reserved_delta": 20971520,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        },
+        {
+          "cache_capacity": 32768,
+          "query_tokens": 1,
+          "read_bucket": 256,
+          "logit_types": [
+            "feature"
+          ],
+          "first_pos": 135,
+          "prepare_ms": 0.7685680175200105,
+          "warmup_ms": 38.385797990486026,
+          "capture_ms": 211.03179501369596,
+          "memory_allocated_before": 7947918336,
+          "memory_allocated_after": 7947983360,
+          "memory_allocated_delta": 65024,
+          "memory_reserved_before": 8269070336,
+          "memory_reserved_after": 8269070336,
+          "memory_reserved_delta": 0,
+          "kv_bytes": 6442450944,
+          "estimated_kv_bytes": 6442450944
+        }
+      ],
+      "graph_count": 5,
+      "disabled_graphs": {},
+      "calls": {
+        "original_forward": 120,
+        "graph_forward": 2157,
+        "graph_forward_T1": 2073,
+        "graph_forward_T2": 84
+      },
+      "fallbacks": {
+        "unsupported_query_tokens": 120
+      },
+      "numerical_records": 0,
+      "numerical_recording": false,
+      "cache_bytes_by_capacity": {
+        "32768": 6442450944
+      }
+    },
+    "tree": {
+      "graph_enabled": true,
+      "max_width": 1,
+      "runtime_init_ms": 0.006810994818806648,
+      "graph_count": 4,
+      "graph_events": [
+        {
+          "cache_id": 140462279240304,
+          "width": 1,
+          "node_count": 4,
+          "read_bucket": 128,
+          "first_before": 64,
+          "prepare_ms": 1.2520690215751529,
+          "warmup_ms": 38.46662805881351,
+          "capture_ms": 210.29815496876836,
+          "memory_allocated_before": 7879025152,
+          "memory_allocated_after": 7879284736,
+          "memory_allocated_delta": 259584,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 140462279240304,
+          "width": 1,
+          "node_count": 4,
+          "read_bucket": 512,
+          "first_before": 256,
+          "prepare_ms": 0.9962320327758789,
+          "warmup_ms": 38.95105002447963,
+          "capture_ms": 239.74801402073354,
+          "memory_allocated_before": 7908050432,
+          "memory_allocated_after": 7908310016,
+          "memory_allocated_delta": 259584,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 140462279240304,
+          "width": 1,
+          "node_count": 4,
+          "read_bucket": 1024,
+          "first_before": 510,
+          "prepare_ms": 1.4173969393596053,
+          "warmup_ms": 42.10623388644308,
+          "capture_ms": 209.7604249138385,
+          "memory_allocated_before": 7922431488,
+          "memory_allocated_after": 7922691072,
+          "memory_allocated_delta": 259584,
+          "kv_bytes": 6442450944
+        },
+        {
+          "cache_id": 140462279240304,
+          "width": 1,
+          "node_count": 4,
+          "read_bucket": 256,
+          "first_before": 126,
+          "prepare_ms": 0.8441390236839652,
+          "warmup_ms": 38.56605908367783,
+          "capture_ms": 202.59585697203875,
+          "memory_allocated_before": 7939172864,
+          "memory_allocated_after": 7939432448,
+          "memory_allocated_delta": 259584,
+          "kv_bytes": 6442450944
+        }
+      ],
+      "calls": {
+        "verify_attempts": 22194,
+        "graph_forward": 22194,
+        "graph_forward_W1": 22194,
+        "verify": 22194,
+        "commit_contiguous": 22194,
+        "commit": 22194,
+        "commit_nodes_2": 12656,
+        "commit_nodes_1": 1737,
+        "commit_nodes_3": 334,
+        "commit_nodes_4": 7467
+      },
+      "fallbacks": {},
+      "pending_verify": false,
+      "copy_bytes": {
+        "static_token_inputs": 710464,
+        "rope_inputs": 22734848,
+        "attention_masks": 55264768,
+        "token_cache_writes": 710464,
+        "graph_output_views": 0,
+        "commit_token_clear": 246856
+      },
+      "output_lifetime": "borrowed_until_next_matching_graph_verify"
+    },
+    "proposal": {
+      "runtime_init_ms": 0.00433693639934063,
+      "method_kind": "mlp",
+      "patched_method": "forward",
+      "active": false,
+      "closed": false,
+      "cache_events": [],
+      "graph_count": 1,
+      "graph_events": [
+        {
+          "signature": "('tuple', (('tuple', (('tensor', (1, 3072), (3072, 1), 'torch.float32', 'cuda:0', 'torch.strided'), ('tensor', (1,), (1,), 'torch.int64', 'cuda:0', 'torch.strided'), ('tensor', (1,), (1,), 'torch.int64', 'cuda:0', 'torch.strided'))), ('dict', ())))",
+          "device": "cuda:0",
+          "warmup_calls": 2,
+          "warmup_ms": 1.9507459364831448,
+          "capture_ms": 190.60492503922433,
+          "prepare_ms": 1.7072759801521897,
+          "setup_ms": 194.26524196751416,
+          "verified": false
+        }
+      ],
+      "calls": {
+        "proposal_forward": 22194,
+        "graph_capture_attempts": 1,
+        "graph_forward": 22194,
+        "graph_forward_mlp": 22194
+      },
+      "fallbacks": {},
+      "attempt_events": [],
+      "verification": {
+        "calls": 0,
+        "allclose_failures": 0,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "policy_calls": 0,
+        "max_policy_tv": 0.0,
+        "policy_support_mismatches": 0,
+        "enabled": false,
+        "policy_tv_tolerance": 1e-05,
+        "passed": null
+      },
+      "output_lifetime": "borrowed graph-owned tensors; consume or clone before the next call"
+    },
+    "graph_initialization_accounting": {
+      "graph_count": 9,
+      "additional_target_trunk_evaluations": 27,
+      "additional_target_input_nodes": 66,
+      "recorded_graph_initialization_seconds": 2.3083657810930163,
+      "scope": "Two warmup evaluations and one capture per saved graph event; replay calls are recorded separately"
+    }
+  }
+}

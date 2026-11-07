@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "w1": {
+      "requests": 30,
+      "tokens": 140928,
+      "seconds": 621.5564590453869,
+      "eos": 30,
+      "comparisons": {},
+      "pooled_tokens_per_second": 226.73402866160103
+    }
+  },
+  "completion": {
+    "w1": {
+      "requests": 60,
+      "tokens": 170886,
+      "seconds": 699.6722168979468,
+      "eos": 60,
+      "comparisons": {},
+      "pooled_tokens_per_second": 244.2372240499085
+    }
+  }
+}

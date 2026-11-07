@@ -1,0 +1,979 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "bos": {
+      "block_joint_w1": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.2649620851993397,
+            "sources": 4,
+            "omitted_rows": 62
+          },
+          "pair_joint_probability": {
+            "mean": 0.2530415292920149,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0013621075690934984,
+            "ci95": [
+              0.0005101066796252337,
+              0.0020153377845398526
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-bos-69401:1091",
+              "dev-bos-69401:1352",
+              "dev-bos-69401:1608",
+              "dev-bos-69401:1643",
+              "dev-bos-69401:1650",
+              "dev-bos-69401:1718",
+              "dev-bos-69401:1874",
+              "dev-bos-69401:1877",
+              "dev-bos-69401:1957",
+              "dev-bos-69401:1993",
+              "dev-bos-69401:2163",
+              "dev-bos-69401:423",
+              "dev-bos-69401:951",
+              "dev-bos-69402:1113",
+              "dev-bos-69402:1138",
+              "dev-bos-69402:1258",
+              "dev-bos-69402:1394",
+              "dev-bos-69402:1425",
+              "dev-bos-69402:1486",
+              "dev-bos-69402:1487",
+              "dev-bos-69402:1533",
+              "dev-bos-69402:1546",
+              "dev-bos-69402:1633",
+              "dev-bos-69402:1695",
+              "dev-bos-69402:1753",
+              "dev-bos-69402:1776",
+              "dev-bos-69402:1812",
+              "dev-bos-69402:1825",
+              "dev-bos-69402:1884",
+              "dev-bos-69402:1902",
+              "dev-bos-69402:1919",
+              "dev-bos-69402:1961",
+              "dev-bos-69402:1966",
+              "dev-bos-69402:1967",
+              "dev-bos-69402:1977",
+              "dev-bos-69402:2024",
+              "dev-bos-69402:2043",
+              "dev-bos-69402:2308",
+              "dev-bos-69402:2318",
+              "dev-bos-69402:2333",
+              "dev-bos-69402:2412",
+              "dev-bos-69402:2441",
+              "dev-bos-69402:2523",
+              "dev-bos-69402:2557",
+              "dev-bos-69402:2896",
+              "dev-bos-69402:750",
+              "dev-bos-69402:959",
+              "dev-bos-69404:1077",
+              "dev-bos-69404:1080",
+              "dev-bos-69404:150",
+              "dev-bos-69404:1735",
+              "dev-bos-69404:1904",
+              "dev-bos-69404:2000",
+              "dev-bos-69404:2002",
+              "dev-bos-69404:2174",
+              "dev-bos-69404:229",
+              "dev-bos-69404:2374",
+              "dev-bos-69404:405",
+              "dev-bos-69404:637",
+              "dev-bos-69404:643",
+              "dev-bos-69404:687",
+              "dev-bos-69404:894"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.00047547472620623104,
+            "ci95": [
+              0.00021740404711472044,
+              0.0006653384282168081
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "block_joint_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6334825506237716,
+            "sources": 4,
+            "omitted_rows": 62
+          },
+          "pair_joint_probability": {
+            "mean": 0.6070974434629381,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.36988257299352545,
+            "ci95": [
+              0.3228046366533683,
+              0.41562340361972744
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-bos-69401:1091",
+              "dev-bos-69401:1352",
+              "dev-bos-69401:1608",
+              "dev-bos-69401:1643",
+              "dev-bos-69401:1650",
+              "dev-bos-69401:1718",
+              "dev-bos-69401:1874",
+              "dev-bos-69401:1877",
+              "dev-bos-69401:1957",
+              "dev-bos-69401:1993",
+              "dev-bos-69401:2163",
+              "dev-bos-69401:423",
+              "dev-bos-69401:951",
+              "dev-bos-69402:1113",
+              "dev-bos-69402:1138",
+              "dev-bos-69402:1258",
+              "dev-bos-69402:1394",
+              "dev-bos-69402:1425",
+              "dev-bos-69402:1486",
+              "dev-bos-69402:1487",
+              "dev-bos-69402:1533",
+              "dev-bos-69402:1546",
+              "dev-bos-69402:1633",
+              "dev-bos-69402:1695",
+              "dev-bos-69402:1753",
+              "dev-bos-69402:1776",
+              "dev-bos-69402:1812",
+              "dev-bos-69402:1825",
+              "dev-bos-69402:1884",
+              "dev-bos-69402:1902",
+              "dev-bos-69402:1919",
+              "dev-bos-69402:1961",
+              "dev-bos-69402:1966",
+              "dev-bos-69402:1967",
+              "dev-bos-69402:1977",
+              "dev-bos-69402:2024",
+              "dev-bos-69402:2043",
+              "dev-bos-69402:2308",
+              "dev-bos-69402:2318",
+              "dev-bos-69402:2333",
+              "dev-bos-69402:2412",
+              "dev-bos-69402:2441",
+              "dev-bos-69402:2523",
+              "dev-bos-69402:2557",
+              "dev-bos-69402:2896",
+              "dev-bos-69402:750",
+              "dev-bos-69402:959",
+              "dev-bos-69404:1077",
+              "dev-bos-69404:1080",
+              "dev-bos-69404:150",
+              "dev-bos-69404:1735",
+              "dev-bos-69404:1904",
+              "dev-bos-69404:2000",
+              "dev-bos-69404:2002",
+              "dev-bos-69404:2174",
+              "dev-bos-69404:229",
+              "dev-bos-69404:2374",
+              "dev-bos-69404:405",
+              "dev-bos-69404:637",
+              "dev-bos-69404:643",
+              "dev-bos-69404:687",
+              "dev-bos-69404:894"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.3545313888971296,
+            "ci95": [
+              0.29710684282127353,
+              0.4114927400557094
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "fusion_long": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.26359997763024623,
+            "sources": 4,
+            "omitted_rows": 62
+          },
+          "pair_joint_probability": {
+            "mean": 0.25256605456580866,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-bos-69401:1091",
+              "dev-bos-69401:1352",
+              "dev-bos-69401:1608",
+              "dev-bos-69401:1643",
+              "dev-bos-69401:1650",
+              "dev-bos-69401:1718",
+              "dev-bos-69401:1874",
+              "dev-bos-69401:1877",
+              "dev-bos-69401:1957",
+              "dev-bos-69401:1993",
+              "dev-bos-69401:2163",
+              "dev-bos-69401:423",
+              "dev-bos-69401:951",
+              "dev-bos-69402:1113",
+              "dev-bos-69402:1138",
+              "dev-bos-69402:1258",
+              "dev-bos-69402:1394",
+              "dev-bos-69402:1425",
+              "dev-bos-69402:1486",
+              "dev-bos-69402:1487",
+              "dev-bos-69402:1533",
+              "dev-bos-69402:1546",
+              "dev-bos-69402:1633",
+              "dev-bos-69402:1695",
+              "dev-bos-69402:1753",
+              "dev-bos-69402:1776",
+              "dev-bos-69402:1812",
+              "dev-bos-69402:1825",
+              "dev-bos-69402:1884",
+              "dev-bos-69402:1902",
+              "dev-bos-69402:1919",
+              "dev-bos-69402:1961",
+              "dev-bos-69402:1966",
+              "dev-bos-69402:1967",
+              "dev-bos-69402:1977",
+              "dev-bos-69402:2024",
+              "dev-bos-69402:2043",
+              "dev-bos-69402:2308",
+              "dev-bos-69402:2318",
+              "dev-bos-69402:2333",
+              "dev-bos-69402:2412",
+              "dev-bos-69402:2441",
+              "dev-bos-69402:2523",
+              "dev-bos-69402:2557",
+              "dev-bos-69402:2896",
+              "dev-bos-69402:750",
+              "dev-bos-69402:959",
+              "dev-bos-69404:1077",
+              "dev-bos-69404:1080",
+              "dev-bos-69404:150",
+              "dev-bos-69404:1735",
+              "dev-bos-69404:1904",
+              "dev-bos-69404:2000",
+              "dev-bos-69404:2002",
+              "dev-bos-69404:2174",
+              "dev-bos-69404:229",
+              "dev-bos-69404:2374",
+              "dev-bos-69404:405",
+              "dev-bos-69404:637",
+              "dev-bos-69404:643",
+              "dev-bos-69404:687",
+              "dev-bos-69404:894"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.2575266058660948,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6323894218196491,
+            "sources": 4,
+            "omitted_rows": 62
+          },
+          "pair_joint_probability": {
+            "mean": 0.606669578933783,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.36878944418940285,
+            "ci95": [
+              0.3211614105563949,
+              0.41526386025413997
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-bos-69401:1091",
+              "dev-bos-69401:1352",
+              "dev-bos-69401:1608",
+              "dev-bos-69401:1643",
+              "dev-bos-69401:1650",
+              "dev-bos-69401:1718",
+              "dev-bos-69401:1874",
+              "dev-bos-69401:1877",
+              "dev-bos-69401:1957",
+              "dev-bos-69401:1993",
+              "dev-bos-69401:2163",
+              "dev-bos-69401:423",
+              "dev-bos-69401:951",
+              "dev-bos-69402:1113",
+              "dev-bos-69402:1138",
+              "dev-bos-69402:1258",
+              "dev-bos-69402:1394",
+              "dev-bos-69402:1425",
+              "dev-bos-69402:1486",
+              "dev-bos-69402:1487",
+              "dev-bos-69402:1533",
+              "dev-bos-69402:1546",
+              "dev-bos-69402:1633",
+              "dev-bos-69402:1695",
+              "dev-bos-69402:1753",
+              "dev-bos-69402:1776",
+              "dev-bos-69402:1812",
+              "dev-bos-69402:1825",
+              "dev-bos-69402:1884",
+              "dev-bos-69402:1902",
+              "dev-bos-69402:1919",
+              "dev-bos-69402:1961",
+              "dev-bos-69402:1966",
+              "dev-bos-69402:1967",
+              "dev-bos-69402:1977",
+              "dev-bos-69402:2024",
+              "dev-bos-69402:2043",
+              "dev-bos-69402:2308",
+              "dev-bos-69402:2318",
+              "dev-bos-69402:2333",
+              "dev-bos-69402:2412",
+              "dev-bos-69402:2441",
+              "dev-bos-69402:2523",
+              "dev-bos-69402:2557",
+              "dev-bos-69402:2896",
+              "dev-bos-69402:750",
+              "dev-bos-69402:959",
+              "dev-bos-69404:1077",
+              "dev-bos-69404:1080",
+              "dev-bos-69404:150",
+              "dev-bos-69404:1735",
+              "dev-bos-69404:1904",
+              "dev-bos-69404:2000",
+              "dev-bos-69404:2002",
+              "dev-bos-69404:2174",
+              "dev-bos-69404:229",
+              "dev-bos-69404:2374",
+              "dev-bos-69404:405",
+              "dev-bos-69404:637",
+              "dev-bos-69404:643",
+              "dev-bos-69404:687",
+              "dev-bos-69404:894"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.35410352436797427,
+            "ci95": [
+              0.29643195181236276,
+              0.41136151060340626
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      }
+    },
+    "completion": {
+      "block_joint_w1": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.34065425791083,
+            "sources": 4,
+            "omitted_rows": 56
+          },
+          "pair_joint_probability": {
+            "mean": 0.32718965526654625,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0018461121430370267,
+            "ci95": [
+              0.0005022524622267545,
+              0.003281057423886082
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-completion-sequence_20265041:1099",
+              "dev-completion-sequence_20265041:1579",
+              "dev-completion-sequence_20265041:1982",
+              "dev-completion-sequence_20265041:278",
+              "dev-completion-sequence_20265041:859",
+              "dev-completion-sequence_20265280:1238",
+              "dev-completion-sequence_20265280:1334",
+              "dev-completion-sequence_20265280:1350",
+              "dev-completion-sequence_20265280:1455",
+              "dev-completion-sequence_20265280:2022",
+              "dev-completion-sequence_20265280:356",
+              "dev-completion-sequence_20265280:441",
+              "dev-completion-sequence_20265280:455",
+              "dev-completion-sequence_20265280:464",
+              "dev-completion-sequence_20265280:706",
+              "dev-completion-sequence_20265280:733",
+              "dev-completion-sequence_20265280:977",
+              "dev-completion-sequence_20265287:1086",
+              "dev-completion-sequence_20265287:1178",
+              "dev-completion-sequence_20265287:1432",
+              "dev-completion-sequence_20265287:1514",
+              "dev-completion-sequence_20265287:1991",
+              "dev-completion-sequence_20265287:2131",
+              "dev-completion-sequence_20265287:535",
+              "dev-completion-sequence_20265287:642",
+              "dev-completion-sequence_20265287:810",
+              "dev-completion-sequence_20265287:826",
+              "dev-completion-sequence_20265456:1083",
+              "dev-completion-sequence_20265456:1265",
+              "dev-completion-sequence_20265456:1269",
+              "dev-completion-sequence_20265456:1329",
+              "dev-completion-sequence_20265456:1344",
+              "dev-completion-sequence_20265456:1378",
+              "dev-completion-sequence_20265456:1428",
+              "dev-completion-sequence_20265456:1463",
+              "dev-completion-sequence_20265456:164",
+              "dev-completion-sequence_20265456:174",
+              "dev-completion-sequence_20265456:1780",
+              "dev-completion-sequence_20265456:1791",
+              "dev-completion-sequence_20265456:1794",
+              "dev-completion-sequence_20265456:1912",
+              "dev-completion-sequence_20265456:1936",
+              "dev-completion-sequence_20265456:1941",
+              "dev-completion-sequence_20265456:2034",
+              "dev-completion-sequence_20265456:205",
+              "dev-completion-sequence_20265456:274",
+              "dev-completion-sequence_20265456:278",
+              "dev-completion-sequence_20265456:384",
+              "dev-completion-sequence_20265456:517",
+              "dev-completion-sequence_20265456:540",
+              "dev-completion-sequence_20265456:566",
+              "dev-completion-sequence_20265456:626",
+              "dev-completion-sequence_20265456:668",
+              "dev-completion-sequence_20265456:781",
+              "dev-completion-sequence_20265456:876",
+              "dev-completion-sequence_20265456:992"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.00045424962104456614,
+            "ci95": [
+              9.331797044667444e-05,
+              0.0009776119031259952
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "block_joint_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.738229897370086,
+            "sources": 4,
+            "omitted_rows": 56
+          },
+          "pair_joint_probability": {
+            "mean": 0.7094016677671486,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.3994217516022931,
+            "ci95": [
+              0.35913670296345634,
+              0.4397068002411298
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-completion-sequence_20265041:1099",
+              "dev-completion-sequence_20265041:1579",
+              "dev-completion-sequence_20265041:1982",
+              "dev-completion-sequence_20265041:278",
+              "dev-completion-sequence_20265041:859",
+              "dev-completion-sequence_20265280:1238",
+              "dev-completion-sequence_20265280:1334",
+              "dev-completion-sequence_20265280:1350",
+              "dev-completion-sequence_20265280:1455",
+              "dev-completion-sequence_20265280:2022",
+              "dev-completion-sequence_20265280:356",
+              "dev-completion-sequence_20265280:441",
+              "dev-completion-sequence_20265280:455",
+              "dev-completion-sequence_20265280:464",
+              "dev-completion-sequence_20265280:706",
+              "dev-completion-sequence_20265280:733",
+              "dev-completion-sequence_20265280:977",
+              "dev-completion-sequence_20265287:1086",
+              "dev-completion-sequence_20265287:1178",
+              "dev-completion-sequence_20265287:1432",
+              "dev-completion-sequence_20265287:1514",
+              "dev-completion-sequence_20265287:1991",
+              "dev-completion-sequence_20265287:2131",
+              "dev-completion-sequence_20265287:535",
+              "dev-completion-sequence_20265287:642",
+              "dev-completion-sequence_20265287:810",
+              "dev-completion-sequence_20265287:826",
+              "dev-completion-sequence_20265456:1083",
+              "dev-completion-sequence_20265456:1265",
+              "dev-completion-sequence_20265456:1269",
+              "dev-completion-sequence_20265456:1329",
+              "dev-completion-sequence_20265456:1344",
+              "dev-completion-sequence_20265456:1378",
+              "dev-completion-sequence_20265456:1428",
+              "dev-completion-sequence_20265456:1463",
+              "dev-completion-sequence_20265456:164",
+              "dev-completion-sequence_20265456:174",
+              "dev-completion-sequence_20265456:1780",
+              "dev-completion-sequence_20265456:1791",
+              "dev-completion-sequence_20265456:1794",
+              "dev-completion-sequence_20265456:1912",
+              "dev-completion-sequence_20265456:1936",
+              "dev-completion-sequence_20265456:1941",
+              "dev-completion-sequence_20265456:2034",
+              "dev-completion-sequence_20265456:205",
+              "dev-completion-sequence_20265456:274",
+              "dev-completion-sequence_20265456:278",
+              "dev-completion-sequence_20265456:384",
+              "dev-completion-sequence_20265456:517",
+              "dev-completion-sequence_20265456:540",
+              "dev-completion-sequence_20265456:566",
+              "dev-completion-sequence_20265456:626",
+              "dev-completion-sequence_20265456:668",
+              "dev-completion-sequence_20265456:781",
+              "dev-completion-sequence_20265456:876",
+              "dev-completion-sequence_20265456:992"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.3826662621216469,
+            "ci95": [
+              0.33982556953070653,
+              0.42550695471258726
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "fusion_long": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.33880814576779295,
+            "sources": 4,
+            "omitted_rows": 56
+          },
+          "pair_joint_probability": {
+            "mean": 0.32673540564550163,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-completion-sequence_20265041:1099",
+              "dev-completion-sequence_20265041:1579",
+              "dev-completion-sequence_20265041:1982",
+              "dev-completion-sequence_20265041:278",
+              "dev-completion-sequence_20265041:859",
+              "dev-completion-sequence_20265280:1238",
+              "dev-completion-sequence_20265280:1334",
+              "dev-completion-sequence_20265280:1350",
+              "dev-completion-sequence_20265280:1455",
+              "dev-completion-sequence_20265280:2022",
+              "dev-completion-sequence_20265280:356",
+              "dev-completion-sequence_20265280:441",
+              "dev-completion-sequence_20265280:455",
+              "dev-completion-sequence_20265280:464",
+              "dev-completion-sequence_20265280:706",
+              "dev-completion-sequence_20265280:733",
+              "dev-completion-sequence_20265280:977",
+              "dev-completion-sequence_20265287:1086",
+              "dev-completion-sequence_20265287:1178",
+              "dev-completion-sequence_20265287:1432",
+              "dev-completion-sequence_20265287:1514",
+              "dev-completion-sequence_20265287:1991",
+              "dev-completion-sequence_20265287:2131",
+              "dev-completion-sequence_20265287:535",
+              "dev-completion-sequence_20265287:642",
+              "dev-completion-sequence_20265287:810",
+              "dev-completion-sequence_20265287:826",
+              "dev-completion-sequence_20265456:1083",
+              "dev-completion-sequence_20265456:1265",
+              "dev-completion-sequence_20265456:1269",
+              "dev-completion-sequence_20265456:1329",
+              "dev-completion-sequence_20265456:1344",
+              "dev-completion-sequence_20265456:1378",
+              "dev-completion-sequence_20265456:1428",
+              "dev-completion-sequence_20265456:1463",
+              "dev-completion-sequence_20265456:164",
+              "dev-completion-sequence_20265456:174",
+              "dev-completion-sequence_20265456:1780",
+              "dev-completion-sequence_20265456:1791",
+              "dev-completion-sequence_20265456:1794",
+              "dev-completion-sequence_20265456:1912",
+              "dev-completion-sequence_20265456:1936",
+              "dev-completion-sequence_20265456:1941",
+              "dev-completion-sequence_20265456:2034",
+              "dev-completion-sequence_20265456:205",
+              "dev-completion-sequence_20265456:274",
+              "dev-completion-sequence_20265456:278",
+              "dev-completion-sequence_20265456:384",
+              "dev-completion-sequence_20265456:517",
+              "dev-completion-sequence_20265456:540",
+              "dev-completion-sequence_20265456:566",
+              "dev-completion-sequence_20265456:626",
+              "dev-completion-sequence_20265456:668",
+              "dev-completion-sequence_20265456:781",
+              "dev-completion-sequence_20265456:876",
+              "dev-completion-sequence_20265456:992"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      },
+      "multi_greedy_w64": {
+        "states": 1536,
+        "sources": 4,
+        "source_means": {
+          "feature_overlap": {
+            "mean": 0.3307215491837354,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.7371393524650518,
+            "sources": 4,
+            "omitted_rows": 56
+          },
+          "pair_joint_probability": {
+            "mean": 0.7091650775231834,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "differences_vs_fusion_long": {
+          "feature_overlap": {
+            "difference": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "feature_set_acceptance": {
+            "difference": 0.39833120669725874,
+            "ci95": [
+              0.35719511815434124,
+              0.43946729524017636
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [
+              "dev-completion-sequence_20265041:1099",
+              "dev-completion-sequence_20265041:1579",
+              "dev-completion-sequence_20265041:1982",
+              "dev-completion-sequence_20265041:278",
+              "dev-completion-sequence_20265041:859",
+              "dev-completion-sequence_20265280:1238",
+              "dev-completion-sequence_20265280:1334",
+              "dev-completion-sequence_20265280:1350",
+              "dev-completion-sequence_20265280:1455",
+              "dev-completion-sequence_20265280:2022",
+              "dev-completion-sequence_20265280:356",
+              "dev-completion-sequence_20265280:441",
+              "dev-completion-sequence_20265280:455",
+              "dev-completion-sequence_20265280:464",
+              "dev-completion-sequence_20265280:706",
+              "dev-completion-sequence_20265280:733",
+              "dev-completion-sequence_20265280:977",
+              "dev-completion-sequence_20265287:1086",
+              "dev-completion-sequence_20265287:1178",
+              "dev-completion-sequence_20265287:1432",
+              "dev-completion-sequence_20265287:1514",
+              "dev-completion-sequence_20265287:1991",
+              "dev-completion-sequence_20265287:2131",
+              "dev-completion-sequence_20265287:535",
+              "dev-completion-sequence_20265287:642",
+              "dev-completion-sequence_20265287:810",
+              "dev-completion-sequence_20265287:826",
+              "dev-completion-sequence_20265456:1083",
+              "dev-completion-sequence_20265456:1265",
+              "dev-completion-sequence_20265456:1269",
+              "dev-completion-sequence_20265456:1329",
+              "dev-completion-sequence_20265456:1344",
+              "dev-completion-sequence_20265456:1378",
+              "dev-completion-sequence_20265456:1428",
+              "dev-completion-sequence_20265456:1463",
+              "dev-completion-sequence_20265456:164",
+              "dev-completion-sequence_20265456:174",
+              "dev-completion-sequence_20265456:1780",
+              "dev-completion-sequence_20265456:1791",
+              "dev-completion-sequence_20265456:1794",
+              "dev-completion-sequence_20265456:1912",
+              "dev-completion-sequence_20265456:1936",
+              "dev-completion-sequence_20265456:1941",
+              "dev-completion-sequence_20265456:2034",
+              "dev-completion-sequence_20265456:205",
+              "dev-completion-sequence_20265456:274",
+              "dev-completion-sequence_20265456:278",
+              "dev-completion-sequence_20265456:384",
+              "dev-completion-sequence_20265456:517",
+              "dev-completion-sequence_20265456:540",
+              "dev-completion-sequence_20265456:566",
+              "dev-completion-sequence_20265456:626",
+              "dev-completion-sequence_20265456:668",
+              "dev-completion-sequence_20265456:781",
+              "dev-completion-sequence_20265456:876",
+              "dev-completion-sequence_20265456:992"
+            ],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          },
+          "pair_joint_probability": {
+            "difference": 0.3824296718776818,
+            "ci95": [
+              0.3394206695178935,
+              0.42543867423747006
+            ],
+            "sources": 4,
+            "requests": 1536,
+            "undefined_cases": [],
+            "bootstrap_repeats": 5000,
+            "bootstrap_seed": 20261106
+          }
+        }
+      }
+    }
+  },
+  "seconds": 8.136538241058588,
+  "peak_gpu_gib": 0.037238121032714844,
+  "checkpoint": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "parameters": 3388672,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "widths": [
+    1,
+    64
+  ],
+  "rows": 12288,
+  "scope": "Development only; Algorithm 2 first P/F pair plus reuse of fixed verified branches; unchanged predictions"
+}

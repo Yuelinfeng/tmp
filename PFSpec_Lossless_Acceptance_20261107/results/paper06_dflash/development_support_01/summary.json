@@ -1,0 +1,256 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "bos": {
+      "methods": {
+        "diffusion_context_w64": {
+          "feature_overlap": {
+            "mean": 0.2912090378622262,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.6786668549070782,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.6625038388645821,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_overlap": {
+            "mean": 0.19050767442610092,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_set_acceptance": {
+            "mean": 0.2696348689167299,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "diffusion_full_w64": {
+          "feature_overlap": {
+            "mean": 0.27579486371111833,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.70808906199827,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.6919701709531241,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_overlap": {
+            "mean": 0.18276770556608685,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_set_acceptance": {
+            "mean": 0.27428298729768724,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "full_minus_truncated": {
+        "feature_overlap": {
+          "difference": -0.015414174151107869,
+          "ci95": [
+            -0.022203580168744946,
+            -0.01121440530226625
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "feature_set_acceptance": {
+          "difference": 0.029422207091191883,
+          "ci95": [
+            0.009362152261426598,
+            0.05708154845600196
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "pair_joint_probability": {
+          "difference": 0.029466332088542033,
+          "ci95": [
+            0.009663880129649527,
+            0.05725800341789804
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "second_feature_overlap": {
+          "difference": -0.007739968860014083,
+          "ci95": [
+            -0.008819056261188507,
+            -0.006660881458839659
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "second_feature_set_acceptance": {
+          "difference": 0.0046481183809573175,
+          "ci95": [
+            -0.007361498328018949,
+            0.027720860445314816
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        }
+      }
+    },
+    "completion": {
+      "methods": {
+        "diffusion_context_w64": {
+          "feature_overlap": {
+            "mean": 0.31581749372298873,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.7486138359218634,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.7337873382845254,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_overlap": {
+            "mean": 0.19889193496781368,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_set_acceptance": {
+            "mean": 0.2966295269350117,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        },
+        "diffusion_full_w64": {
+          "feature_overlap": {
+            "mean": 0.29774413337968514,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "feature_set_acceptance": {
+            "mean": 0.7724282509050985,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "pair_joint_probability": {
+            "mean": 0.7573966412171265,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_overlap": {
+            "mean": 0.18779480925333303,
+            "sources": 4,
+            "omitted_rows": 0
+          },
+          "second_feature_set_acceptance": {
+            "mean": 0.28849956802645715,
+            "sources": 4,
+            "omitted_rows": 0
+          }
+        }
+      },
+      "full_minus_truncated": {
+        "feature_overlap": {
+          "difference": -0.01807336034330357,
+          "ci95": [
+            -0.021525212568822855,
+            -0.013850349845057508
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "feature_set_acceptance": {
+          "difference": 0.023814414983235107,
+          "ci95": [
+            0.009588062186746054,
+            0.03804076777972416
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "pair_joint_probability": {
+          "difference": 0.0236093029326011,
+          "ci95": [
+            0.009441463467898141,
+            0.03777714239730406
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "second_feature_overlap": {
+          "difference": -0.011097125714480663,
+          "ci95": [
+            -0.012862297850081934,
+            -0.008691864283060605
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        },
+        "second_feature_set_acceptance": {
+          "difference": -0.008129958908554613,
+          "ci95": [
+            -0.012035611552998187,
+            -0.0038079589554248132
+          ],
+          "sources": 4,
+          "requests": 1536,
+          "undefined_cases": [],
+          "bootstrap_repeats": 5000,
+          "bootstrap_seed": 20261106
+        }
+      }
+    }
+  },
+  "rows": 6144,
+  "seconds": 3.5586607420118526,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_top_p": [
+    0.9,
+    1.0
+  ],
+  "second_feature_scope": "Target conditions on the recorded fusion_long first Feature proposal; these diagnostics are not a joint acceptance estimate for the new first Feature output"
+}

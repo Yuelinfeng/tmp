@@ -1,0 +1,27 @@
+{
+  "reports": [
+    {
+      "pair_id": "aat-train-bos-75001",
+      "tokens_equal": true,
+      "actions_equal": true,
+      "observed_rounds": 47,
+      "events": {
+        "feature_rejected": 29,
+        "position_rejected": 3,
+        "feature_accepted": 15
+      }
+    },
+    {
+      "pair_id": "dev-completion-sequence_20265287",
+      "tokens_equal": true,
+      "actions_equal": true,
+      "observed_rounds": 45,
+      "events": {
+        "feature_rejected": 25,
+        "feature_accepted": 18,
+        "position_rejected": 2
+      }
+    }
+  ],
+  "status": "complete"
+}

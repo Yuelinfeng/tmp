@@ -1,0 +1,22 @@
+{
+  "bos": {
+    "fusion_long": {
+      "requests": 30,
+      "tokens": 144074,
+      "seconds": 613.86934436718,
+      "eos": 30,
+      "comparisons": {},
+      "pooled_tokens_per_second": 234.69815087202585
+    }
+  },
+  "completion": {
+    "fusion_long": {
+      "requests": 60,
+      "tokens": 181946,
+      "seconds": 741.7598180485656,
+      "eos": 60,
+      "comparisons": {},
+      "pooled_tokens_per_second": 245.28964170459736
+    }
+  }
+}

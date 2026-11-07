@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "tests": [
+    {
+      "accepted": [
+        true,
+        false
+      ],
+      "loss": 9.449777603149414,
+      "gradient_finite": true,
+      "gradient_absolute_sum": 1.1128193140029907
+    },
+    {
+      "accepted": [
+        true,
+        true
+      ],
+      "loss": 11.08726692199707,
+      "gradient_finite": true,
+      "gradient_absolute_sum": 2.2207136154174805
+    },
+    {
+      "accepted": [
+        false,
+        false
+      ],
+      "loss": 9.449777603149414,
+      "gradient_finite": true,
+      "gradient_absolute_sum": 0.002363548381254077
+    }
+  ]
+}

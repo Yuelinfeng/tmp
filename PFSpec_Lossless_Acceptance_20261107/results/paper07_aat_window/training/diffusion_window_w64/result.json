@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "steps": 4000,
+  "seconds": 276.6230058190413,
+  "peak_gpu_gib": 1.4933357238769531,
+  "selected_score": 2.3952718235523207,
+  "parameters": 71809280,
+  "initial_step": 2800
+}

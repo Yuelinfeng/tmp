@@ -1,0 +1,4 @@
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/archive_paper06_when_done.py", line 9
+    (p/'weight_locations.json').write_text(json.dumps(dict(weights=weights,scope='Actual physical weights remain here; selected weights are transferring separately'),indent=2)+'
+                                                                                                                                                                                ^
+SyntaxError: unterminated string literal (detected at line 9)

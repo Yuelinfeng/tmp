@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "results": [
+    {
+      "width": 32,
+      "status": "invalid",
+      "started_utc": "2026-11-07 00:58:37",
+      "maximum_policy_tv": 0.00013115318142808974,
+      "numeric_valid": false,
+      "stage": "Target policy comparison",
+      "ended_utc": "2026-11-07 00:59:04"
+    },
+    {
+      "width": 64,
+      "status": "invalid",
+      "started_utc": "2026-11-07 00:59:04",
+      "maximum_policy_tv": 1.0494142770767212e-05,
+      "numeric_valid": false,
+      "stage": "Target policy comparison",
+      "ended_utc": "2026-11-07 00:59:31"
+    }
+  ],
+  "reachable_failures": {
+    "bos_source": "dev-bos-69401",
+    "anchor": 1834,
+    "position_probability": 1.0,
+    "width32_feature_tv": 1.1621043086051941e-05,
+    "width64_feature_tv": 1.0494142770767212e-05,
+    "unchanged_policy_tv_limit": 1e-05
+  },
+  "unreachable_completion_difference": {
+    "width": 32,
+    "source": "sequence_20265456.pt",
+    "anchor": 2532,
+    "position_probability": 0.0,
+    "feature_tv": 0.00013115318142808974,
+    "feature_support_equal": false,
+    "scope": "Retained separately; not used as the reachable-path failure basis"
+  }
+}

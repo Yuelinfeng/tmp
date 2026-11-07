@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "archive": "/Users/lief/Documents/ChatGPT/GaussianGPT/docs/project/artifacts/lossless_acceptance_20261106/paper08_deliverables_02.tgz",
+  "bytes": 295048,
+  "regular_files": 160,
+  "all_members_read": true,
+  "major_natural_requests": 8,
+  "eos_requests": 8,
+  "common_method_rows": 1024,
+  "width_refinements": 2,
+  "width_refinement_natural_requests": 0,
+  "common_adapter_validation_rows": 24,
+  "weight_scope": "No new weight tensors; the selected step2800 DFlash model and Fusion dependency are locally complete"
+}

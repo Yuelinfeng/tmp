@@ -1,0 +1,111 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: optimal multiple Feature candidate coupling",
+    "goal": "Determine exact multi-draft acceptance rules and adapt them without changing Target conditional distributions",
+    "capabilities": [
+      "Multiple sampled Feature candidates",
+      "Optimal transport or exact set selection",
+      "Full conditional P/F verification",
+      "Actual candidate proposal law",
+      "Single-candidate versus set acceptance",
+      "Polynomial implementation for 4096 Feature classes"
+    ],
+    "context": [
+      "RTX5090",
+      "single Feature W1 starting from committed Target states",
+      "fusion_long multi-layer Target inputs",
+      "temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "no repeat EAGLE-3 training",
+      "formal evaluation excluded from training",
+      "one paper at a time",
+      "up to eight distinct mechanisms"
+    ],
+    "evidence": [
+      "Original PDF algorithms and mathematics",
+      "Official implementation if public",
+      "Exact sampling and rejection proof",
+      "Ablation versus sequential rejection",
+      "Measured candidate and Target verification counts"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Towards Optimal Multi-draft Speculative Decoding 2502.18779 original paper",
+    "Towards Optimal Multi-draft Speculative Decoding authors venue",
+    "2502.18779 official implementation GitHub",
+    "optimal multi draft speculative decoding sampling exactness theorem",
+    "optimal multi draft speculative decoding optimal transport algorithm",
+    "optimal multi draft speculative decoding verification selection probability",
+    "optimal multi draft with replacement candidate distribution",
+    "optimal multi draft without replacement coupling",
+    "optimal multi draft vocabulary complexity 4096 tokens",
+    "optimal multi draft acceptance lower and upper bounds",
+    "optimal multi draft sequential residual comparison SpecTr",
+    "optimal multi draft N candidate exact acceptance weights",
+    "optimal multi draft target conditional distribution proof",
+    "optimal multi draft efficient sampler pseudocode",
+    "optimal multi draft finite support top p probability",
+    "optimal multi draft sampling temperature verification",
+    "optimal multi draft tree validation shared prefix",
+    "optimal multi draft accepted branch KV state",
+    "optimal multi draft independent proposals feature draft",
+    "optimal multi draft official experiments ablations candidate counts"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "depth": "deep",
+      "queries": [
+        "Towards Optimal Multi-draft Speculative Decoding 2502.18779 original paper",
+        "Towards Optimal Multi-draft Speculative Decoding authors venue",
+        "optimal multi draft speculative decoding sampling exactness theorem",
+        "optimal multi draft speculative decoding optimal transport algorithm",
+        "optimal multi draft speculative decoding verification selection probability",
+        "optimal multi draft with replacement candidate distribution",
+        "optimal multi draft without replacement coupling",
+        "optimal multi draft vocabulary complexity 4096 tokens",
+        "optimal multi draft acceptance lower and upper bounds",
+        "optimal multi draft sequential residual comparison SpecTr",
+        "optimal multi draft N candidate exact acceptance weights",
+        "optimal multi draft target conditional distribution proof",
+        "optimal multi draft efficient sampler pseudocode",
+        "optimal multi draft finite support top p probability",
+        "optimal multi draft sampling temperature verification",
+        "optimal multi draft tree validation shared prefix",
+        "optimal multi draft accepted branch KV state",
+        "optimal multi draft independent proposals feature draft"
+      ]
+    },
+    {
+      "platform_id": "github",
+      "depth": "deep",
+      "queries": [
+        "2502.18779 official implementation GitHub",
+        "optimal multi draft official experiments ablations candidate counts"
+      ]
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "Multi-candidate coupling selected after bounded Draft-OPD and LK loss results. Requested v1 agent entry unavailable; primary agent performs public source retrieval.",
+  "status": "running",
+  "route_id": "pfspec-optimal-multi-draft-20261106",
+  "created_at": null,
+  "executed_leaf_skills": [],
+  "timestamp_scope": "Original plan timestamp was not retained separately from the template"
+}

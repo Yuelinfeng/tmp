@@ -1,0 +1,101 @@
+{
+  "status": "complete",
+  "rows": 16,
+  "seconds": 2.925023449002765,
+  "work": {
+    "prefix_target_calls": 30,
+    "prefix_target_tokens": 1250,
+    "verification_calls": 16,
+    "verification_nodes": 2080
+  },
+  "cohorts": {
+    "bos": {
+      "first_feature_overlap": {
+        "mean": 0.5275363735854626,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_set_acceptance": {
+        "mean": 0.8650753945112228,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_pair_joint_exact": {
+        "mean": 0.8560244888067245,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_pair_joint_conditional_draw": {
+        "mean": 0.8263147883117199,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "both_features_joint_conditional_draw": {
+        "mean": 0.4046096312813461,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "second_feature_conditional_on_first_hit": {
+        "mean": 0.44922362081706524,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "stored_teacher_feature_tv": {
+        "mean": 5.661840987158939e-07,
+        "sources": 4,
+        "omitted_rows": 0
+      }
+    },
+    "completion": {
+      "first_feature_overlap": {
+        "mean": 0.3844152167439461,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_set_acceptance": {
+        "mean": 0.8506397753953934,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_pair_joint_exact": {
+        "mean": 0.8506397753953934,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "first_pair_joint_conditional_draw": {
+        "mean": 0.8153166249394417,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "both_features_joint_conditional_draw": {
+        "mean": 0.23265422321856022,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "second_feature_conditional_on_first_hit": {
+        "mean": 0.3020957577973604,
+        "sources": 4,
+        "omitted_rows": 0
+      },
+      "stored_teacher_feature_tv": {
+        "mean": 5.9984449762851e-07,
+        "sources": 4,
+        "omitted_rows": 0
+      }
+    }
+  },
+  "maximum_stored_teacher_feature_tv": 8.461065590381622e-07,
+  "stored_teacher_feature_support_differences": 0,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 1.0
+  },
+  "scope": "Same committed development histories, stored model inputs and stored first Position/Feature Target probabilities; later Target conditions are computed for every first Feature and second Position",
+  "integration_scope": "First joint probability is exact. Both-Feature probability integrates the second random candidate exactly and conditions on one independent first random-candidate draw per state. This is a Monte Carlo estimate over the first remaining-candidate law.",
+  "advance_scope": "EOS and output budgets are measured by the separate natural generator; no six-token advance is inferred from these probabilities",
+  "information_scope": "Additional ordinary Target prefix and four-token branch work is recorded; no future Target labels are Draft inputs"
+}

@@ -1,0 +1,18 @@
+{
+  "initial": "/root/autodl-tmp/pfspec_feature_states_20261105/training/fusion_long/selected.pt",
+  "trained": false,
+  "target_sampling": {
+    "temperature": 0.9,
+    "top_p": 0.9
+  },
+  "draft_sampling": {
+    "temperature": 0.9,
+    "top_p": 1.0
+  },
+  "requested_feature_candidates": 64,
+  "target_nodes_per_full_round": 130,
+  "cache_capacity": 32768,
+  "mechanism": "Section 5 coupling with full Draft support; second evidence-driven refinement",
+  "reason": "Common histories show positive source-level intervals for set and pair probabilities in both cohorts",
+  "feature_overlap_scope": "Single prediction overlap decreases; set membership is reported separately"
+}

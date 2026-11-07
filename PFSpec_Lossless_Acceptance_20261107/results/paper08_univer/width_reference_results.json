@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "results": [
+    {
+      "width": 32,
+      "status": "invalid",
+      "started_utc": "2026-11-07 00:58:37",
+      "maximum_policy_tv": 0.00013115318142808974,
+      "numeric_valid": false,
+      "stage": "Target policy comparison",
+      "ended_utc": "2026-11-07 00:59:04"
+    },
+    {
+      "width": 64,
+      "status": "invalid",
+      "started_utc": "2026-11-07 00:59:04",
+      "maximum_policy_tv": 1.0494142770767212e-05,
+      "numeric_valid": false,
+      "stage": "Target policy comparison",
+      "ended_utc": "2026-11-07 00:59:31"
+    }
+  ]
+}

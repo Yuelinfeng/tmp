@@ -1,0 +1,266 @@
+{
+  "requirement": {
+    "target": "GaussianGPT PFSpec: optimal multiple Feature candidate coupling",
+    "goal": "Determine exact multi-draft acceptance rules and adapt them without changing Target conditional distributions",
+    "capabilities": [
+      "Multiple sampled Feature candidates",
+      "Optimal transport or exact set selection",
+      "Full conditional P/F verification",
+      "Actual candidate proposal law",
+      "Single-candidate versus set acceptance",
+      "Polynomial implementation for 4096 Feature classes"
+    ],
+    "context": [
+      "RTX5090",
+      "single Feature W1 starting from committed Target states",
+      "fusion_long multi-layer Target inputs",
+      "temperature/top-p 0.9/0.9"
+    ],
+    "constraints": [
+      "no repeat EAGLE-3 training",
+      "formal evaluation excluded from training",
+      "one paper at a time",
+      "up to eight distinct mechanisms"
+    ],
+    "evidence": [
+      "Original PDF algorithms and mathematics",
+      "Official implementation if public",
+      "Exact sampling and rejection proof",
+      "Ablation versus sequential rejection",
+      "Measured candidate and Target verification counts"
+    ],
+    "time": [
+      "as of 2026-11-06"
+    ],
+    "explicit_platforms": [
+      "academic",
+      "github"
+    ]
+  },
+  "interaction_mode": "direct",
+  "scene": "academic",
+  "depth": "deep",
+  "query_variants": [
+    "Towards Optimal Multi-draft Speculative Decoding 2502.18779 original paper",
+    "Towards Optimal Multi-draft Speculative Decoding authors venue",
+    "2502.18779 official implementation GitHub",
+    "optimal multi draft speculative decoding sampling exactness theorem",
+    "optimal multi draft speculative decoding optimal transport algorithm",
+    "optimal multi draft speculative decoding verification selection probability",
+    "optimal multi draft with replacement candidate distribution",
+    "optimal multi draft without replacement coupling",
+    "optimal multi draft vocabulary complexity 4096 tokens",
+    "optimal multi draft acceptance lower and upper bounds",
+    "optimal multi draft sequential residual comparison SpecTr",
+    "optimal multi draft N candidate exact acceptance weights",
+    "optimal multi draft target conditional distribution proof",
+    "optimal multi draft efficient sampler pseudocode",
+    "optimal multi draft finite support top p probability",
+    "optimal multi draft sampling temperature verification",
+    "optimal multi draft tree validation shared prefix",
+    "optimal multi draft accepted branch KV state",
+    "optimal multi draft independent proposals feature draft",
+    "optimal multi draft official experiments ablations candidate counts"
+  ],
+  "platforms": [
+    {
+      "platform_id": "academic",
+      "agent_id": null,
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "Towards Optimal Multi-draft Speculative Decoding 2502.18779 original paper",
+        "Towards Optimal Multi-draft Speculative Decoding authors venue",
+        "optimal multi draft speculative decoding sampling exactness theorem",
+        "optimal multi draft speculative decoding optimal transport algorithm",
+        "optimal multi draft speculative decoding verification selection probability",
+        "optimal multi draft with replacement candidate distribution",
+        "optimal multi draft without replacement coupling",
+        "optimal multi draft vocabulary complexity 4096 tokens",
+        "optimal multi draft acceptance lower and upper bounds",
+        "optimal multi draft sequential residual comparison SpecTr",
+        "optimal multi draft N candidate exact acceptance weights",
+        "optimal multi draft target conditional distribution proof",
+        "optimal multi draft efficient sampler pseudocode",
+        "optimal multi draft finite support top p probability",
+        "optimal multi draft sampling temperature verification",
+        "optimal multi draft tree validation shared prefix",
+        "optimal multi draft accepted branch KV state",
+        "optimal multi draft independent proposals feature draft"
+      ],
+      "skill_order": [
+        "academic-local"
+      ],
+      "scripts": [
+        "scripts/fast_search.py",
+        "academic-evidence/scripts/academic_public.py",
+        "academic-evidence/scripts/extract_paper_brief.py"
+      ],
+      "search_components": [
+        "fast-search",
+        "academic-public-evidence",
+        "google-scholar-html",
+        "openalex-api",
+        "arxiv-api",
+        "crossref-api",
+        "semantic-scholar-api",
+        "rss-atom",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "autocli",
+        "anysearch",
+        "paper-research-router",
+        "literature-evidence-audit"
+      ],
+      "adapter_type": "bundled-academic-workflow",
+      "access_mode": "public-or-pdf",
+      "depth_routes": {
+        "light": [
+          "academic-local"
+        ],
+        "medium": [
+          "academic-local"
+        ],
+        "deep": [
+          "academic-local"
+        ]
+      },
+      "status": "router-registered",
+      "goal": "Determine exact multi-draft acceptance rules and adapt them without changing Target conditional distributions",
+      "evidence": [
+        "Original PDF algorithms and mathematics",
+        "Official implementation if public",
+        "Exact sampling and rejection proof",
+        "Ablation versus sequential rejection",
+        "Measured candidate and Target verification counts"
+      ],
+      "stop_condition": ""
+    },
+    {
+      "platform_id": "github",
+      "agent_id": null,
+      "tier": 1,
+      "depth": "deep",
+      "queries": [
+        "2502.18779 official implementation GitHub",
+        "optimal multi draft official experiments ablations candidate counts"
+      ],
+      "skill_order": [
+        "github-local"
+      ],
+      "scripts": [
+        "scripts/github_public.py",
+        "scripts/platform_discovery.py"
+      ],
+      "search_components": [
+        "github-public-multipath",
+        "trafilatura"
+      ],
+      "optional_enhancements": [
+        "github-search",
+        "github-analyze",
+        "last30days-cn"
+      ],
+      "adapter_type": "bundled-public-research",
+      "access_mode": "public-repository",
+      "depth_routes": {
+        "light": [
+          "github-local"
+        ],
+        "medium": [
+          "github-local"
+        ],
+        "deep": [
+          "github-local"
+        ]
+      },
+      "status": "router-registered",
+      "goal": "Determine exact multi-draft acceptance rules and adapt them without changing Target conditional distributions",
+      "evidence": [
+        "Original PDF algorithms and mathematics",
+        "Official implementation if public",
+        "Exact sampling and rejection proof",
+        "Ablation versus sequential rejection",
+        "Measured candidate and Target verification counts"
+      ],
+      "stop_condition": ""
+    }
+  ],
+  "router_path": [
+    "research-router",
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "selection_summary": "Multi-candidate coupling selected after bounded Draft-OPD and LK loss results. Requested v1 agent entry unavailable; primary agent performs public source retrieval.",
+  "route_id": "pfspec-optimal-multi-draft-20261106",
+  "status": "completed",
+  "actual_agent_count": 0,
+  "execution_mode": "primary-agent-public-retrieval",
+  "agent_count": 0,
+  "executed_leaf_skills": [
+    "academic-local",
+    "academic-evidence",
+    "github-local"
+  ],
+  "matched_skills": [
+    {
+      "skill_id": "research-router"
+    },
+    {
+      "skill_id": "academic-local"
+    },
+    {
+      "skill_id": "academic-evidence"
+    },
+    {
+      "skill_id": "github-local"
+    }
+  ],
+  "retrieval_methods": [
+    "Complete primary arXiv v2 PDF and HTML",
+    "Bundled academic arXiv metadata retrieval",
+    "Bundled GitHub title and identifier discovery",
+    "Academic evidence table validation"
+  ],
+  "evidence_gaps": [
+    "Official implementation not located through the recorded public queries"
+  ],
+  "stop_reason": "Major greedy coupling and two justified refinements completed; retain the original-policy 64-candidate method and continue complementary block verification",
+  "source_coverage": {
+    "status": "partial",
+    "requested": [
+      "Original mathematics",
+      "Ablations",
+      "Official implementation if public"
+    ],
+    "covered": [
+      "Complete v2 methods and proofs",
+      "Temperature and width ablations",
+      "Own exact-law and real-branch evidence"
+    ],
+    "missing": [
+      "Official implementation"
+    ],
+    "source_count": 3,
+    "direct_source_count": 3,
+    "recency_score": 10
+  },
+  "route_evaluation": {
+    "problem_coverage": 9,
+    "evidence_directness": 9,
+    "recency": 10,
+    "deduplication": 9,
+    "overall": 9,
+    "execution_cost": {
+      "query_count": null,
+      "skill_calls": 3,
+      "agent_count": 0
+    },
+    "unconfirmed_items": [
+      "Exact query tally not retained",
+      "Official implementation not located"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pid": 103385,
+  "command": [
+    "bash",
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/run_draft_opd.sh"
+  ],
+  "log": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper02_draft_opd/draft_opd.log"
+}

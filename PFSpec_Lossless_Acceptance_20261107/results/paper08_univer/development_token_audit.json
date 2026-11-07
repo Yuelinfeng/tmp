@@ -1,0 +1,222 @@
+{
+  "status": "complete",
+  "requests": 8,
+  "methods": [
+    "diffusion_univer_w16"
+  ],
+  "cohorts": {
+    "bos": {
+      "diffusion_univer_w16": {
+        "requests": 4,
+        "sources": 4,
+        "eos_requests": 4,
+        "terminations": {
+          "eos": 4
+        },
+        "generated_tokens": 16392,
+        "generation_seconds": 1043.8175854069414,
+        "peak_gpu_gib": 7.993708610534668,
+        "counts": {
+          "eligible_full_rounds": 5387,
+          "first_position_accepted": 4893,
+          "first_feature_accepted": 1970,
+          "first_pair_accepted": 1970,
+          "total_draft_tokens": 447121,
+          "total_accepted_draft_tokens": 10368,
+          "rounds": 5387,
+          "round_emitted_tokens": 16384,
+          "target_verification_calls": 5387,
+          "target_verification_tokens": 872694,
+          "total_target_calls": 6024,
+          "total_target_input_tokens": 873331,
+          "candidate_count": 86192,
+          "second_feature_eligible_rounds": 5387,
+          "second_feature_reached": 1843,
+          "second_feature_hits": 837,
+          "second_feature_distinct_candidates": 95570,
+          "second_feature_branch_nodes": 344768,
+          "total_feature_candidate_nodes": 430960
+        },
+        "source_mean_intervals": {
+          "feature_conditional_acceptance": {
+            "mean": 0.42957411992691796,
+            "ci95": [
+              0.3470284399572373,
+              0.5121197998965987
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.3978423435150687,
+            "ci95": [
+              0.3072121446007604,
+              0.488472542429377
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 3.1547599353362,
+            "ci95": [
+              2.8279499142823,
+              3.4815699563901004
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 17.324187073354373,
+            "ci95": [
+              13.739999573142317,
+              20.908374573566427
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "second_feature_conditional_acceptance": {
+            "mean": 0.46074640113043497,
+            "ci95": [
+              0.37677506713394926,
+              0.5447177351269207
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "second_feature_joint_acceptance": {
+            "mean": 0.17996555050406746,
+            "ci95": [
+              0.10703997761341438,
+              0.25289112339472053
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "total_target_tokens_per_call": {
+            "mean": 2.8645013768041068,
+            "ci95": [
+              2.4805073302672525,
+              3.263120015948963
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          }
+        },
+        "paired_differences": {},
+        "count_scope": "Actual sums across all requests; intervals average seeds within each source"
+      }
+    },
+    "completion": {
+      "diffusion_univer_w16": {
+        "requests": 4,
+        "sources": 4,
+        "eos_requests": 4,
+        "terminations": {
+          "eos": 4
+        },
+        "generated_tokens": 16322,
+        "generation_seconds": 1008.2873768790159,
+        "peak_gpu_gib": 7.913022994995117,
+        "counts": {
+          "eligible_full_rounds": 4979,
+          "first_position_accepted": 4503,
+          "first_feature_accepted": 2190,
+          "first_pair_accepted": 2190,
+          "total_draft_tokens": 413257,
+          "total_accepted_draft_tokens": 10718,
+          "rounds": 4979,
+          "round_emitted_tokens": 16322,
+          "target_verification_calls": 4979,
+          "target_verification_tokens": 806598,
+          "total_target_calls": 5608,
+          "total_target_input_tokens": 808247,
+          "candidate_count": 79664,
+          "second_feature_eligible_rounds": 4979,
+          "second_feature_reached": 2051,
+          "second_feature_hits": 994,
+          "second_feature_distinct_candidates": 86645,
+          "second_feature_branch_nodes": 318656,
+          "total_feature_candidate_nodes": 398320
+        },
+        "source_mean_intervals": {
+          "feature_conditional_acceptance": {
+            "mean": 0.5650486939916807,
+            "ci95": [
+              0.36228275469087057,
+              0.7678146332924908
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "pair_joint_acceptance": {
+            "mean": 0.5333197971920083,
+            "ci95": [
+              0.3176762823118065,
+              0.7489633120722101
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "mean_emitted_per_round": {
+            "mean": 3.58832370298304,
+            "ci95": [
+              2.881655566240532,
+              4.294991839725548
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "generated_tokens_per_second": {
+            "mean": 19.25319272475662,
+            "ci95": [
+              13.435368540247778,
+              25.071016909265463
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "second_feature_conditional_acceptance": {
+            "mean": 0.4850664799170936,
+            "ci95": [
+              0.3951106002939292,
+              0.5724961553248751
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "second_feature_joint_acceptance": {
+            "mean": 0.261346657090066,
+            "ci95": [
+              0.1234310696050491,
+              0.39926224457508286
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          },
+          "total_target_tokens_per_call": {
+            "mean": 3.3024452634958625,
+            "ci95": [
+              2.48620134783868,
+              4.118689179153045
+            ],
+            "sources": 4,
+            "undefined_requests": 0
+          }
+        },
+        "paired_differences": {},
+        "count_scope": "Actual sums across all requests; intervals average seeds within each source"
+      }
+    }
+  },
+  "uncertainty_scope": "5000 paired source resamples; repeated Completion seeds remain within their source",
+  "feature_scope": "First Feature set membership includes residual hits; second Feature counters stay separate",
+  "selection_scope": "All methods are selected before formal output is read; formal outcomes do not select weights",
+  "cost_scope": "Generation includes prefix and first-use runtime creation; process setup and discarded warmup are separate",
+  "verified_output_token_files": 8,
+  "raw_record_paths": [
+    "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper08_univer/development_online_01/records.jsonl"
+  ],
+  "input_paths": [
+    "/root/autodl-tmp/pfspec_feature_states_20261105/acceptance_study/development_inputs.json"
+  ]
+}

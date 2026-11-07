@@ -1,0 +1,29 @@
+{
+  "weights": [
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_full_w64/selected.pt",
+      "bytes": 287266879,
+      "alias": true,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_block_w64x4/selected.pt",
+      "bytes": 287266879,
+      "alias": true,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/last.pt",
+      "bytes": 287262227,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/last.pt"
+    },
+    {
+      "path": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt",
+      "bytes": 287266879,
+      "alias": false,
+      "target": "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/paper06_dflash/training/diffusion_context_w64/selected.pt"
+    }
+  ],
+  "scope": "Physical weights remain at these paths; selected weights transfer separately"
+}

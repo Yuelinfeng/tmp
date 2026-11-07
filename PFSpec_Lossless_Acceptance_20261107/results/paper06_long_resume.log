@@ -1,0 +1,17 @@
+{"status": "complete", "cases": 48, "complete_pf_joint_max_error": 2.0816681711721685e-17, "second_feature_conditional_max_error": 2.220446049250313e-16, "scope": "Different full Target Feature distributions for every first Feature and second Position; shared second Draft proposals independent of first selection; zero and certain Position proposals included"}
+/root/miniconda3/envs/gaussiangpt/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: The `reduction=none` will not have any effect when `dim` is None.
+  warnings.warn(*args, **kwargs)
+INFO: Initializing scales head bias to 10.0
+INFO: Initializing opacities head bias to -0.2
+INFO: Initializing sh0 head bias to 0.5
+INFO: Not outputting feature sh, skipping.
+INFO: Initializing coord_offset head bias to 0.0
+Padding vocab_size from 12098 to 12160 for efficiency
+Traceback (most recent call last):
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/validate_long_branches.py", line 147, in <module>
+    if __name__=='__main__':main()
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/validate_long_branches.py", line 119, in main
+    compare(label+'_logits',logits[node],ref_logits[depth],True)
+  File "/root/autodl-tmp/pfspec_lossless_acceptance_20261106/source/validate_long_branches.py", line 73, in compare
+    raise ArithmeticError('Target branch differs: '+label)
+ArithmeticError: Target branch differs: prefix2_graph1_branch17_second1_depth5_logits

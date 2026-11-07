@@ -1,0 +1,1 @@
+{"previous": {"pid": 104618, "status": "waiting_for_initial_experiment", "initial_pid": 103385}, "reason": "Embedded newline caused a syntax error before any training"}
